@@ -1,0 +1,43 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Last Look Across the Empty Lab",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 4,
+      "camera": "Slow first-person drift from mid-room across dark monitors toward the single blue-lit screen, then a gentle push toward the back door at seated eye level.",
+      "action": "The quiet computer lab holds still while the camera glides past empty chairs and black screens, settling on the glowing monitor before drifting toward the back of the room as if getting ready to stand and leave.",
+      "transition_goal": "Establish solitude and use the back-door gaze to bridge naturally from interior stillness into the next window-framed exterior view.",
+      "voiceover_line": "I stayed until the room felt like it had forgotten everyone else."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Through Glass to the Water",
+      "scene_id": "scene_02",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image2.jpg",
+      "last_frame_image": "Image3.jpeg",
+      "duration_seconds": 4,
+      "camera": "Locked first-person view close to the grey window frame with a slight inward lean, holding on the wet alley geometry before easing into a matched framed exterior composition.",
+      "action": "From indoors, the camera lingers on the narrow wet alley, yellow bin, and cold facades through the window, then carries that same framing logic into a more open view over the water.",
+      "transition_goal": "Bridge hesitation into release by matching vertical frame lines and muted tones from the alley to the harbor without an abrupt location jump.",
+      "voiceover_line": "Outside still felt sealed off, like the day was waiting for me to choose it."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Water to Freeway Re-entry",
+      "scene_id": "scene_03",
+      "source_image": "Image3.jpeg",
+      "first_frame_image": "Image3.jpeg",
+      "last_frame_image": "Image4.jpeg",
+      "duration_seconds": 6,
+      "camera": "First-person view through ferry glass with calm lateral motion, then a forward-driving cut into a wider moving freeway perspective aimed at downtown.",
+      "action": "The ferry glides across textured water with the skyline held at a distance, creating a brief pause; then the motion resolves into the freeway surge, where traffic streams under overpasses toward the city towers ahead.",
+      "transition_goal": "Turn the harbor's calm forward movement into the final urban momentum, completing the shift from private observation to active return to the city.",
+      "voiceover_line": "By the time the road took over, the city was moving again whether I was ready or not."
+    }
+  ]
+}

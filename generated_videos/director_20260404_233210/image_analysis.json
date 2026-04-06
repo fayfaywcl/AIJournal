@@ -1,0 +1,118 @@
+[
+  {
+    "filename": "01_WhatsApp_Image_2026-04-04_at_1.33.30_PM.jpeg",
+    "visual_summary": "The image captures a descending escalator leading toward a public space with people walking and standing. The walls feature textured white concrete panels and a distinctive section of red, yellow, and gray tiles. Several individuals are visible on the escalator and in the plaza below wearing winter clothing.",
+    "location": "Underground metro or station entrance leading to a public outdoor space",
+    "subjects": [
+      "escalator",
+      "pedestrians",
+      "decorative wall tiles",
+      "textured concrete walls"
+    ],
+    "mood": "urban, utilitarian, slightly busy",
+    "continuity_anchors": [
+      "escalator with distinct yellow caution markings",
+      "decorative red and yellow wall tile pattern",
+      "textured white concrete panels on walls",
+      "light fixtures and handrails"
+    ],
+    "plausible_actions": [
+      "people stepping on or off the escalator",
+      "pedestrians walking through the plaza",
+      "someone stopping to look at notices or storefronts",
+      "casual conversation among commuters"
+    ],
+    "cinematic_notes": [
+      "use a downward tracking shot to emphasize descent into the station",
+      "natural overhead lighting casting soft shadows",
+      "wide shot for crowd density, close-ups for individual emotion",
+      "contrast between the dull concrete and colorful tiles for visual interest"
+    ]
+  },
+  {
+    "filename": "02_WhatsApp_Image_2026-04-04_at_1.33.13_PM.jpeg",
+    "visual_summary": "A blue and white subway train is stationary at an underground platform with passengers visible inside and a few walking or standing on the platform. The platform features yellow safety strips and a tiled floor, with overhead lighting illuminating the scene.",
+    "location": "Universit\u00e9 Concordia subway station",
+    "subjects": [
+      "subway train",
+      "passengers inside train",
+      "people on platform"
+    ],
+    "mood": "calm and everyday urban transit",
+    "continuity_anchors": [
+      "blue and white train exterior",
+      "yellow safety strip along platform edge",
+      "tiled flooring",
+      "overhead lighting fixtures",
+      "Universit\u00e9 Concordia station sign"
+    ],
+    "plausible_actions": [
+      "passengers boarding or disembarking",
+      "people walking or talking on phones on the platform",
+      "announcement or arrival of next train"
+    ],
+    "cinematic_notes": [
+      "use long tracking shots following commuters along the platform",
+      "play with reflections on train windows for atmospheric close-ups",
+      "capture contrast between warm interior light and cooler platform lighting",
+      "angle shots to emphasize depth and leading lines of the tunnel and platform"
+    ]
+  },
+  {
+    "filename": "03_WhatsApp_Image_2026-04-04_at_1.33.12_PM.jpeg",
+    "visual_summary": "This image shows a modern subway platform with glass safety doors separating the platform from the tracks. Several people are waiting, some standing and some seated, with one person pulling a suitcase and another wearing a white puffer jacket. Fluorescent ceiling lights illuminate the clean tiled floor and the platform, which has a tactile strip for the visually impaired.",
+    "location": "indoor subway station platform",
+    "subjects": [
+      "commuters",
+      "subway platform",
+      "glass platform doors",
+      "luggage"
+    ],
+    "mood": "quiet, waiting, routine",
+    "continuity_anchors": [
+      "glass platform safety doors with metallic frames",
+      "distinct fluorescent lighting strips in ceiling",
+      "tiled flooring with a central tactile strip",
+      "signage screens hanging from ceiling",
+      "people standing or seated facing the platform"
+    ],
+    "plausible_actions": [
+      "commuters boarding or exiting the subway train",
+      "people looking at their phones or checking the schedule",
+      "walking down the platform or towards stairs",
+      "someone sitting down or getting up from the bench"
+    ],
+    "cinematic_notes": [
+      "use leading lines of tiles and ceiling lights for depth shots",
+      "play with reflections in the glass platform doors for layered visuals",
+      "tracking shots following people with luggage",
+      "use natural fluorescent lighting to create a clinical, urban atmosphere"
+    ]
+  },
+  {
+    "filename": "04_WhatsApp_Image_2026-04-04_at_1.33.09_PM_3.jpeg",
+    "visual_summary": "The image shows a view from inside a train or tram looking out through a window at multiple railway tracks and a distant industrial or transportation area under an overcast sky. The central part of the window has a door with a sign in both English and French prohibiting holding the doors. The scene outside is slightly blurred by the window's grime and reflections.",
+    "location": "Inside a train or tram overlooking railway tracks and an industrial or transportation zone",
+    "subjects": [
+      "train door with warning sign",
+      "railway tracks",
+      "industrial landscape"
+    ],
+    "mood": "overcast, industrial, somewhat isolated",
+    "continuity_anchors": [
+      "sign on the door prohibiting holding the doors",
+      "visible railway tracks pattern",
+      "reflections and window grime"
+    ],
+    "plausible_actions": [
+      "train doors opening or closing",
+      "passing scenery views",
+      "passengers looking outside or entering/exiting the train"
+    ],
+    "cinematic_notes": [
+      "use reflections on the window to create layering effects",
+      "capture changing weather or light conditions through the window",
+      "frame characters interacting with the door and warning sign"
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "project_title": "Windows Between Places",
+  "story_arc": "A solitary day unfolds as I move through different urban thresholds: an almost empty computer lab, a cold alley seen from indoors, a harbor crossing, and finally the rush of the freeway into the city. The sequence feels like a personal record of leaving stillness behind and re-entering the larger motion of the world.",
+  "visual_rules": [
+    "Keep the perspective grounded in first-person observation",
+    "Use window frames, doorways, and screen edges as recurring visual motifs",
+    "Maintain the same quiet, reflective subject identity across all scenes",
+    "Favor natural transitions driven by gaze, movement, and matching geometry",
+    "Preserve realistic environmental continuity with no abrupt morphing",
+    "Let urban sound and motion gradually build from silence to momentum"
+  ],
+  "narration_text": "I started in a room that felt like it had already been left behind. One screen was still awake, blue against all the dark glass, while I sat there pretending I had nowhere else to be. Outside, the city looked cold and sealed off, all concrete, wet ground, and windows holding their own light. Then the day opened a little on the water, with distance between me and the shore, and for a moment everything slowed down enough to breathe. By the time the freeway pulled me toward downtown, the city was loud again, moving whether I was ready or not.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "After the Lab Empties",
+      "purpose": "Establish the protagonist's solitude and the story's reflective tone before the outside world begins to pull them forward.",
+      "source_images": [
+        "image1.jpg"
+      ],
+      "continuity_anchors": [
+        "iMac computers arranged in rows",
+        "single blue-lit monitor",
+        "blackboard on the left wall",
+        "door at the back of the room",
+        "person seated at the back"
+      ],
+      "emotional_beat": "quiet detachment",
+      "action_flow": "The scene begins in the stillness of the computer lab from my point of view, drifting across dark screens and empty chairs until attention settles on the one glowing monitor. My gaze lands toward the back of the room near the door, implying I am the last one left and about to leave.",
+      "transition_out": "Move toward the back door and cut on the act of looking out, using the doorway logic to flow into the next window-framed exterior view."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "The Alley Outside",
+      "purpose": "Bridge the internal isolation of the classroom with the larger city, showing the world as distant, cold, and observed from behind glass.",
+      "source_images": [
+        "image2.jpg"
+      ],
+      "continuity_anchors": [
+        "grey window frame",
+        "wet alley surface",
+        "black and grey building facades",
+        "yellow trash container",
+        "overcast light"
+      ],
+      "emotional_beat": "hesitation",
+      "action_flow": "From inside, I look through the large window into the narrow alley where the wet ground holds the dull light. The shot lingers on the geometry of the frame and the stillness outside, as if I am deciding whether to keep hiding indoors or continue moving through the day.",
+      "transition_out": "Match the vertical window frame and muted city palette into another framed exterior view, opening the space from alley confinement to harbor distance."
+    },
+    {
+      "scene_id": "scene_03",
+      "title": "Crossing the Water",
+      "purpose": "Provide the emotional midpoint where the protagonist gains distance and perspective, shifting from confinement to calm forward motion.",
+      "source_images": [
+        "Image3.jpeg"
+      ],
+      "continuity_anchors": [
+        "window frame structure",
+        "ferry boat",
+        "water texture",
+        "distant city skyline"
+      ],
+      "emotional_beat": "release",
+      "action_flow": "Seen again through glass, the ferry moves across the water with the skyline held at a distance. The rhythm slows here; the city is no longer pressing in but floating beyond reach, giving me a brief sense of space and breath before returning to land.",
+      "transition_out": "Use the forward motion of the ferry and the skyline ahead as a momentum cue, cutting into the directional flow of traffic entering downtown."
+    },
+    {
+      "scene_id": "scene_04",
+      "title": "Pulled Back Into the City",
+      "purpose": "Resolve the diary entry by rejoining the full pace of urban life, turning private observation into active re-entry.",
+      "source_images": [
+        "Image4.jpeg"
+      ],
+      "continuity_anchors": [
+        "highway overpasses",
+        "green directional freeway signs",
+        "Los Angeles skyscraper cluster",
+        "palm trees",
+        "dense traffic flow"
+      ],
+      "emotional_beat": "acceptance in motion",
+      "action_flow": "The final scene opens wide onto the freeway packed with moving cars, signs, and downtown towers ahead. After the contained interiors and framed views earlier, the day fully expands here into noise, speed, and direction, as if I have stopped watching from the edges and joined the current again.",
+      "transition_out": "End on forward motion into the skyline, letting the traffic carry the story out rather than closing with a static stop."
+    }
+  ]
+}

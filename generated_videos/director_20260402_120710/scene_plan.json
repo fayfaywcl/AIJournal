@@ -1,0 +1,51 @@
+{
+  "project_title": "Before the Screen Wakes",
+  "story_arc": "A quiet first-person diary moves from inward stillness to outward reflection. Inside a nearly empty computer lab, I sit with the weight of unfinished thoughts and the hum of institutional silence. Looking out through a window at the cold alley below, the world feels distant but real, and the shift in perspective turns isolation into a moment of clarity.",
+  "visual_rules": [
+    "Maintain a grounded first-person point of view throughout",
+    "Preserve the same quiet institutional setting and time of day logic",
+    "Use slow observational camera behavior instead of slideshow-style coverage",
+    "Anchor continuity through the rows of iMacs, blackboard, window frame, and overcast light",
+    "Favor natural pauses, subtle motion, and environmental realism",
+    "Keep the subject unseen or only implied as the same lone person moving through the space"
+  ],
+  "narration_text": "I came in early, before the room had decided to become a room again. The screens were dark, the lights too honest, and every desk felt like it was waiting for someone else. I sat with the noise in my head until the silence around me started to make sense. When I finally looked up, the city outside was cold and wet and carrying on without me. Somehow that helped. It reminded me that not everything has to move fast to move forward.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "Arriving Before Everyone Else",
+      "purpose": "Establish the solitary mood, the setting, and the narrator's sense of quiet disconnection inside the computer lab.",
+      "source_images": [
+        "image1.jpg"
+      ],
+      "continuity_anchors": [
+        "rows of iMac computers",
+        "black desks",
+        "blackboard with writing",
+        "single person at rear",
+        "white ceiling lights"
+      ],
+      "emotional_beat": "isolated but attentive",
+      "action_flow": "From a first-person seated perspective, the room is observed in stillness: rows of dark iMacs, the fluorescent ceiling glow, and the blackboard at the far wall. The lone figure at the back resolves as my own position in the room, emphasizing that I am already here, waiting and thinking before anything begins.",
+      "transition_out": "My attention drifts away from the dead screens and pulls toward the light from a nearby window, motivating a natural cut to the exterior view."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Looking Out for Air",
+      "purpose": "Expand the internal feeling into the outside world, using the city view to reflect the narrator's emotional state and introduce a subtle release.",
+      "source_images": [
+        "image2.jpg"
+      ],
+      "continuity_anchors": [
+        "window frame",
+        "beige window blind",
+        "modern office buildings",
+        "wet reflective alley",
+        "overcast daylight"
+      ],
+      "emotional_beat": "cold clarity",
+      "action_flow": "From inside the building, I look out through the large window into the narrow alley below. The wet pavement, vertical facades, and muted daylight hold for a beat, as if I am letting my thoughts settle against the distant movement and weather outside. The world remains subdued, but it no longer feels closed off.",
+      "transition_out": "End on the held window view and ambient stillness, letting the reflection itself serve as the final resting point rather than forcing another scene."
+    }
+  ]
+}

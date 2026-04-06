@@ -1,0 +1,62 @@
+[
+  {
+    "filename": "image1.jpg",
+    "visual_summary": "The image shows a computer lab with multiple rows of desks, each equipped with an iMac, keyboard, and mouse. The room has neutral colored walls, a white ceiling with fluorescent lights, and a blackboard with some writing on it. There is one person seated at the back of the room, facing away from the camera.",
+    "location": "Computer lab or classroom",
+    "subjects": [
+      "computer desks",
+      "iMac computers",
+      "blackboard",
+      "person seated"
+    ],
+    "mood": "quiet, studious",
+    "continuity_anchors": [
+      "row of identical iMacs with keyboards and mice",
+      "blackboard with chalk markings",
+      "person seated at the back in a black chair",
+      "light gray walls and ceiling lights"
+    ],
+    "plausible_actions": [
+      "students working on computers",
+      "teacher writing on the blackboard",
+      "person entering or leaving the room",
+      "discussion or tutoring sessions"
+    ],
+    "cinematic_notes": [
+      "use wide shots to emphasize the orderly rows of computers",
+      "spotlight or soft lighting to highlight individual users",
+      "angle shots from behind the seated person to create a sense of focus or isolation",
+      "capture reflections on screens for a modern tech feel"
+    ]
+  },
+  {
+    "filename": "image2.jpg",
+    "visual_summary": "The image shows an urban alleyway scene viewed through a large window from inside a building. The alley is bordered by tall commercial buildings with glass and concrete facades, with some lights on inside the offices. The street below appears wet and somewhat deserted, with a dumpster and some utility structures visible.",
+    "location": "Urban city alleyway between office buildings",
+    "subjects": [
+      "alleyway",
+      "office buildings",
+      "window frame",
+      "dumpster"
+    ],
+    "mood": "quiet, overcast, slightly industrial",
+    "continuity_anchors": [
+      "large window with metal frame and roller blind",
+      "dark office buildings with multiple lit windows",
+      "concrete building wall on the right",
+      "wet street surface with a dumpster"
+    ],
+    "plausible_actions": [
+      "someone walking down the alley",
+      "camera pans to the street entrance",
+      "lighting change to indicate time passing",
+      "close-up on window or interior details"
+    ],
+    "cinematic_notes": [
+      "use the window frame for natural framing of the alley scene",
+      "capture reflections and wet street surface for texture",
+      "low lighting to enhance moody, urban atmosphere",
+      "possibility of time-lapse to show office lights turning on/off"
+    ]
+  }
+]

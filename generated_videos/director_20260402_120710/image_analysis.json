@@ -1,0 +1,63 @@
+[
+  {
+    "filename": "image1.jpg",
+    "visual_summary": "This image shows a computer lab with several iMac computers arranged in rows on black desks. Most monitors are off, except for one displaying a blue screen with the time, and there is a single person sitting near the back of the room. A blackboard with some writing is visible on the far wall.",
+    "location": "Computer lab or classroom",
+    "subjects": [
+      "computers",
+      "chairs",
+      "single person",
+      "blackboard"
+    ],
+    "mood": "quiet and focused",
+    "continuity_anchors": [
+      "rows of iMac computers",
+      "black desks",
+      "blackboard with writing",
+      "single person at rear",
+      "white ceiling lights"
+    ],
+    "plausible_actions": [
+      "students sitting and working on computers",
+      "instructor writing on blackboard",
+      "person entering or exiting through door",
+      "turning on or off monitors"
+    ],
+    "cinematic_notes": [
+      "use low-angle shots to emphasize rows of computers",
+      "capture silhouette of the single person for isolation effect",
+      "utilize soft fluorescent lighting for institutional feel",
+      "close-up shots of screen content to indicate action"
+    ]
+  },
+  {
+    "filename": "image2.jpg",
+    "visual_summary": "The image shows a city alleyway viewed from inside a building through a large window. There are tall modern buildings with many windows around the narrow street, which appears wet or icy. The scene is framed by the window sill and part of the surrounding interior, including a beige window blind on the left.",
+    "location": "Urban commercial alley, high-rise office district",
+    "subjects": [
+      "window frame",
+      "window blind",
+      "alleyway",
+      "modern office buildings",
+      "wet/icy pavement"
+    ],
+    "mood": "cold, overcast urban gloom",
+    "continuity_anchors": [
+      "the position and structure of the window frame and blind",
+      "arrangement and facade detail of surrounding buildings",
+      "wet and reflective ground surface condition"
+    ],
+    "plausible_actions": [
+      "people walking down the alley",
+      "a vehicle driving or parking in the alley",
+      "a worker attending to building or maintenance tasks",
+      "rain or snow falling affecting the wet surface"
+    ],
+    "cinematic_notes": [
+      "use natural diffused light from overcast sky to create soft shadows",
+      "frame the alley to emphasize depth and vertical lines of buildings",
+      "potential for reflections on wet pavement to enhance mood",
+      "possible time-lapse shots showing changing weather or activity"
+    ]
+  }
+]

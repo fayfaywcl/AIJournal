@@ -1,0 +1,82 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Quiet Rows at My Desk",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "first-person seated wide view, subtle slow push-in down the row of iMacs, steady fluorescent-lit composition",
+      "action": "From my seat, the ordered iMac rows, keyboards, blackboard, and the lone person at the back settle into view as the room stays almost perfectly still.",
+      "transition_goal": "Establish the lab layout, solitary mood, and first-person perspective before narrowing into concentration.",
+      "voiceover_line": "I stayed later than I meant to."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Stillness Gets Loud",
+      "scene_id": "scene_02",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "first-person medium-wide hold with a slight drift forward, then a gentle upward tilt toward the far side of the room",
+      "action": "The repeating monitors and desks begin to feel hypnotic; I pause working and let my gaze lift away from the screen toward the brighter edge of the lab.",
+      "transition_goal": "Shift from focused work to quiet fatigue and motivate the look toward the window.",
+      "voiceover_line": "The lab had gone quiet enough for every click and hum to feel louder than my thoughts."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Turning Toward the Glass",
+      "scene_id": "scene_04",
+      "source_image": null,
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 4,
+      "camera": "first-person bridge shot, slow pan and slight rise from the interior rows toward the window, ending framed by the metal mullions",
+      "action": "My attention leaves the iMac rows and crosses the room toward the window, carrying the fluorescent interior into the cooler overcast light beyond the glass.",
+      "transition_goal": "Create a natural eyeline bridge from lab interior to exterior view without an abrupt location jump.",
+      "voiceover_line": "After staring at the screen too long, I looked up."
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Wet Alley Below",
+      "scene_id": "scene_03",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image2.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 6,
+      "camera": "first-person static-to-gently-breathing window view, held composition through the large frame and roller blind",
+      "action": "Through the window, the wet alley, concrete wall, office windows, and dumpster sit in rain-dark stillness while the indoor framing keeps me rooted inside the building.",
+      "transition_goal": "Expand the world outward and let the reflective pause fully land.",
+      "voiceover_line": "I let my eyes drift past the room, past the glass, out into the wet alley below."
+    },
+    {
+      "shot_id": "shot_05",
+      "title": "Suspended Between Light and Rain",
+      "scene_id": "scene_04",
+      "source_image": null,
+      "first_frame_image": "image2.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "first-person bridge shot, slow pullback from the window with a soft pan back into the fluorescent lab",
+      "action": "The exterior view lingers for a beat, then I ease back from the glass and reorient toward the quiet classroom, carrying the calm of the alley inward.",
+      "transition_goal": "Tie the exterior reflection back to the work waiting inside and prepare the closing resolve.",
+      "voiceover_line": "For a minute, the whole day felt suspended there between fluorescent light and rain-dark concrete."
+    },
+    {
+      "shot_id": "shot_06",
+      "title": "Back to the Work",
+      "scene_id": "scene_04",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "first-person settled wide shot, minimal movement, held on the rows of iMacs and quiet room",
+      "action": "The lab comes back into full view, unchanged but calmer now, with the rows of computers and ceiling lights feeling steady rather than draining.",
+      "transition_goal": "Resolve the sequence with acceptance and a sense of continuing the night quietly.",
+      "voiceover_line": "I wasn't finished, but I wasn't rushing anymore either."
+    }
+  ]
+}

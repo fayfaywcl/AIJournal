@@ -1,0 +1,84 @@
+{
+  "project_title": "Between Stops",
+  "story_arc": "A quiet first-person passage through the city begins underground, where waiting turns into movement, then opens into the street where signs, sidewalks, and passing strangers make the day feel intimate and shared. The sequence traces a small journey from transit to open air, finding warmth in ordinary urban details.",
+  "visual_rules": [
+    "Maintain first-person observational diary tone across all scenes",
+    "Keep geography coherent: McGill station interior leads naturally to nearby street life",
+    "Use real-world movement like walking, waiting, boarding, and emerging instead of slideshow-style reveal",
+    "Preserve overcast, grounded urban color palette with soft contrast",
+    "Let signage and architectural details act as continuity anchors",
+    "Favor gentle camera drift, eye-level perspective, and motivated edits",
+    "Avoid abrupt morphs, graphic transitions, and presentation-style pacing"
+  ],
+  "narration_text": "I moved through the city slowly today,\nfrom the hush of the platform to the stairs, and back into the gray light outside.\nNothing dramatic happened,\nbut the faces, the signs, the small sounds of people passing,\nmade everything feel gently shared, like I was part of the day for a moment.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "Waiting at the Platform",
+      "purpose": "Establish the journey's starting point and the reflective tone of everyday transit.",
+      "source_images": [
+        "01_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg"
+      ],
+      "continuity_anchors": [
+        "blue metro train with white stripe",
+        "stm logo and 'MOUVEMENT COLLECTIF' text",
+        "yellow tactile paving on platform edge",
+        "passengers seated or standing inside train"
+      ],
+      "emotional_beat": "quiet anticipation",
+      "action_flow": "From a first-person position near the yellow platform edge, the blue metro sits breathing at the station. The eye lingers on passengers through the windows, small interior gestures hinting at separate lives. The moment holds between arrival and departure, grounding the diary in ordinary stillness before movement begins.",
+      "transition_out": "Cut on the implied decision to leave the platform, using the train's stillness to motivate a shift toward the station corridor and stairs."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Up Through McGill",
+      "purpose": "Bridge the underground world to the surface while deepening the sense of solitary observation within shared public space.",
+      "source_images": [
+        "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg"
+      ],
+      "continuity_anchors": [
+        "dark blue sign with 'McGILL'",
+        "two illuminated fashion ads with distinct models",
+        "beige tiled wall and floor",
+        "stairs with metal railing"
+      ],
+      "emotional_beat": "gentle lift",
+      "action_flow": "The perspective glides past the glowing advertisements and settles briefly under the McGILL sign, then turns toward the stairs. The bright posters cast a polished contrast against the beige station walls, making the ascent feel like a passage from enclosed routine into the wider city above.",
+      "transition_out": "Follow the upward motion of the stairs into a match cut with the outdoor sidewalk, as if stepping directly from station light into overcast daylight."
+    },
+    {
+      "scene_id": "scene_03",
+      "title": "First Breath Outside",
+      "purpose": "Reveal the city beyond the station and introduce the street as a living continuation of the commute.",
+      "source_images": [
+        "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg"
+      ],
+      "continuity_anchors": [
+        "Chicken Plus + restaurant sign with Korean and French text",
+        "fenced construction area with red and white barriers",
+        "historic brick buildings with dormer windows",
+        "narrow sidewalk alongside stone and brick walls"
+      ],
+      "emotional_beat": "re-entry",
+      "action_flow": "Now outside, the camera moves forward along the narrow sidewalk, construction fencing pressing from one side while older buildings and the lit Chicken Plus + sign define the other. Pedestrians drift ahead at a natural pace, and the city feels textured, imperfect, and quietly inhabited.",
+      "transition_out": "Continue the walking rhythm forward, letting pedestrian motion carry seamlessly into a wider, more populated food-street block."
+    },
+    {
+      "scene_id": "scene_04",
+      "title": "Shared Sidewalk",
+      "purpose": "Conclude the visual diary with a fuller sense of urban warmth, where individual movement dissolves into the everyday life of the street.",
+      "source_images": [
+        "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg"
+      ],
+      "continuity_anchors": [
+        "Aunt Dai restaurant sign with phone number",
+        "Song Th\u00e8 bubble tea sign",
+        "Pole Bento restaurant sign",
+        "leafless tree by the sidewalk"
+      ],
+      "emotional_beat": "soft belonging",
+      "action_flow": "The walk opens into a busier sidewalk lined with restaurant signs, seated people, and passing pedestrians. The eye notices storefront details, the leafless tree, and the easy rhythm of strangers moving around one another. The scene lands not on spectacle, but on the calm recognition of being one small part of the street.",
+      "transition_out": "End on lingering forward motion or a brief observational hold, allowing the city ambience to fade naturally rather than cutting sharply."
+    }
+  ]
+}

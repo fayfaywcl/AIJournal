@@ -1,0 +1,50 @@
+{
+  "project_title": "Between Screens and Rain",
+  "story_arc": "A quiet day unfolds from inside a nearly empty computer lab to a rain-dulled view outside, capturing the feeling of being present but slightly apart. The sequence moves from observation to reflection, using the stillness of machines and the muted alley beyond the window to suggest a private moment of pause in the middle of an ordinary workday.",
+  "visual_rules": [
+    "Maintain one consistent first-person observer throughout",
+    "Keep the environment grounded and realistic with no surreal morphing",
+    "Use the computer lab as the interior base and the window alley as the outward perspective",
+    "Favor slow, motivated camera movement over slideshow-style reframing",
+    "Preserve continuity through the rows of computers, blackboard, door window, and metal-framed alley window",
+    "Let quiet atmosphere and negative space carry the emotion"
+  ],
+  "narration_text": "I came in early, before the room had fully become part of the day. The computers sat waiting, the board still holding yesterday's traces, and someone near the door was already lost in their own routine. For a while I stayed with the hum of the room, then drifted to the window to watch the wet alley hold the morning in place. Nothing dramatic happened, but something settled in me there between the screens and the rain.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "Entering the Quiet Lab",
+      "purpose": "Establish the interior world, the solitary mood, and the narrator's first-person presence inside the nearly empty lab.",
+      "source_images": [
+        "image1.jpg"
+      ],
+      "continuity_anchors": [
+        "arrangement of computers on desks",
+        "blackboard with chalk writings",
+        "single person near door",
+        "door with glass window"
+      ],
+      "emotional_beat": "tentative calm",
+      "action_flow": "From a first-person perspective, the scene begins just inside the lab entrance, drifting slowly past rows of desktop computers and empty chairs. The gaze settles on the single person seated near the door, then shifts toward the blackboard, taking in the room's quiet order and faint evidence of work already in progress.",
+      "transition_out": "The camera motivation shifts from looking across the room to seeking light, carrying the viewer toward a nearby window and into the exterior view."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Looking Out",
+      "purpose": "Expand the emotional space of the story by connecting the private stillness of the lab to the muted city outside.",
+      "source_images": [
+        "image2.jpg"
+      ],
+      "continuity_anchors": [
+        "window frame and sill",
+        "dark glass and concrete building facades",
+        "wet alley surface",
+        "parked car on right side",
+        "dumpsters near the end of the alley"
+      ],
+      "emotional_beat": "quiet reflection",
+      "action_flow": "The first-person view arrives at the metal-framed window and pauses on the alley below. The eye traces the wet pavement, the parked car, and the dumpsters at the far end, lingering on the overcast light and the sense of a city already moving without urgency. The scene holds long enough for the outside to feel less like an escape and more like a mirror of the room behind the viewer.",
+      "transition_out": "End on a still, contemplative hold at the window, allowing the edit to fade naturally on atmosphere rather than action."
+    }
+  ]
+}

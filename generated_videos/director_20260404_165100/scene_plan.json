@@ -1,0 +1,83 @@
+{
+  "project_title": "Between Stops",
+  "story_arc": "A quiet day unfolds as a personal passage through routine spaces: the stillness of a computer lab, the movement of a metro ride, and the slow emergence into city streets and side alleys. The sequence turns ordinary places into a reflective journey, where commuting, observing, and arriving become a small act of belonging.",
+  "visual_rules": [
+    "Maintain a grounded first-person point of view throughout",
+    "Use natural movement motivated by walking, looking, boarding, and pausing",
+    "Preserve overcast and fluorescent lighting for realism",
+    "Carry continuity through repeated urban textures, signage, and directional movement",
+    "Favor slow cinematic observation over fast coverage",
+    "Avoid morphs or slideshow-style image handoffs"
+  ],
+  "narration_text": "I started the day in a room full of quiet screens, where everything felt paused for a moment.\nThen the city pulled me forward, into the train, onto the street, past signs and familiar corners.\nBy the time I reached the alley, even the ordinary felt intimate, like the day was finally opening up to me.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "Before Everything Begins",
+      "purpose": "Establish the narrator's internal stillness and the structured environment before stepping into the city.",
+      "source_images": [
+        "Image1.jpeg"
+      ],
+      "continuity_anchors": [
+        "rows of iMacs and black desks",
+        "black chairs labeled CDA",
+        "blank white wall and blackboard",
+        "fluorescent ceiling lights"
+      ],
+      "emotional_beat": "quiet anticipation",
+      "action_flow": "The scene opens in first person moving slowly between rows of iMacs, glancing across the empty workstations and chairs marked CDA. The camera lingers on the repetition of desks, the soft hum of the room, and the blackboard ahead, suggesting a pause before leaving for the day.",
+      "transition_out": "Drift toward the door and cut on forward motion into the next scene's platform approach, matching the feeling of stepping out."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Carried Underground",
+      "purpose": "Shift the story from stillness into motion through public transit, marking the beginning of the narrator's outward journey.",
+      "source_images": [
+        "Image4.jpeg"
+      ],
+      "continuity_anchors": [
+        "blue STM train with white stripe",
+        "yellow tactile safety strip",
+        "STM logo and MOUVEMENT COLLECTIF text",
+        "passenger in red jacket"
+      ],
+      "emotional_beat": "gentle momentum",
+      "action_flow": "From a first-person stance at the platform edge, the blue STM train waits under fluorescent light. The camera tracks along the yellow safety strip, catches passengers through the windows, and settles on the lived-in rhythm inside the car before implying boarding and travel.",
+      "transition_out": "Use the train's lateral motion and window reflections to dissolve into street-level movement outside."
+    },
+    {
+      "scene_id": "scene_03",
+      "title": "Back Above Ground",
+      "purpose": "Reintroduce the city at eye level and place the narrator within everyday urban life.",
+      "source_images": [
+        "Image3.jpeg"
+      ],
+      "continuity_anchors": [
+        "parked cars lineup",
+        "La Soupi\u00e8re and sushi storefronts",
+        "leafless trees",
+        "orange parking signs"
+      ],
+      "emotional_beat": "familiar openness",
+      "action_flow": "The narrator emerges onto the commercial street and walks forward at a calm pace. Parked cars line the road, pedestrians pass on the sidewalk, and storefront signs come into view one by one, turning the street into a lived map of memory and routine.",
+      "transition_out": "Follow the sidewalk's direction into a narrower passage, letting storefront signage lead naturally into the alley scene."
+    },
+    {
+      "scene_id": "scene_04",
+      "title": "The Smaller Street I Remember",
+      "purpose": "End on a more intimate urban space where observation becomes personal and reflective.",
+      "source_images": [
+        "Image2.jpeg"
+      ],
+      "continuity_anchors": [
+        "CHICKEN PLUS + yellow and black sign",
+        "red and white construction fencing",
+        "narrow pathway",
+        "stone and brick facades"
+      ],
+      "emotional_beat": "quiet belonging",
+      "action_flow": "The camera turns into the alley, narrowing the world. Construction fencing presses in on one side while restaurant signs stack above the walkway, especially the CHICKEN PLUS + sign. A few distant figures move ahead, and the narrator slows, taking in the textures and closeness of the place as if arriving somewhere quietly meaningful.",
+      "transition_out": "Hold on the alley's depth and let the motion settle into a reflective end rather than cutting away."
+    }
+  ]
+}

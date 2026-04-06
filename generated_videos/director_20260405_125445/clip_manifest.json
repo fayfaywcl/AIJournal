@@ -1,0 +1,30 @@
+[
+  {
+    "shot_id": "shot_01",
+    "title": "Tram Reflection Opening",
+    "local_clip_path": "C:\\Users\\Admin\\Desktop\\CART-498-AI-Generated-Daily-Journal\\generated_videos\\director_20260405_125445\\clips\\shot_01.mp4",
+    "gcs_video_uri": "gs://bucket_project-aijournal/veo-output/director_20260405_125445/generated/shot_01/9466652314195506564/sample_0.mp4",
+    "prompt": "Overcast afternoon, first-person diary realism inside a moving tram. Begin already in motion with a gentle handheld sway from across the aisle, as if the camera has been riding for a while. Hold an intimate medium close-up of a young woman in profile by the window, wearing earphones, quiet and inward, her gaze fixed outside. Keep the yellow vertical handrail and dark green door frame anchored in frame as the tram rounds a curved roadway, and let gray city reflections slide across the glass over her face. Natural parallax from the tram\u2019s turn, soft vibration from rails, muted colors, realistic skin and fabric detail, no glamour lighting. The camera subtly drifts with the vehicle rather than correcting against it, letting reflections, window edge, and passing street fragments create layered movement. End with the lateral motion and downward-forward energy still active, composing the frame so the directional flow can carry into a station descent as a motivated match cut."
+  },
+  {
+    "shot_id": "shot_02",
+    "title": "Descent into the Station",
+    "local_clip_path": "C:\\Users\\Admin\\Desktop\\CART-498-AI-Generated-Daily-Journal\\generated_videos\\director_20260405_125445\\clips\\shot_02.mp4",
+    "gcs_video_uri": "gs://bucket_project-aijournal/veo-output/director_20260405_125445/generated/shot_02/8107304826112006976/sample_0.mp4",
+    "prompt": "Continue the motion seamlessly as if the tram\u2019s forward curve resolves into a descent underground. Start already gliding downward at the top of an escalator, forward-looking POV, centered on repeating escalator steps with yellow edge markings. Use a slow stabilized push downward with slight natural body movement, keeping metal handrails and patterned tiled walls creating strong converging lines. Commuters at the bottom drift in and out of frame with ordinary city timing, never staged, while the escalator carries the viewer smoothly into shared public flow. Maintain muted overcast color tone even in the station lighting. Let the repeated geometry echo the tram handrail and window lines from the previous shot. Add subtle rack-focus behavior between the step pattern and the people below, then settle back into the descending rhythm. End near station level with illuminated panels beginning to take visual prominence at frame edge, preparing a clean motivated cut into advertising light."
+  },
+  {
+    "shot_id": "shot_03",
+    "title": "Platform Glow",
+    "local_clip_path": "C:\\Users\\Admin\\Desktop\\CART-498-AI-Generated-Daily-Journal\\generated_videos\\director_20260405_125445\\clips\\shot_03.mp4",
+    "gcs_video_uri": "gs://bucket_project-aijournal/veo-output/director_20260405_125445/generated/shot_03/17500351325994704403/sample_0.mp4",
+    "prompt": "Carry the escalator descent into station level without losing momentum. Open already in a subtle lateral creep at eye level, as if stepping off the escalator and drifting into a brief observational pause. Frame the glowing TRISTAN advertisement and the LE POUVOIR DU STYLE poster beside the staircase, with beige wall surfaces and tiled floor pattern grounding the image in an ordinary metro environment. Keep the ad panels bright but realistic, letting their vertical shapes and clean light contrast with the muted station palette. Allow a few commuters to pass softly at the edges or in background depth, preserving public flow without stealing focus. Use gentle parallax between the posters, staircase, and floor tiles, with a slight rack focus that breathes from signage to surrounding station texture. The camera should feel curious but unhurried, not static, as if noticing these familiar signs in passing. End with the vertical panels and graphic lines positioned to visually match exterior street signage in the next shot."
+  },
+  {
+    "shot_id": "shot_04",
+    "title": "Street Reentry",
+    "local_clip_path": "C:\\Users\\Admin\\Desktop\\CART-498-AI-Generated-Daily-Journal\\generated_videos\\director_20260405_125445\\clips\\shot_04.mp4",
+    "gcs_video_uri": "gs://bucket_project-aijournal/veo-output/director_20260405_125445/generated/shot_04/5324754564978732551/sample_0.mp4",
+    "prompt": "Match the vertical station posters into exterior street signage and continue forward as one uninterrupted urban journey. Begin already walking at shoulder height on a narrow sidewalk under gray overcast daylight, with a gentle handheld glide and natural footstep rhythm. Move past a red and black metal fence, brick building facades, and the Chicken Plus sign, keeping signage and fence lines guiding depth into the distance. Let a few pedestrians drift far ahead with ordinary pace, while damp pavement, muted storefront colors, and soft city ambience preserve the tender observational mood. Maintain realistic lens behavior and slight parallax as the camera advances, as if rejoining the street after leaving transit. The frame should breathe with small handheld corrections, not a polished commercial steadicam look. Use the fence, sign, and brick textures as continuity from station geometry, and keep the walk moving forward through the full shot. End with open-ended forward motion still alive in frame, suggesting the city continues beyond the cut rather than concluding."
+  }
+]

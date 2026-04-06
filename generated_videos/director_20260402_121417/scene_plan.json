@@ -1,0 +1,68 @@
+{
+  "project_title": "After Hours in the Lab",
+  "story_arc": "A quiet first-person passage through an almost empty computer lab becomes a small moment of reflection. Beginning with the stillness of unattended machines, the story shifts toward the window and the damp alley outside, turning an ordinary late-day campus or office moment into a private pause between work and leaving.",
+  "visual_rules": [
+    "Maintain first-person viewpoint throughout",
+    "Keep the same building interior logic between lab and window space",
+    "Use grounded camera movement like walking, pausing, and looking",
+    "Preserve the quiet late-day atmosphere",
+    "Favor natural room tone and subtle environmental detail over spectacle",
+    "Use continuity anchors from desks, blackboard, door, window frame, and wet alley",
+    "Avoid abrupt morphs or slideshow-style reframing"
+  ],
+  "narration_text": "I stayed later than I meant to. The lab had already gone quiet, screens dimmed, chairs pushed back like everyone had left in the middle of a thought. I lingered for a minute, listening to the hum of the room, then drifted to the window. Outside, the alley was wet and nearly empty, the buildings holding onto the last light. It felt like one of those small in-between moments when nothing happens, but something settles anyway.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "Late in the Empty Lab",
+      "purpose": "Establish the setting, solitude, and first-person presence inside a quiet workspace after most people have gone.",
+      "source_images": [
+        "image1.jpg"
+      ],
+      "continuity_anchors": [
+        "rows of iMac computers on dark desks",
+        "blackboard on the left wall",
+        "ceiling panel lighting",
+        "door with windows in the back"
+      ],
+      "emotional_beat": "lingering quiet",
+      "action_flow": "From a first-person standing position, I take in the rows of computers and empty chairs, letting my gaze drift across the blackboard and toward the one lit screen. The room feels paused, as if work has just ended and the silence is settling in.",
+      "transition_out": "The camera begins a natural walk deeper into the room, using the line of desks to lead attention toward the back of the space and then toward the light from the window area."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Crossing the Room",
+      "purpose": "Turn the static lab into a lived space by creating movement and linking the interior environment to the reflective turn of the story.",
+      "source_images": [
+        "image1.jpg",
+        "image2.jpg"
+      ],
+      "continuity_anchors": [
+        "door position in the back",
+        "soft overhead interior light",
+        "shift from computer reflections to window reflections",
+        "consistent quiet institutional building atmosphere"
+      ],
+      "emotional_beat": "unwinding",
+      "action_flow": "I move past the desks and chairs, leaving the workstations behind. The lab's order gives way to a more personal pause as I approach the window, with interior reflections briefly mixing with the outside view.",
+      "transition_out": "The camera settles at the glass, allowing the interior hum to fade under the cool stillness outside."
+    },
+    {
+      "scene_id": "scene_03",
+      "title": "The Alley Outside",
+      "purpose": "Provide the reflective payoff by contrasting the enclosed quiet of the lab with the subdued openness of the wet urban exterior.",
+      "source_images": [
+        "image2.jpg"
+      ],
+      "continuity_anchors": [
+        "window frame and blinds",
+        "black grid-like office buildings",
+        "wet ground in the alley",
+        "yellow waste container"
+      ],
+      "emotional_beat": "calm release",
+      "action_flow": "From the first-person position at the window, I look out over the narrow alley and the rain-dark ground below. The lit windows across the way suggest other people still inside somewhere, while I stay still and let the moment land before leaving.",
+      "transition_out": "End on a held gaze through the glass, as if the next cut would be me finally turning away and heading out."
+    }
+  ]
+}

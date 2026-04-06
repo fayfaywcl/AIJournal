@@ -1,0 +1,76 @@
+{
+  "project_title": "Between Stops",
+  "story_arc": "A quiet first-person passage through the city begins underground, where waiting turns into movement, then opens into the street where signs, sidewalks, and passing strangers make the day feel intimate and shared. The sequence traces a small journey from transit to open air, finding warmth in ordinary urban details.",
+  "visual_rules": [
+    "Maintain first-person observational diary tone across all scenes",
+    "Keep geography coherent: McGill station interior leads naturally to nearby street life",
+    "Use real-world movement like walking, waiting, boarding, and emerging instead of slideshow-style reveal",
+    "Preserve overcast, grounded urban color palette with soft contrast",
+    "Let signage and architectural details act as continuity anchors",
+    "Favor gentle camera drift, eye-level perspective, and motivated edits",
+    "Avoid abrupt morphs, graphic transitions, and presentation-style pacing"
+  ],
+  "narration_text": "I moved through the city slowly today,\nfrom the hush of the platform to the stairs, and back into the gray light outside.\nNothing dramatic happened,\nbut the faces, the signs, the small sounds of people passing,\nmade everything feel gently shared, like I was part of the day for a moment.",
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Platform Hold",
+      "scene_id": "scene_01",
+      "source_image": "01_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg",
+      "first_frame_image": null,
+      "last_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "duration_seconds": 4,
+      "camera": "eye-level first-person static hold with slight handheld drift near the yellow tactile edge, angled toward the blue metro windows",
+      "action": "The train rests at the platform while the camera lingers on passengers inside, catching small gestures and the STM branding before subtly preparing to turn away.",
+      "transition_goal": "Establish the underground starting point and motivate leaving the platform toward the station corridor.",
+      "voiceover_line": "I moved through the city slowly today.",
+      "prompt": "First-person observational diary realism, already in motion at eye level beside the yellow tactile paving of an underground Montreal metro platform. A blue STM metro train with a white stripe is stopped along the platform, its doors closed, the cars subtly vibrating as if breathing in idle. The camera does not reset or pose; it begins with a slight handheld drift and micro sway, angled toward the train windows so passengers inside are visible making small natural gestures\u2014someone seated looking down, another standing and shifting weight, quiet lived-in commuter behavior. Keep the STM logo and the French text 'MOUVEMENT COLLECTIF' readable on the train as continuity anchors. Fluorescent station light reflects softly on the train exterior, with muted overcast color and gentle contrast. Maintain coherent depth and realistic perspective from a person waiting close to the platform edge. Over the 4 seconds, let the gaze linger, then subtly begin a motivated turn away from the train toward the station interior, ending with lateral body motion that suggests the decision to leave the platform and naturally leads into the corridor and McGill sign shot.",
+      "negative_prompt": "No slideshow transition, no presentation-style reveal, no abrupt morphs, no jumpy time skips, no broken anatomy, no distorted faces or hands, no duplicated passengers, no text overlays or subtitles, no freeze frame, no hard stop, no sudden camera reset, no impossible train movement, no warped signage, no graphic transition effects."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Under the McGill Sign",
+      "scene_id": "scene_02",
+      "source_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "first_frame_image": "01_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg",
+      "last_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+      "duration_seconds": 4,
+      "camera": "gentle forward glide at eye level past the illuminated ads, then a slight tilt and drift toward the stairs beneath the McGILL sign",
+      "action": "The viewpoint moves through the tiled station passage, pauses under the McGILL sign, and then commits to the stair ascent toward daylight.",
+      "transition_goal": "Bridge the stillness of the platform to upward movement, creating a natural passage from underground to street level.",
+      "voiceover_line": "From the hush of the platform to the stairs, I kept going.",
+      "prompt": "Continue the same first-person camera journey mid-turn from the platform, entering a beige tiled McGill station passage at eye level with a gentle forward glide already underway. The dark blue 'McGILL' sign anchors the frame overhead while two illuminated fashion advertisements glow along the wall, their polished light contrasting with the matte beige tile floor and walls. Keep the motion natural and human, as if walking steadily after leaving the platform: slight handheld drift, soft footstep bob, no theatrical sweep. Pass beneath the sign and let the camera briefly settle just enough to register the station identity and shared public space, then tilt and drift toward the stairs with metal railings. The ads, tiled surfaces, and corridor geometry should stay coherent and realistic, preserving the underground atmosphere while the movement gradually commits upward. By the end of the 4 seconds, the frame should be oriented into the stair ascent, with rising energy and brighter light ahead so the next outdoor shot can begin as a direct continuation of the climb.",
+      "negative_prompt": "No slideshow transition, no abrupt morphs, no broken anatomy, no malformed people on stairs, no floating bodies, no text overlays or subtitles, no freeze-frame behavior, no hard cut feeling inside the shot, no teleporting from platform to stairs, no warped architecture, no impossible lighting shifts, no graphic transitions, no reset to a static postcard composition."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "First Step Into Gray Light",
+      "scene_id": "scene_03",
+      "source_image": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+      "first_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "last_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg",
+      "duration_seconds": 4,
+      "camera": "eye-level walking shot with soft forward motion along the narrow sidewalk, keeping the Chicken Plus sign and fencing in frame as anchors",
+      "action": "The camera emerges outside and walks ahead between construction barriers and older buildings while a few pedestrians move naturally through the block.",
+      "transition_goal": "Reveal the open air and continue the commute as lived street movement rather than a hard location change.",
+      "voiceover_line": "Back outside, the gray light felt open and familiar.",
+      "prompt": "Continue directly from the upward station movement into open air, as if stepping out of McGill and already walking forward at eye level along a narrow city sidewalk under gray overcast daylight. The camera is in gentle first-person motion from the first frame, with soft walking bob and realistic momentum. Keep the fenced construction area with red and white barriers close on one side, and older stone and brick facades on the other, including the lit Chicken Plus + sign with Korean and French text as a clear continuity anchor. Historic brick buildings with dormer windows rise above, adding texture and neighborhood specificity. A few pedestrians move naturally ahead or past the camera, maintaining ordinary city spacing and pace without acknowledging the lens. Preserve a grounded urban palette, slightly damp-looking light, and believable street depth. The shot should feel like a lived continuation of the commute, not a reveal: constrained sidewalk, imperfect surfaces, shared movement. End still moving forward toward a busier block so the next shot can open with the same walking rhythm and expanded street life.",
+      "negative_prompt": "No slideshow transition, no abrupt morphs, no broken anatomy, no malformed pedestrians, no duplicated people, no text overlays or subtitles, no freeze frame, no location teleportation, no exaggerated speed ramp, no impossible sidewalk geometry, no warped restaurant signage, no dramatic weather change, no graphic transitions, no camera reset at the outdoor reveal."
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Shared Block",
+      "scene_id": "scene_04",
+      "source_image": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg",
+      "first_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+      "last_frame_image": null,
+      "duration_seconds": 8,
+      "camera": "slow forward drift at eye level with a brief observational settle on storefront signs, sidewalk diners, and passing pedestrians",
+      "action": "The walk opens onto a busier stretch of sidewalk where restaurant signs, a leafless tree, and people moving in both directions create a calm, shared street rhythm.",
+      "transition_goal": "Conclude the journey with a sense of belonging in ordinary city life and let the sequence breathe out naturally.",
+      "voiceover_line": "Nothing dramatic happened, but it all felt gently shared.",
+      "prompt": "Continue the same first-person walking rhythm into a busier sidewalk block, beginning already in forward drift at eye level as the narrow street opens into a more populated stretch. Keep the urban geography coherent and grounded: restaurant signs for Aunt Dai with phone number, Song Th\u00e8 bubble tea, and Pole Bento should appear as readable continuity anchors along the storefronts, with a leafless tree near the sidewalk. People move in both directions with natural everyday timing\u2014pedestrians passing, small groups talking, diners seated outside or near the frontage\u2014creating a calm shared street rhythm. The camera remains modest and observational, not staged: slight handheld sway, slow forward drift, then a brief gentle settle to notice signs, faces, storefront details, and the tree before continuing just enough to let the block breathe. Preserve soft overcast light, muted city colors, and realistic urban ambience. The shot should conclude without a clean stop, holding a sense of continued life beyond frame, as if the walk and the day simply keep going.",
+      "negative_prompt": "No slideshow transition, no abrupt morphs, no broken anatomy, no distorted pedestrians, no duplicated limbs or faces, no text overlays or subtitles, no freeze-frame ending, no hard stop, no artificial crowd choreography, no warped storefronts, no impossible sign changes, no graphic transitions, no reset into a posed final tableau."
+    }
+  ]
+}

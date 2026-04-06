@@ -1,0 +1,62 @@
+[
+  {
+    "filename": "image1.jpg",
+    "visual_summary": "The image depicts a computer lab with rows of desks holding iMac computers and office chairs. Most screens are off, except for one displaying a blue screen with a time of 4:43. The room has a plain white wall, a blackboard with white chalk notes on the left, and a door with windows in the back corner.",
+    "location": "Computer lab or classroom",
+    "subjects": [
+      "iMac computers",
+      "office chairs",
+      "blackboard",
+      "door with windows"
+    ],
+    "mood": "quiet and empty",
+    "continuity_anchors": [
+      "arrangement of iMac computers on dark desks",
+      "blackboard content and placement",
+      "lighting from ceiling panels",
+      "door position in the back"
+    ],
+    "plausible_actions": [
+      "student or teacher entering or leaving",
+      "someone sitting at a computer and working",
+      "writing or erasing on the blackboard",
+      "adjusting chairs or equipment"
+    ],
+    "cinematic_notes": [
+      "use of depth of field to emphasize rows of computers",
+      "low-angle shot to capture computer screens and their reflections",
+      "soft overhead lighting to maintain neutral tone",
+      "tracking shot moving towards door for transition scene"
+    ]
+  },
+  {
+    "filename": "image2.jpg",
+    "visual_summary": "The image shows a view from inside a building through a large window overlooking a narrow urban alleyway. The alley is flanked by modern office buildings with a dark, grid-like design and some windows illuminated, indicating occupancy. Outside, the ground appears wet, suggesting recent rain or snow melting.",
+    "location": "Urban alley surrounded by modern office buildings",
+    "subjects": [
+      "window frame",
+      "office buildings",
+      "alleyway",
+      "wet ground"
+    ],
+    "mood": "quiet and subdued urban atmosphere",
+    "continuity_anchors": [
+      "black grid-like exterior of office buildings",
+      "wet ground surface",
+      "window frame and blinds",
+      "yellow waste container in alley"
+    ],
+    "plausible_actions": [
+      "people walking through the alley",
+      "cleaning or maintenance work",
+      "delivery or waste collection activity",
+      "someone looking out the window"
+    ],
+    "cinematic_notes": [
+      "use natural light through the window for soft indoor illumination",
+      "consider reflections on the glass for dramatic depth",
+      "frame shots to emphasize the narrow alley's perspective",
+      "use muted, cool color tones to enhance the subdued mood"
+    ]
+  }
+]

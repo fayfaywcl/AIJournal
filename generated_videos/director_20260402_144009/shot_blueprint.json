@@ -1,0 +1,30 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Drifting Through the Quiet Lab",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "first-person slow dolly inward from just inside the doorway, slight right-to-left pan across rows of computers, settling briefly toward the person near the door and the blackboard",
+      "action": "The viewer enters the nearly empty computer lab and glides past empty chairs and desktop monitors. The gaze briefly acknowledges the single person near the door, then rests on the blackboard and ordered desks, holding the room's low-key stillness.",
+      "transition_goal": "Establish the interior space, solitary mood, and observer perspective before motivating a move toward the window light.",
+      "voiceover_line": "I came in early, before the room had fully become part of the day."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "At the Rain-Dulled Window",
+      "scene_id": "scene_02",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 6,
+      "camera": "first-person motivated drift from the lab toward the metal-framed window, resolving into a gentle static hold with a subtle downward tilt over the alley",
+      "action": "The camera arrives at the window and looks out over the wet alley, tracing the parked car on the right and the dumpsters near the far end before settling into a quiet hold on the overcast pavement and dark building facades.",
+      "transition_goal": "Bridge the private stillness of the lab into outward reflection, ending on a contemplative exterior hold that can fade naturally.",
+      "voiceover_line": "Between the screens and the rain, something in me finally went still."
+    }
+  ]
+}

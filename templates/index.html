@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Daily Journal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero">
+        <p class="eyebrow">AI Daily Journal</p>
+        <h1>Turn a few photos into a directed visual story.</h1>
+        <p class="lede">
+          Upload images from your day and the director pipeline will interpret them into a structured story and narration.
+          The site shows the narration text and audio, and can optionally render the final video.
+        </p>
+      </section>
+
+      <section class="panel upload-panel">
+        <div class="panel-copy">
+          <h2>Upload Images</h2>
+          <p>Choose a few images. The app will analyze them, generate a structured plan and narration, and produce narration audio.</p>
+          <div class="sample-grid">
+            {% for sample in sample_images %}
+              <figure class="sample-card">
+                <img src="{{ sample.url }}" alt="{{ sample.label }}">
+                <figcaption>{{ sample.label }}</figcaption>
+              </figure>
+            {% endfor %}
+          </div>
+        </div>
+
+        <form method="post" enctype="multipart/form-data" class="upload-form">
+          <div class="dropzone">
+            <span class="dropzone-title">Upload four images</span>
+            <span class="dropzone-copy">PNG, JPG, JPEG, WEBP, or GIF. Each slot maps to Image 1–4 in the final video.</span>
+          </div>
+          <div class="upload-grid">
+            <div class="upload-card" data-slot="1">
+              <div class="upload-preview" id="preview-1">
+                <span class="upload-placeholder">Image 1 preview</span>
+              </div>
+              <label class="upload-button">
+                <input id="image_1" name="image_1" type="file" accept="image/*" required>
+                Choose Image 1
+              </label>
+            </div>
+            <div class="upload-card" data-slot="2">
+              <div class="upload-preview" id="preview-2">
+                <span class="upload-placeholder">Image 2 preview</span>
+              </div>
+              <label class="upload-button">
+                <input id="image_2" name="image_2" type="file" accept="image/*" required>
+                Choose Image 2
+              </label>
+            </div>
+            <div class="upload-card" data-slot="3">
+              <div class="upload-preview" id="preview-3">
+                <span class="upload-placeholder">Image 3 preview</span>
+              </div>
+              <label class="upload-button">
+                <input id="image_3" name="image_3" type="file" accept="image/*" required>
+                Choose Image 3
+              </label>
+            </div>
+            <div class="upload-card" data-slot="4">
+              <div class="upload-preview" id="preview-4">
+                <span class="upload-placeholder">Image 4 preview</span>
+              </div>
+              <label class="upload-button">
+                <input id="image_4" name="image_4" type="file" accept="image/*" required>
+                Choose Image 4
+              </label>
+            </div>
+          </div>
+          <div id="upload-warning" class="upload-warning" role="alert" aria-live="polite"></div>
+          <label class="toggle">
+            <input type="checkbox" name="use_samples">
+            Use the 4 sample images from <code>input_images</code>
+          </label>
+          <label class="toggle">
+            <span>Sequence mode</span>
+            <select name="sequence_mode">
+              <option value="adjacent-pairs" selected>Adjacent pairs (3 clips)</option>
+              <option value="planned">Planned (AI chooses shots)</option>
+            </select>
+          </label>
+          <label class="toggle">
+            <input type="checkbox" name="generate_video" checked>
+            Generate final video with narration (requires Veo + ffmpeg)
+          </label>
+          <button type="submit">Generate Final Video + Audio</button>
+        </form>
+
+        {% if error %}
+          <div class="message error">
+            <strong>Couldn’t complete the run.</strong>
+            <p>{{ error }}</p>
+          </div>
+        {% endif %}
+      </section>
+
+      {% if result %}
+        <section class="results-grid">
+          <article class="panel result-card">
+            <h2>Narration Text</h2>
+            <p class="meta">Processed {{ result.image_count }} image{% if result.image_count != 1 %}s{% endif %}: {{ result.image_names|join(', ') }}</p>
+            <pre>{{ result.run_text }}</pre>
+          </article>
+
+          <article class="panel result-card">
+            <h2>Narration Audio</h2>
+            <p class="meta">Saved to <code>{{ result.audio_path }}</code></p>
+            <audio controls preload="metadata" src="{{ result.audio_url }}"></audio>
+            {% if result.director_plan_path %}
+              <p class="meta">Director plan saved to <code>{{ result.director_plan_path }}</code>.</p>
+            {% endif %}
+          </article>
+
+          <article class="panel result-card">
+            <h2>Agent Outputs</h2>
+            {% if result.analysis_text %}
+              <p class="meta">Image analysis</p>
+              <pre>{{ result.analysis_text }}</pre>
+            {% else %}
+              <p class="meta">Image analysis: Not found</p>
+            {% endif %}
+            {% if result.scene_plan_text %}
+              <p class="meta">Scene plan</p>
+              <pre>{{ result.scene_plan_text }}</pre>
+            {% else %}
+              <p class="meta">Scene plan: Not found</p>
+            {% endif %}
+            {% if result.shot_blueprint_text %}
+              <p class="meta">Shot blueprint</p>
+              <pre>{{ result.shot_blueprint_text }}</pre>
+            {% else %}
+              <p class="meta">Shot blueprint: Not found</p>
+            {% endif %}
+            {% if result.director_plan_text %}
+              <p class="meta">Director plan</p>
+              <pre>{{ result.director_plan_text }}</pre>
+            {% else %}
+              <p class="meta">Director plan: Not found</p>
+            {% endif %}
+          </article>
+
+          {% if result.video_url %}
+            <article class="panel result-card">
+              <h2>Final Video</h2>
+              <p class="meta">Saved to <code>{{ result.video_path }}</code></p>
+              <video controls preload="metadata" src="{{ result.video_url }}"></video>
+            </article>
+          {% endif %}
+        </section>
+      {% endif %}
+    </main>
+  </body>
+  <script>
+    const inputIds = ["image_1", "image_2", "image_3", "image_4"];
+    const sizes = new Map();
+    const warningEl = document.getElementById("upload-warning");
+    const useSamples = document.querySelector("input[name='use_samples']");
+    const form = document.querySelector(".upload-form");
+    const inputs = inputIds
+      .map((id) => document.getElementById(id))
+      .filter(Boolean);
+
+    const setWarning = (message) => {
+      if (!warningEl) return;
+      warningEl.textContent = message || "";
+      warningEl.classList.toggle("visible", Boolean(message));
+    };
+
+    const computeOrientation = (size) => (size.width >= size.height ? "landscape" : "portrait");
+
+    const resetPreviews = () => {
+      inputIds.forEach((id, index) => {
+        const preview = document.getElementById(`preview-${index + 1}`);
+        if (!preview) return;
+        preview.innerHTML = "";
+        const placeholder = document.createElement("span");
+        placeholder.className = "upload-placeholder";
+        placeholder.textContent = `Image ${index + 1} preview`;
+        preview.appendChild(placeholder);
+      });
+    };
+
+    const clearWarningIfValid = () => {
+      if (!warningEl || !warningEl.textContent) return;
+      if (sizes.size < 4) return;
+      const values = Array.from(sizes.values());
+      const first = values[0];
+      const allSame = values.every(
+        (size) => size.width === first.width && size.height === first.height
+      );
+      const orientations = new Set(values.map((size) => computeOrientation(size)));
+      if (allSame && orientations.size <= 1) {
+        setWarning("");
+      }
+    };
+
+    const checkForMismatch = () => {
+      if (sizes.size < 2) return;
+      const values = Array.from(sizes.values());
+      const first = values[0];
+      const allSame = values.every(
+        (size) => size.width === first.width && size.height === first.height
+      );
+      const orientations = new Set(values.map((size) => computeOrientation(size)));
+      if (!allSame) {
+        setWarning(
+          "Image sizes do not match. Please upload 4 images with the same width and height."
+        );
+      } else if (orientations.size > 1) {
+        setWarning(
+          "Mixed orientation detected. Please use all landscape or all portrait images."
+        );
+      }
+    };
+
+    inputIds.forEach((id, index) => {
+      const input = document.getElementById(id);
+      const preview = document.getElementById(`preview-${index + 1}`);
+      if (!input || !preview) return;
+
+      input.addEventListener("change", () => {
+        const file = input.files && input.files[0];
+        preview.innerHTML = "";
+        if (!file) {
+          sizes.delete(id);
+          const placeholder = document.createElement("span");
+          placeholder.className = "upload-placeholder";
+          placeholder.textContent = `Image ${index + 1} preview`;
+          preview.appendChild(placeholder);
+          return;
+        }
+
+        const img = document.createElement("img");
+        img.alt = `Preview ${index + 1}`;
+        img.src = URL.createObjectURL(file);
+        img.onload = () => {
+          sizes.set(id, { width: img.naturalWidth, height: img.naturalHeight });
+          checkForMismatch();
+          clearWarningIfValid();
+          URL.revokeObjectURL(img.src);
+        };
+        preview.appendChild(img);
+      });
+    });
+
+    if (useSamples) {
+      useSamples.addEventListener("change", () => {
+        if (useSamples.checked) {
+          sizes.clear();
+          inputs.forEach((input) => {
+            input.value = "";
+            input.disabled = true;
+          });
+          resetPreviews();
+          setWarning("Using the 4 sample images from input_images.");
+        } else {
+          inputs.forEach((input) => {
+            input.disabled = false;
+          });
+          setWarning("");
+        }
+      });
+    }
+
+    if (form) {
+      form.addEventListener("submit", (event) => {
+        if (useSamples && useSamples.checked) {
+          return;
+        }
+        if (sizes.size < 4) {
+          setWarning("Please upload all 4 images before generating.");
+          event.preventDefault();
+          return;
+        }
+        const values = Array.from(sizes.values());
+        const first = values[0];
+        const allSame = values.every(
+          (size) => size.width === first.width && size.height === first.height
+        );
+        const orientations = new Set(values.map((size) => computeOrientation(size)));
+        if (!allSame) {
+          setWarning(
+            "Image sizes do not match. Please upload 4 images with the same width and height."
+          );
+          event.preventDefault();
+          return;
+        }
+        if (orientations.size > 1) {
+          setWarning(
+            "Mixed orientation detected. Please use all landscape or all portrait images."
+          );
+          event.preventDefault();
+          return;
+        }
+        setWarning("");
+      });
+    }
+  </script>
+</html>

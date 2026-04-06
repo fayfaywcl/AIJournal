@@ -1,0 +1,45 @@
+{
+  "project_title": "Between Screens and Rain",
+  "story_arc": "I move through a quiet day inside a nearly empty computer lab, suspended between fluorescent stillness and the muted city outside. The edit follows a private moment of pause: from noticing the room, to drifting toward the window, to realizing how the outside weather mirrors my own tired but clear state of mind.",
+  "visual_rules": [
+    "Keep the same first-person perspective throughout",
+    "Maintain grounded realism with no surreal morphing",
+    "Use the classroom as the primary interior space and the window view as the external counterpoint",
+    "Preserve cold fluorescent interior light against soft overcast daylight",
+    "Let motion feel observational and natural, as if recorded in passing",
+    "Use continuity anchors like the iMac rows, blackboard, door window, and alley frame to connect scenes"
+  ],
+  "narration_text": "I came in early, before the room had fully become itself. The screens were mostly dark, the lights too bright, and everything felt like it was waiting. I stood there for a minute, listening to the hum of the room, then drifted to the window. Outside, the alley was wet and quiet, the kind of gray that makes everything honest. For a moment, it felt like the city and I were holding the same thought.",
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Settling Into the Empty Lab",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "First-person slow handheld settle from the doorway into a gentle rightward drift across the iMac rows, pausing briefly on the lit 4:43 screen, then easing toward the blackboard and door window under harsh fluorescent light.",
+      "action": "The viewer enters the nearly empty lab and lets their gaze adjust to the room, tracing the black desks, dark monitors, CDA chairs, and the lone active screen before beginning to turn toward the natural light source.",
+      "transition_goal": "Establish the solitary classroom environment and motivate the move away from the desks toward the window.",
+      "voiceover_line": "I came in early, and the room still felt like it was waiting.",
+      "prompt": "First-person realistic handheld video, 4 seconds, entering a nearly empty computer lab from the doorway and settling into the room with a natural human pace. Cold fluorescent ceiling panels cast flat bright light across rows of black desks lined with mostly dark iMac screens, black chairs marked CDA, and a blackboard with writing at the front. The camera gently drifts right across the iMac rows with subtle breathing-level bob and small hand corrections, never rushing, as if someone has just stepped in early and is quietly taking in the space. Pause briefly on one active iMac screen showing 4:43 as a visual focal point in the dormant room, then continue easing toward the blackboard and the door with a window, keeping all spatial relationships consistent. Let the room feel still but alive through tiny realistic monitor glow, fluorescent hum implied by the atmosphere, and soft reflections on screens. End with the first-person gaze beginning to turn away from the desks toward the natural light direction, motivating the next shot. Grounded realism, observational mood, clean continuity with the same classroom layout and first-person perspective.",
+      "negative_prompt": "No slideshow transitions, no crossfade montage, no abrupt morphs, no surreal transformations, no broken anatomy, no extra hands or body parts visible, no warped desks or melted computers, no text overlays, no captions, no subtitles, no logos, no watermarks, no freeze-frame behavior, no stuttering motion, no sudden camera jumps, no impossible perspective changes, no time-lapse, no hyperstylized lighting, no animated objects moving on their own."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Pause at the Rainy Window",
+      "scene_id": "scene_02",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 6,
+      "camera": "First-person observational drift finishing the turn from interior toward the window, then holding in a quiet static look outward over the ledge to the wet alley and surrounding buildings in soft overcast light.",
+      "action": "The camera arrives at the window and comes to rest, looking down into the rain-dark alley where the black facade, concrete wall, and yellow dumpster sit in muted stillness.",
+      "transition_goal": "Complete the emotional shift from fluorescent interior tension to exterior clarity, ending on a reflective hold.",
+      "voiceover_line": "Outside, the gray alley felt as clear and tired as I did.",
+      "prompt": "First-person realistic handheld video, 6 seconds, continuing directly from the classroom turn toward the window in the same empty lab. Begin with the last interior orientation still present at the edge of the frame, then complete a slow natural drift to the window ledge and come to rest looking outward. Preserve continuity between the cold fluorescent classroom behind and the soft overcast daylight ahead. From the first-person position at the window, look down into a wet quiet alley framed by the window edge and ledge, with a black building facade full of windows on the left, a concrete building on the right, rain-dark pavement below, and a yellow dumpster container as the single strong color accent. Camera movement should settle gradually into a calm near-static hold with only minimal human sway, as if the viewer is catching their breath and thinking. Environmental behavior remains subtle and realistic: damp surfaces softly reflecting gray daylight, no dramatic weather effects, no people suddenly appearing, no traffic event, just muted urban stillness. End on a reflective hold on the alley, maintaining the same first-person perspective and understated emotional clarity.",
+      "negative_prompt": "No slideshow transitions, no crossfade montage, no abrupt morphs, no surreal transformations, no broken anatomy, no extra hands or body parts visible, no warped buildings or distorted window frames, no text overlays, no captions, no subtitles, no logos, no watermarks, no freeze-frame behavior, no stuttering motion, no sudden camera jumps, no impossible perspective changes, no time-lapse, no heavy rain animation, no dramatic storm effects, no objects unnaturally moving on their own."
+    }
+  ]
+}

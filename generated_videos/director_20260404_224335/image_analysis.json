@@ -1,0 +1,116 @@
+[
+  {
+    "filename": "01_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg",
+    "visual_summary": "The image shows a blue metro train on a platform with visible passengers inside the train. The train has a white stripe with 'MOUVEMENT COLLECTIF' and 'stm' branding on it. The platform floor is yellow at the edge with a sign warning 'DANGER 750 VOLTS' near the train wheels.",
+    "location": "Indoor subway station platform",
+    "subjects": [
+      "metro train",
+      "passengers",
+      "platform edge"
+    ],
+    "mood": "everyday urban transit atmosphere",
+    "continuity_anchors": [
+      "blue metro train with white stripe",
+      "stm logo and 'MOUVEMENT COLLECTIF' text",
+      "yellow tactile paving on platform edge",
+      "passengers seated or standing inside train"
+    ],
+    "plausible_actions": [
+      "train doors opening or closing",
+      "passengers boarding or exiting train",
+      "train starting to move",
+      "commuters walking along the platform"
+    ],
+    "cinematic_notes": [
+      "side profile shot of the train with framed passengers inside provides a natural observational perspective",
+      "use the yellow platform edge for strong color contrast and framing",
+      "interior lighting of the train can create silhouette or reflection effects on windows"
+    ]
+  },
+  {
+    "filename": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+    "visual_summary": "The image shows a subway or metro station hallway with two illuminated fashion advertisements on the wall. One ad features a young man in a light-colored suit and shorts standing on white pebbles with plants in the background, while the other ad features a woman dressed stylishly with the text 'Le Pouvoir Du Style'. The stairs next to the ads lead upwards, and the wall surface is made of beige stone or tiles.",
+    "location": "Subway or metro station interior near stairs",
+    "subjects": [
+      "fashion advertisements",
+      "subway stairs",
+      "illuminated posters"
+    ],
+    "mood": "calm, modern, and urban",
+    "continuity_anchors": [
+      "dark blue sign with 'McGILL'",
+      "two illuminated fashion ads with distinct models",
+      "beige tiled wall and floor",
+      "stairs with metal railing"
+    ],
+    "plausible_actions": [
+      "people walking up or down stairs",
+      "commuters pausing to look at the advertisements",
+      "cleaning or maintenance staff passing through the area"
+    ],
+    "cinematic_notes": [
+      "Use the glowing light from the ads to create contrasting shadows on characters' faces",
+      "follow a character ascending or descending the stairs to build suspense or transition",
+      "capture reflections on glossy surfaces for a modern, stylish feel"
+    ]
+  },
+  {
+    "filename": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+    "visual_summary": "The image captures a narrow urban street with a fenced construction site on the left side and a row of historic-style buildings opposite it. A brightly lit restaurant sign for 'Chicken Plus +' featuring Korean and French text is prominently displayed on the right side above a stone and brick building. Pedestrians are seen walking down the narrow sidewalk, leading towards a modern building with large windows in the background.",
+    "location": "Urban street near construction site with mixed historic and modern architecture",
+    "subjects": [
+      "pedestrians",
+      "construction fence",
+      "restaurant sign"
+    ],
+    "mood": "overcast and urban with quiet pedestrian activity",
+    "continuity_anchors": [
+      "Chicken Plus + restaurant sign with Korean and French text",
+      "fenced construction area with red and white barriers",
+      "historic brick buildings with dormer windows",
+      "narrow sidewalk alongside stone and brick walls"
+    ],
+    "plausible_actions": [
+      "pedestrians walking along the sidewalk",
+      "street workers performing construction behind the fence",
+      "customers entering or exiting the Chicken Plus + restaurant",
+      "delivery or service vehicles navigating near the construction site"
+    ],
+    "cinematic_notes": [
+      "Use shallow depth of field to focus on the restaurant sign while blurring construction and pedestrians for atmospheric effect",
+      "Capture low-angle shots to emphasize the height and texture of historic buildings",
+      "Overcast lighting provides soft, even natural light suitable for muted color grading",
+      "Track the movement of pedestrians through the narrow walkway for dynamic urban motion shots"
+    ]
+  },
+  {
+    "filename": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg",
+    "visual_summary": "A busy urban sidewalk scene featuring multiple pedestrians walking and sitting. On the left side, storefronts with signage for Asian cuisine and bubble tea establishments are prominent. Leafless trees and tall buildings surround the street, indicating an overcast day.",
+    "location": "Urban street with restaurants, likely in a downtown area",
+    "subjects": [
+      "pedestrians",
+      "storefront signs",
+      "trees",
+      "sidewalk seating"
+    ],
+    "mood": "casual, everyday city life",
+    "continuity_anchors": [
+      "Aunt Dai restaurant sign with phone number",
+      "Song Th\u00e8 bubble tea sign",
+      "Pole Bento restaurant sign",
+      "leafless tree by the sidewalk"
+    ],
+    "plausible_actions": [
+      "pedestrians walking along the sidewalk",
+      "patrons sitting outside",
+      "people entering or exiting restaurants",
+      "traffic passing along the street"
+    ],
+    "cinematic_notes": [
+      "Use natural overcast lighting to emphasize a muted urban atmosphere",
+      "Tracking shots following pedestrians down the sidewalk",
+      "Close-ups on distinctive Asian restaurant signage for cultural context",
+      "Wide shots incorporating contrasting old stone buildings and modern high-rises"
+    ]
+  }
+]

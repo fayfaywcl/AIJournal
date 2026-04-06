@@ -1,0 +1,116 @@
+[
+  {
+    "filename": "01_WhatsApp_Image_2026-04-04_at_1.33.30_PM.jpeg",
+    "visual_summary": "The image shows people riding down an escalator inside a subway or underground passage with textured walls and bright geometric tile patterns. The escalator leads to a busy tiled floor area where several pedestrians are walking past storefronts.",
+    "location": "Underground subway or pedestrian passage",
+    "subjects": [
+      "people on escalator",
+      "pedestrians",
+      "storefronts"
+    ],
+    "mood": "urban, routine transit",
+    "continuity_anchors": [
+      "concrete wall texture with rectangular insets",
+      "colored tile pattern on side walls",
+      "escalator safety warning signs",
+      "lighting fixtures on walls"
+    ],
+    "plausible_actions": [
+      "people riding escalator up or down",
+      "pedestrians entering or exiting shops",
+      "walking through the underground passage"
+    ],
+    "cinematic_notes": [
+      "use leading lines of escalator to guide viewer eye into the scene",
+      "play with varying depths of field focusing on commuters or architectural detail",
+      "consider low angle shots from escalator steps for dynamic perspective"
+    ]
+  },
+  {
+    "filename": "02_WhatsApp_Image_2026-04-04_at_1.33.13_PM.jpeg",
+    "visual_summary": "A blue and white subway train is stationed at an underground platform labeled 'Universit\u00e9 Concordia.' Several passengers wait on the platform, some engaged with their phones or talking on the phone, while others sit inside the train. The station features a tiled floor, yellow safety strip, and overhead fluorescent lighting.",
+    "location": "Underground subway station platform, Universit\u00e9 Concordia",
+    "subjects": [
+      "blue subway train",
+      "commuters on platform",
+      "passengers inside train"
+    ],
+    "mood": "everyday urban transit",
+    "continuity_anchors": [
+      "blue and white train with multiple doors",
+      "yellow tactile safety strip along platform edge",
+      "overhead fluorescent lights",
+      "Universit\u00e9 Concordia sign"
+    ],
+    "plausible_actions": [
+      "passengers boarding or exiting the train",
+      "commuters checking phones or talking",
+      "train arriving or departing",
+      "station announcements via overhead speakers"
+    ],
+    "cinematic_notes": [
+      "use wide angle to capture the length of the train and depth of station",
+      "play with reflections on train windows for layered shots",
+      "explore low-angle shots along the yellow strip for dynamic perspective",
+      "fluorescent lighting creates a cool, sterile mood that can be enhanced or contrasted with warmer light sources"
+    ]
+  },
+  {
+    "filename": "03_WhatsApp_Image_2026-04-04_at_1.33.12_PM.jpeg",
+    "visual_summary": "The image depicts an underground metro station platform with several passengers waiting or walking alongside the train doors. The platform is clean and well-lit with long overhead lights, and the right side features a reflective green wall, adding depth to the scene.",
+    "location": "Modern underground metro station platform",
+    "subjects": [
+      "commuters",
+      "train platform",
+      "train doors",
+      "reflective wall",
+      "overhead lights"
+    ],
+    "mood": "calm, routine transit",
+    "continuity_anchors": [
+      "row of sliding glass train doors",
+      "dark ceiling panels with elongated lights",
+      "grey tiled floor with a tactile pathway",
+      "green reflective wall on the right"
+    ],
+    "plausible_actions": [
+      "commuters boarding or exiting the train",
+      "walking along the platform",
+      "checking train schedules on screens",
+      "sitting on benches waiting for the train"
+    ],
+    "cinematic_notes": [
+      "use reflections on the green wall for creative framing or doubling of subjects",
+      "long linear lights create leading lines for dynamic camera movement",
+      "tracking shots following commuters along the platform to emphasize routine or transition"
+    ]
+  },
+  {
+    "filename": "04_WhatsApp_Image_2026-04-04_at_1.33.10_PM.jpeg",
+    "visual_summary": "The image shows an exterior urban scene viewed through a slightly dirty window, revealing a parking lot with multiple parked vehicles, including police and utility vehicles. Beyond the parking lot, there are multi-story residential and office buildings under an overcast sky.",
+    "location": "Urban parking lot surrounded by mid-rise residential and commercial buildings",
+    "subjects": [
+      "parking lot",
+      "parked cars",
+      "multi-story buildings",
+      "trees"
+    ],
+    "mood": "overcast and subdued",
+    "continuity_anchors": [
+      "position of parked vehicles in lot",
+      "placement of white and black utility vehicles",
+      "bare trees near the building",
+      "orange construction tarps on right building facade"
+    ],
+    "plausible_actions": [
+      "cars entering or leaving parking lot",
+      "people walking from buildings to vehicles",
+      "maintenance or police activity around vehicles"
+    ],
+    "cinematic_notes": [
+      "use window pane as framing device for depth",
+      "capture reflections on glass for atmospheric effect",
+      "use grey sky for diffused, even lighting in exterior shots"
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "project_title": "Between Stops",
+  "story_arc": "A quiet commute becomes a small personal ritual of noticing: the city passes in fragments from tram window to station wall to street corner, and each transition deepens the feeling of moving through an ordinary day with tenderness and presence. The sequence follows one continuous journey, grounded in transit spaces and the soft melancholy of an overcast afternoon.",
+  "visual_rules": [
+    "Maintain first-person diary realism with grounded urban movement",
+    "Keep overcast daylight and muted color tone consistent across scenes",
+    "Use transit architecture as continuity between interior and exterior moments",
+    "Favor observational motion over dramatic action",
+    "Let reflections, signage, rails, and tiled surfaces carry visual continuity",
+    "Avoid abrupt morphs or slideshow-style reframing"
+  ],
+  "narration_text": "I spent the afternoon between stops, watching the city slide past in pieces,\nwindows, stairs, wet pavement, familiar signs.\nNothing dramatic happened,\njust that small feeling of being carried forward,\nand noticing how even an ordinary ride can feel a little tender, a little alive.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "Window Seat",
+      "purpose": "Establish the subject, mood, and the reflective perspective of the visual diary at the start of the journey.",
+      "source_images": [
+        "01_WhatsApp_Image_2026-04-04_at_1.33.11_PM.jpeg"
+      ],
+      "continuity_anchors": [
+        "young woman with earphones",
+        "yellow vertical handrail",
+        "dark green door frame",
+        "curved roadway outside the tram"
+      ],
+      "emotional_beat": "quiet inwardness",
+      "action_flow": "The sequence opens inside the tram from a close, intimate angle. The subject sits beside the window, listening through earphones and looking out as the vehicle rounds the curve. Reflections layer her face with the gray city outside, making the movement feel internal as much as physical.",
+      "transition_out": "Follow the motion of the tram and cut on direction into the station descent, as if the ride naturally continues underground."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Going Down",
+      "purpose": "Shift the journey from private observation to shared public flow, expanding the world while preserving the transit rhythm.",
+      "source_images": [
+        "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg"
+      ],
+      "continuity_anchors": [
+        "escalator steps with yellow edge markings",
+        "metal handrails",
+        "patterned tiled walls",
+        "commuters at the bottom"
+      ],
+      "emotional_beat": "gentle surrender to motion",
+      "action_flow": "The point of view moves onto the escalator and looks downward, letting the repeated steps and tiled walls create a calm, descending rhythm. Other commuters drift in and out of frame below, reinforcing the sense of being one small part of the city moving together.",
+      "transition_out": "Continue the descent and land visually at the station level, where illuminated ad panels take over the frame."
+    },
+    {
+      "scene_id": "scene_03",
+      "title": "Platform Light",
+      "purpose": "Create a pause in the journey where the subject notices the artificial brightness and curated images of the station environment.",
+      "source_images": [
+        "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg"
+      ],
+      "continuity_anchors": [
+        "TRISTAN advertisement",
+        "LE POUVOIR DU STYLE poster",
+        "tiled floor pattern",
+        "staircase and beige wall"
+      ],
+      "emotional_beat": "small pause of observation",
+      "action_flow": "At the bottom of the transit flow, the camera lingers on the glowing fashion advertisements beside the stairs. The bright panels contrast with the subdued station walls, as if the subject briefly stops to absorb these polished images before continuing on through the real city.",
+      "transition_out": "Cut from the station's lit posters to exterior street signage, matching graphic shapes and vertical lines to bring the journey back outside."
+    },
+    {
+      "scene_id": "scene_04",
+      "title": "Back to the Street",
+      "purpose": "Resolve the journey in the open city, showing the subject re-emerging into the everyday street life she has been quietly observing all along.",
+      "source_images": [
+        "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg"
+      ],
+      "continuity_anchors": [
+        "Chicken Plus sign",
+        "red and black metal fence",
+        "brick building facades",
+        "pedestrians in the distance"
+      ],
+      "emotional_beat": "soft return",
+      "action_flow": "The final scene steps onto the narrow sidewalk, where fencing, brick storefronts, and restaurant signs stretch ahead under the same gray sky. A few pedestrians move in the distance, and the city feels less like a backdrop now and more like a place the subject has quietly rejoined.",
+      "transition_out": "End on forward street movement, letting the walk continue beyond the frame rather than closing with a hard finish."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "shot_id": "shot_01",
+    "title": "Settling Into the Empty Lab",
+    "local_clip_path": "C:\\Users\\Admin\\Desktop\\CART-498-AI-Generated-Daily-Journal\\generated_videos\\director_20260402_144332\\clips\\shot_01.mp4",
+    "gcs_video_uri": "gs://bucket_project-aijournal/veo-output/director_20260402_144332/generated/shot_01/6555426425934391090/sample_0.mp4",
+    "prompt": "First-person realistic handheld video, 4 seconds, entering a nearly empty computer lab from the doorway and settling into the room with a natural human pace. Cold fluorescent ceiling panels cast flat bright light across rows of black desks lined with mostly dark iMac screens, black chairs marked CDA, and a blackboard with writing at the front. The camera gently drifts right across the iMac rows with subtle breathing-level bob and small hand corrections, never rushing, as if someone has just stepped in early and is quietly taking in the space. Pause briefly on one active iMac screen showing 4:43 as a visual focal point in the dormant room, then continue easing toward the blackboard and the door with a window, keeping all spatial relationships consistent. Let the room feel still but alive through tiny realistic monitor glow, fluorescent hum implied by the atmosphere, and soft reflections on screens. End with the first-person gaze beginning to turn away from the desks toward the natural light direction, motivating the next shot. Grounded realism, observational mood, clean continuity with the same classroom layout and first-person perspective."
+  },
+  {
+    "shot_id": "shot_02",
+    "title": "Pause at the Rainy Window",
+    "local_clip_path": "C:\\Users\\Admin\\Desktop\\CART-498-AI-Generated-Daily-Journal\\generated_videos\\director_20260402_144332\\clips\\shot_02.mp4",
+    "gcs_video_uri": "gs://bucket_project-aijournal/veo-output/director_20260402_144332/generated/shot_02/4087403490559923706/sample_0.mp4",
+    "prompt": "First-person realistic handheld video, 6 seconds, continuing directly from the classroom turn toward the window in the same empty lab. Begin with the last interior orientation still present at the edge of the frame, then complete a slow natural drift to the window ledge and come to rest looking outward. Preserve continuity between the cold fluorescent classroom behind and the soft overcast daylight ahead. From the first-person position at the window, look down into a wet quiet alley framed by the window edge and ledge, with a black building facade full of windows on the left, a concrete building on the right, rain-dark pavement below, and a yellow dumpster container as the single strong color accent. Camera movement should settle gradually into a calm near-static hold with only minimal human sway, as if the viewer is catching their breath and thinking. Environmental behavior remains subtle and realistic: damp surfaces softly reflecting gray daylight, no dramatic weather effects, no people suddenly appearing, no traffic event, just muted urban stillness. End on a reflective hold on the alley, maintaining the same first-person perspective and understated emotional clarity."
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "project_title": "Adjacent Pair Transition Sequence",
+  "story_arc": "Create a cohesive first-person visual diary that feels cinematic, grounded, and alive. Turn the still images into intentional scenes instead of slideshow transitions.",
+  "visual_rules": [
+    "Each shot must start from one source image and resolve into the next image in order.",
+    "Keep continuity between shot endings and the next shot beginnings.",
+    "Avoid abrupt cuts, abrupt morphs, and slideshow logic.",
+    "Prefer grounded motion that can plausibly connect the paired images."
+  ],
+  "narration_text": "I started in a room so quiet I could almost hear my own thoughts,\nthen stepped back into the city, where everyone seemed to be carrying a story somewhere.\nBy the time I reached the platform, I felt it again,\nthat small comfort of moving with strangers, and still feeling like myself.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "Bridge from 01_WhatsApp_Image_2026-04-04_at_1.33.27_PM to 02_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1",
+      "purpose": "Create a continuous transition from 01_WhatsApp_Image_2026-04-04_at_1.33.27_PM.jpeg into 02_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg.",
+      "source_images": [
+        "01_WhatsApp_Image_2026-04-04_at_1.33.27_PM.jpeg",
+        "02_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg"
+      ],
+      "continuity_anchors": [
+        "arrangement of iMac computers on desks",
+        "chairs marked with 'CDA'",
+        "black projector screen mounted on the wall",
+        "Cuisine AuntDai sign with phone number",
+        "Pola Bento sign",
+        "leafless tree near sidewalk"
+      ],
+      "emotional_beat": "clean and orderly, quiet moving toward busy but calm urban daytime",
+      "action_flow": "Begin in the visual world of 01_WhatsApp_Image_2026-04-04_at_1.33.27_PM.jpeg and move naturally into 02_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg, keeping the same subject identity and environmental continuity.",
+      "transition_out": "End fully established in 02_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg so the next shot can continue from that state."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Bridge from 02_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1 to 03_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3",
+      "purpose": "Create a continuous transition from 02_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg into 03_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg.",
+      "source_images": [
+        "02_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg",
+        "03_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg"
+      ],
+      "continuity_anchors": [
+        "Cuisine AuntDai sign with phone number",
+        "Pola Bento sign",
+        "leafless tree near sidewalk",
+        "escalator with yellow steps",
+        "red, yellow, and grey tiled wall pattern",
+        "white concrete wall indentations"
+      ],
+      "emotional_beat": "busy but calm urban daytime moving toward busy urban transit atmosphere",
+      "action_flow": "Begin in the visual world of 02_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg and move naturally into 03_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg, keeping the same subject identity and environmental continuity.",
+      "transition_out": "End fully established in 03_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg so the next shot can continue from that state."
+    },
+    {
+      "scene_id": "scene_03",
+      "title": "Bridge from 03_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3 to 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4",
+      "purpose": "Create a continuous transition from 03_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg into 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg.",
+      "source_images": [
+        "03_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg",
+        "04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg"
+      ],
+      "continuity_anchors": [
+        "escalator with yellow steps",
+        "red, yellow, and grey tiled wall pattern",
+        "white concrete wall indentations",
+        "black and gray safety doors with clear panels",
+        "floor tactile guiding strip running center of platform",
+        "overhead fluorescent lights"
+      ],
+      "emotional_beat": "busy urban transit atmosphere moving toward neutral, everyday urban transit",
+      "action_flow": "Begin in the visual world of 03_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg and move naturally into 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg, keeping the same subject identity and environmental continuity.",
+      "transition_out": "End fully established in 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg so the next shot can continue from that state."
+    }
+  ]
+}

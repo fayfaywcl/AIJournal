@@ -1,0 +1,84 @@
+{
+  "project_title": "Late in the Lab",
+  "story_arc": "A quiet work session in a nearly empty computer lab expands into a moment of private reflection as I look out at the wet city beyond the building. The sequence moves from concentration to pause, using the shared sense of isolation, fluorescent interior light, and window-framed distance to connect study, fatigue, and calm acceptance at the end of the day.",
+  "visual_rules": [
+    "Keep the same first-person point of view throughout",
+    "Preserve the computer lab as the primary interior location",
+    "Use the window view as a natural extension of the same building environment",
+    "Favor slow observational camera movement over abrupt cuts",
+    "Maintain realistic lighting with fluorescent interior tones and overcast exterior light",
+    "Hold continuity through repeated anchors like the iMac rows, blackboard, window frame, and wet alley",
+    "Avoid morphing between stills; motivate edits through gaze, movement, and spatial orientation"
+  ],
+  "narration_text": "I stayed later than I meant to. The lab had gone quiet enough for every click and hum to feel louder than my thoughts. After staring at the screen too long, I looked up and let my eyes drift past the room, past the glass, out into the wet alley below. For a minute, the whole day felt suspended there between fluorescent light and rain-dark concrete. I wasn't finished, but I wasn't rushing anymore either.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "Settling Into the Empty Lab",
+      "purpose": "Establish the setting, first-person perspective, and the solitary working mood at the start of the visual diary.",
+      "source_images": [
+        "image1.jpg"
+      ],
+      "continuity_anchors": [
+        "row of identical iMacs with keyboards and mice",
+        "blackboard with chalk markings",
+        "person seated at the back in a black chair",
+        "light gray walls and ceiling lights"
+      ],
+      "emotional_beat": "focused solitude",
+      "action_flow": "From my seat, I take in the ordered rows of iMacs and the quiet classroom around me. The fluorescent-lit room feels still and nearly empty, with one person remaining at the back. The moment plays as a held breath before work fully absorbs me.",
+      "transition_out": "Drift forward through the room as if my attention narrows, then motivate the next cut by lifting my gaze away from the screen and toward the far side of the lab."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Breaking Concentration",
+      "purpose": "Show the internal shift from active concentration to mental fatigue, creating the reason to look outward.",
+      "source_images": [
+        "image1.jpg"
+      ],
+      "continuity_anchors": [
+        "row of identical iMacs with keyboards and mice",
+        "blackboard with chalk markings",
+        "person seated at the back in a black chair"
+      ],
+      "emotional_beat": "quiet fatigue",
+      "action_flow": "The room stays unchanged, but the feeling shifts: the repeating desks and screens become hypnotic, and the distance to the lone person at the back makes the lab feel even larger. I pause my work, sit back, and let the stillness register.",
+      "transition_out": "Use a natural eyeline transition, carrying my attention from the interior rows toward a nearby window so the cut feels like a look rather than a location jump."
+    },
+    {
+      "scene_id": "scene_03",
+      "title": "Looking Out",
+      "purpose": "Expand the story world beyond the lab and mirror the narrator's inner state through the exterior view.",
+      "source_images": [
+        "image2.jpg"
+      ],
+      "continuity_anchors": [
+        "large window with metal frame and roller blind",
+        "dark office buildings with multiple lit windows",
+        "concrete building wall on the right",
+        "wet street surface with a dumpster"
+      ],
+      "emotional_beat": "reflective pause",
+      "action_flow": "From inside the building, I look through the large window into the wet alley between office blocks. The metal frame and blind root the shot indoors while the rain-dark street and sparse lights outside suggest the late hour. The city feels close but unreachable, giving the pause emotional weight.",
+      "transition_out": "Hold on the exterior long enough for the moment to settle, then let the sequence resolve as if I turn back inward with a calmer mind."
+    },
+    {
+      "scene_id": "scene_04",
+      "title": "Staying a Little Longer",
+      "purpose": "Conclude the diary entry with acceptance, tying the outside stillness back to the quiet work waiting inside.",
+      "source_images": [
+        "image2.jpg",
+        "image1.jpg"
+      ],
+      "continuity_anchors": [
+        "large window with metal frame and roller blind",
+        "wet street surface with a dumpster",
+        "row of identical iMacs with keyboards and mice",
+        "light gray walls and ceiling lights"
+      ],
+      "emotional_beat": "calm resolve",
+      "action_flow": "The final scene bridges the exterior pause and the interior task, suggesting that after taking in the alley view, I return to the lab with steadier focus. The wet city and fluorescent classroom now feel like parts of the same late-day atmosphere rather than separate spaces.",
+      "transition_out": "End on a gentle fade or lingering hold that suggests the night continues beyond the frame."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+[
+  {
+    "filename": "Image1.jpeg",
+    "visual_summary": "The image shows a computer lab or classroom filled with multiple iMac computers arranged on black desks in rows. Each station includes a keyboard and mouse, and the chairs have 'CDA' written on their backs. The room features a blank white wall with a small blackboard and a windowed door to the right.",
+    "location": "Computer lab or classroom",
+    "subjects": [
+      "iMac computers",
+      "black desks",
+      "office chairs labeled 'CDA'",
+      "blackboard",
+      "windowed door"
+    ],
+    "mood": "quiet, orderly, academic",
+    "continuity_anchors": [
+      "arrangement of iMacs and desks in rows",
+      "black chairs with 'CDA' writing",
+      "blackboard on the wall",
+      "blank white wall",
+      "fluorescent ceiling lights"
+    ],
+    "plausible_actions": [
+      "students working on computers",
+      "teacher instructing at the blackboard",
+      "cleaning or maintenance of computers and room",
+      "group collaboration at desks"
+    ],
+    "cinematic_notes": [
+      "use tracking shots along the rows of computers to emphasize order and repetition",
+      "high-angle shots to show the spacious layout",
+      "soft lighting to reduce glare on screens",
+      "close-ups on hands typing for detail"
+    ]
+  },
+  {
+    "filename": "Image2.jpeg",
+    "visual_summary": "The image shows a narrow urban alleyway with construction fencing on the left and a row of buildings on the right. A prominent sign for a Korean chicken restaurant ('CHICKEN PLUS +') is mounted on the right side, with other restaurant signs, including one for a Japanese eatery, visible further down the alley. The sky is overcast, and a couple of people are seen walking in the distance.",
+    "location": "Urban alley with small restaurants and ongoing construction",
+    "subjects": [
+      "construction fencing",
+      "restaurant signs",
+      "pedestrians"
+    ],
+    "mood": "quiet, overcast, slightly cluttered urban atmosphere",
+    "continuity_anchors": [
+      "CHICKEN PLUS + sign with yellow and black colors",
+      "red and white construction fencing",
+      "narrow pathway with stone and brick facades"
+    ],
+    "plausible_actions": [
+      "pedestrians walking through the alley",
+      "restaurant staff or customers entering/exiting",
+      "construction workers managing the fenced area"
+    ],
+    "cinematic_notes": [
+      "use of leading lines from fencing to draw focus down the alley",
+      "overcast light for soft, diffused shadows",
+      "close-up shots on restaurant signage for establishing locality"
+    ]
+  },
+  {
+    "filename": "Image3.jpeg",
+    "visual_summary": "A busy urban street scene on a cloudy day featuring parked cars along the right side of the road and pedestrians walking on the sidewalk to the left. Storefronts, including a sushi restaurant and La Soupi\u00e8re, line the street with visible signage and leafless trees.",
+    "location": "Urban commercial street with mixed-use buildings",
+    "subjects": [
+      "parked cars",
+      "pedestrians",
+      "storefronts",
+      "leafless trees",
+      "street signs"
+    ],
+    "mood": "everyday urban activity under overcast sky",
+    "continuity_anchors": [
+      "orange handicap/no parking signs",
+      "distinctive storefronts: La Soupi\u00e8re, sushi restaurant",
+      "leafless trees",
+      "parked cars lineup"
+    ],
+    "plausible_actions": [
+      "pedestrians walking along the sidewalk",
+      "cars stopping or parking",
+      "customers entering or leaving stores",
+      "delivery vehicles arriving"
+    ],
+    "cinematic_notes": [
+      "wide-angle shot to capture depth of street and pedestrian flow",
+      "overcast lighting for soft, even illumination",
+      "use street signs and storefronts for framing and context",
+      "tracking shots following pedestrians or cars"
+    ]
+  },
+  {
+    "filename": "Image4.jpeg",
+    "visual_summary": "The image shows a blue STM metro train stopped at a platform in an underground station. Several passengers are visible inside the train, sitting and standing, with a prominent red jacket and backpacks. The platform has a bright yellow safety edge and the interior of the train is lit with fluorescent lights.",
+    "location": "Underground metro station platform",
+    "subjects": [
+      "blue STM metro train",
+      "passengers inside train",
+      "yellow platform edge"
+    ],
+    "mood": "everyday urban commute, routine",
+    "continuity_anchors": [
+      "blue train with white stripe",
+      "STM logo and 'MOUVEMENT COLLECTIF' text",
+      "passenger red jacket",
+      "yellow tactile safety strip on platform"
+    ],
+    "plausible_actions": [
+      "passengers boarding or leaving the train",
+      "train doors opening or closing",
+      "announcements over station speakers",
+      "people walking on the platform"
+    ],
+    "cinematic_notes": [
+      "side profile tracking shot along train length",
+      "low angle focusing on platform edge for tension",
+      "interior shots through windows capturing diverse passengers",
+      "use fluorescent and ambient lighting for naturalistic effect"
+    ]
+  }
+]

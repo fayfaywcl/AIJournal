@@ -1,0 +1,90 @@
+{
+  "project_title": "Before the Screen Wakes",
+  "story_arc": "A quiet first-person diary moves from inward stillness to outward reflection. Inside a nearly empty computer lab, I sit with the weight of unfinished thoughts and the hum of institutional silence. Looking out through a window at the cold alley below, the world feels distant but real, and the shift in perspective turns isolation into a moment of clarity.",
+  "visual_rules": [
+    "Maintain a grounded first-person point of view throughout",
+    "Preserve the same quiet institutional setting and time of day logic",
+    "Use slow observational camera behavior instead of slideshow-style coverage",
+    "Anchor continuity through the rows of iMacs, blackboard, window frame, and overcast light",
+    "Favor natural pauses, subtle motion, and environmental realism",
+    "Keep the subject unseen or only implied as the same lone person moving through the space"
+  ],
+  "narration_text": "I came in early, before the room had decided to become a room again. The screens were dark, the lights too honest, and every desk felt like it was waiting for someone else. I sat with the noise in my head until the silence around me started to make sense. When I finally looked up, the city outside was cold and wet and carrying on without me. Somehow that helped. It reminded me that not everything has to move fast to move forward.",
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Empty Lab Settling In",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "grounded first-person seated wide shot, nearly still with a slight breathing sway across the rows of dark iMacs toward the far blackboard",
+      "action": "The lab holds in quiet stillness as fluorescent ceiling light reveals black desks, sleeping screens, and the empty room stretching ahead.",
+      "transition_goal": "Establish the institutional space, solitude, and first-person presence before any movement of attention.",
+      "voiceover_line": "I came in early, before the room had decided to become a room again.",
+      "prompt": "First-person seated wide shot inside a nearly empty institutional computer lab at early morning, grounded at desk height with a barely perceptible human breathing sway. Rows of dark sleeping iMacs on black desks extend forward in orderly lines toward a far blackboard with faint writing. White fluorescent ceiling lights cast honest, flat illumination across the room. Keep the same lone-person continuity implied only by the seated viewpoint, no visible body except possible subtle natural edge occlusion from the desk position. The room is still and quiet, with no dramatic movement, only tiny ambient shifts in exposure and the subtle hum-like feeling of a real space. Maintain overcast daylight influence from one side of the room without making the window dominant yet. Cinematic realism, restrained composition, slow observational presence, clean editable hold.",
+      "negative_prompt": "No slideshow transitions, no cross-dissolves, no abrupt morphs, no warped geometry, no broken anatomy, no duplicate limbs, no visible extra people appearing or disappearing, no text overlays, no captions, no logos, no freeze-frame behavior, no sudden zooms, no time-lapse motion, no surreal lighting shifts, no camera teleportation."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Waiting Desks",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "slow first-person pan across desk rows at seated height, lingering on dark monitors and the far end of the room",
+      "action": "The camera drifts across the silent workstations and pauses as if counting the absence of everyone not yet there.",
+      "transition_goal": "Deepen the feeling of disconnection and underline that the room feels built for others.",
+      "voiceover_line": "The screens were dark, and every desk felt like it was waiting for someone else.",
+      "prompt": "First-person seated-height slow pan across the silent computer lab, moving gently along rows of black desks and dark iMac monitors as if scanning the room in thought. Preserve continuity with the same fluorescent-lit classroom, blackboard at the far wall, white ceiling lights, and overcast morning ambience. The motion is smooth and human, not mechanical, with a slight handheld breathing drift and a small pause on empty workstations to emphasize absence. Screens remain off, the room remains unoccupied, and the institutional stillness feels real and uninterrupted. Keep the pan modest and production-usable, ending with a lingering view toward the far end of the room so the attention feels naturally unresolved.",
+      "negative_prompt": "No slideshow transitions, no cross-dissolves, no abrupt morphs, no broken anatomy, no distorted monitors, no impossible camera speed, no text overlays, no titles, no logos, no freeze-frame behavior, no strobing lights, no extra subjects entering frame, no jump cuts, no unnatural reflections, no dreamlike effects."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Thoughts in the Fluorescent Quiet",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 6,
+      "camera": "first-person hold that slowly tilts and drifts toward the brighter side of the room, letting window light begin to pull the frame",
+      "action": "After a long still beat on the lab interior, attention shifts away from the dead screens toward the nearby window glow.",
+      "transition_goal": "Bridge the inward stillness of the lab to the outward pull of the window without an abrupt cut.",
+      "voiceover_line": "I sat with the noise in my head until the silence around me started to make sense.",
+      "prompt": "Begin in the same first-person seated position in the computer lab, holding on the dark iMacs and black desks under white fluorescent ceiling lights, then slowly tilt and drift toward the brighter side of the room where window light begins to pull the frame. The camera movement should feel like natural attention shifting after a long quiet pause, with subtle handheld breathing and a gentle upward-left or upward-right drift depending on the room layout. Preserve continuity of the blackboard, desk rows, and institutional morning stillness while letting the window glow gradually become more important. Environmental behavior stays minimal and realistic: no people moving, no screen activation, only soft overcast daylight and the quiet visual weight of the room. End in a composition motivated toward the window so the next exterior-facing shot cuts cleanly and naturally.",
+      "negative_prompt": "No slideshow transitions, no dissolves, no abrupt morphs, no broken anatomy, no body fragments appearing unnaturally, no text overlays, no subtitles, no logos, no freeze-frame behavior, no sudden whip pan, no impossible lens distortion, no surreal bloom, no flickering exposure jumps, no artificial motion blur streaks, no abrupt scene replacement."
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "First Look Outside",
+      "scene_id": "scene_02",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image2.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 4,
+      "camera": "grounded first-person medium-wide from inside the room, framed by the window edge and blind, looking down into the alley",
+      "action": "The wet alley and muted office facades come into view through the glass as the camera settles into a steady observational hold.",
+      "transition_goal": "Land the viewer in the exterior-facing perspective motivated by the previous interior drift.",
+      "voiceover_line": "When I finally looked up, the city outside was cold and wet and carrying on without me.",
+      "prompt": "First-person medium-wide view from inside the same room, now looking out through a large window framed by the window edge and a beige blind. The camera settles from the previous interior drift into a steady observational hold, angled slightly downward into a narrow wet alley between modern office buildings. Overcast daylight creates soft, cold reflections on the pavement below. Keep a grounded human presence through a faint handheld breathing motion only, as if standing or leaning near the window without showing the subject. The glass, frame, and blind anchor the interior continuity while the exterior world remains subdued, damp, and real. No dramatic action, just a quiet landing into the outside view with clean editability and cinematic realism.",
+      "negative_prompt": "No slideshow transitions, no cross-dissolves, no abrupt morphs, no broken anatomy, no floating perspective, no text overlays, no captions, no logos, no freeze-frame behavior, no impossible weather changes, no pedestrians popping in and out unnaturally, no exaggerated traffic, no surreal city motion, no camera teleportation, no over-stylized reflections."
+    },
+    {
+      "shot_id": "shot_05",
+      "title": "Cold Clarity Hold",
+      "scene_id": "scene_02",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image2.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 6,
+      "camera": "static first-person hold through the window with subtle natural handheld breathing, centered on the reflective alley and overcast light",
+      "action": "The frame remains steady on the damp pavement and narrow canyon of buildings, allowing the outside world to exist without interruption.",
+      "transition_goal": "Let the emotional release arrive through duration and stillness, ending on reflection rather than action.",
+      "voiceover_line": "Somehow that helped; not everything has to move fast to move forward.",
+      "prompt": "Static first-person hold through the window, centered on the wet reflective alley and muted vertical facades of modern office buildings under overcast daylight. Keep the beige blind and window frame subtly present at the edges to preserve the interior vantage point. The shot remains nearly still with only natural handheld breathing, allowing tiny environmental motions such as soft rain residue shimmer, distant subtle movement far below if any, and gentle shifts in reflected light on damp pavement. Maintain the same cold, quiet morning atmosphere and restrained realism, with no rush and no forced event. The emotional release comes from duration, stillness, and the world continuing calmly outside. End as a clean held composition suitable for a final resting shot.",
+      "negative_prompt": "No slideshow transitions, no cross-dissolves, no abrupt morphs, no broken anatomy, no people deforming in the distance, no text overlays, no titles, no logos, no freeze-frame behavior, no sudden zooms, no dramatic weather transformation, no unrealistic reflections, no heavy camera shake, no time-lapse clouds, no stylized VFX, no abrupt ending jolt."
+    }
+  ]
+}

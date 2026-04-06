@@ -1,0 +1,119 @@
+[
+  {
+    "filename": "01_WhatsApp_Image_2026-04-04_at_1.33.11_PM.jpeg",
+    "visual_summary": "The image shows the interior of a public transit vehicle, likely a streetcar or tram, with a young woman looking out the window wearing earphones. Outside, a curved road and several buildings, including a modern glass stairwell and older structure, are visible under an overcast sky.",
+    "location": "Urban transit inside a modern city tram near a curved road on a cloudy day",
+    "subjects": [
+      "young woman passenger",
+      "streetcar interior",
+      "urban roadway",
+      "modern and older buildings"
+    ],
+    "mood": "contemplative, quiet urban movement",
+    "continuity_anchors": [
+      "yellow vertical handrail",
+      "dark green door frame",
+      "young woman with large hoop earrings and earphones",
+      "curved roadway with yellow barriers"
+    ],
+    "plausible_actions": [
+      "passenger looking out window thoughtfully",
+      "tram moving along curved track",
+      "other passengers boarding or exiting",
+      "street traffic flowing on adjacent roads"
+    ],
+    "cinematic_notes": [
+      "use reflections on glass for layered visuals",
+      "capture muted natural lighting to enhance gray cloudy tone",
+      "frame through window for voyeuristic cityscape views",
+      "close-ups on passenger expression against urban backdrop"
+    ]
+  },
+  {
+    "filename": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+    "visual_summary": "The image shows two lit fashion advertisements located in a subway or metro station next to a tiled staircase. The ad on the left features a man dressed in light-colored shorts and jacket, captioned 'TRISTAN', while the ad on the right features a woman in stylish attire under the French text 'LE POUVOIR DU STYLE'. The background is a beige wall with a security camera mounted above the stairs.",
+    "location": "Underground subway/metro station near staircase",
+    "subjects": [
+      "fashion advertisements",
+      "subway stairs",
+      "security camera"
+    ],
+    "mood": "modern, urban, slightly subdued",
+    "continuity_anchors": [
+      "lit ad boxes with 'TRISTAN' and 'LE POUVOIR DU STYLE' posters",
+      "tiled floor pattern",
+      "beige wall with handrail on stairs",
+      "security camera placement"
+    ],
+    "plausible_actions": [
+      "commuters walking up or down the stairs",
+      "someone stopping to look at the advertisements",
+      "maintenance checking the security camera"
+    ],
+    "cinematic_notes": [
+      "use low angle shots emphasizing the staircase and ads",
+      "play with light contrast between the bright ad panels and dim background",
+      "consider tracking shots following movement up/down stairs",
+      "highlight reflection on tiled floor for mood enhancement"
+    ]
+  },
+  {
+    "filename": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+    "visual_summary": "This is an urban street scene showing a narrow sidewalk along a row of brick buildings with commercial signage, including a prominently visible 'Chicken Plus' Korean restaurant sign. Metal fencing runs along the left side, likely blocking a construction or closed-off area, with a few pedestrians visible in the distance under an overcast sky.",
+    "location": "City street with mixed-use buildings, featuring a Korean restaurant and other hospitality businesses",
+    "subjects": [
+      "narrow sidewalk",
+      "construction fencing",
+      "restaurant signage",
+      "pedestrians"
+    ],
+    "mood": "overcast and subdued urban atmosphere",
+    "continuity_anchors": [
+      "Chicken Plus restaurant sign with Korean and French text",
+      "red and black metal fence",
+      "brick building facades",
+      "pedestrians in distance"
+    ],
+    "plausible_actions": [
+      "pedestrians walking down sidewalk",
+      "maintenance or construction work behind fencing",
+      "customers entering or exiting Chicken Plus restaurant"
+    ],
+    "cinematic_notes": [
+      "use low-angle shots emphasizing the fencing for a confined urban feel",
+      "capture reflections or neon lighting from restaurant signs at dusk for mood",
+      "overcast lighting gives natural soft light, ideal for consistent exterior shots"
+    ]
+  },
+  {
+    "filename": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg",
+    "visual_summary": "The image shows a downward view from an escalator inside a subway or metro station. The walls are decorated with a pattern of red, yellow, and brown tiles, while the upper wall is made of brown bricks. Several people are visible at the bottom area, some walking and others standing.",
+    "location": "Subway or metro station interior",
+    "subjects": [
+      "escalator",
+      "commuters",
+      "patterned tiled walls",
+      "brick wall"
+    ],
+    "mood": "urban, everyday transit",
+    "continuity_anchors": [
+      "tiling pattern on walls",
+      "brown brick upper walls",
+      "metal handrails",
+      "escalator steps with yellow edge markings",
+      "people with backpacks and coats"
+    ],
+    "plausible_actions": [
+      "people descending or ascending the escalator",
+      "commuters walking or waiting",
+      "someone looking at their phone or interacting near the bottom",
+      "station announcements or movement of other passengers"
+    ],
+    "cinematic_notes": [
+      "use the downward angle to emphasize movement or descent",
+      "contrast warm brick walls with brighter tiled areas for visual interest",
+      "capture silhouette effects from overhead lights",
+      "follow characters as they move on or off the escalator for dynamic shots"
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "project_title": "Between Screens and Rain",
+  "story_arc": "I move through a quiet day inside a nearly empty computer lab, suspended between fluorescent stillness and the muted city outside. The edit follows a private moment of pause: from noticing the room, to drifting toward the window, to realizing how the outside weather mirrors my own tired but clear state of mind.",
+  "visual_rules": [
+    "Keep the same first-person perspective throughout",
+    "Maintain grounded realism with no surreal morphing",
+    "Use the classroom as the primary interior space and the window view as the external counterpoint",
+    "Preserve cold fluorescent interior light against soft overcast daylight",
+    "Let motion feel observational and natural, as if recorded in passing",
+    "Use continuity anchors like the iMac rows, blackboard, door window, and alley frame to connect scenes"
+  ],
+  "narration_text": "I came in early, before the room had fully become itself. The screens were mostly dark, the lights too bright, and everything felt like it was waiting. I stood there for a minute, listening to the hum of the room, then drifted to the window. Outside, the alley was wet and quiet, the kind of gray that makes everything honest. For a moment, it felt like the city and I were holding the same thought.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "The Room Before Everyone Arrives",
+      "purpose": "Establish the setting, solitude, and the narrator's internal state at the start of the diary.",
+      "source_images": [
+        "image1.jpg"
+      ],
+      "continuity_anchors": [
+        "rows of black desks with iMacs",
+        "black chairs marked CDA",
+        "blackboard with writing",
+        "door with window",
+        "ceiling fluorescent lighting panels"
+      ],
+      "emotional_beat": "quiet anticipation",
+      "action_flow": "A first-person glance enters and settles into the computer lab, taking in the rows of iMacs and empty chairs. One active screen reading 4:43 becomes a small focal point in the otherwise dormant room. The gaze lingers on the blackboard and door window, emphasizing the feeling of being early and alone.",
+      "transition_out": "The perspective slowly turns away from the desks and drifts toward natural light, motivated by a need to look outside."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Looking Out for Air",
+      "purpose": "Expand the emotional world by contrasting the controlled classroom interior with the subdued urban exterior.",
+      "source_images": [
+        "image2.jpg"
+      ],
+      "continuity_anchors": [
+        "window frame and ledge",
+        "black building with multiple windows",
+        "concrete building on the right",
+        "wet alley surface",
+        "yellow dumpster container"
+      ],
+      "emotional_beat": "muted clarity",
+      "action_flow": "From a first-person position at the window, the camera rests on the wet alley below. The overcast light softens the hard lines of the surrounding buildings, and the yellow container gives the frame a single stubborn accent. The moment plays as a pause rather than an event, as if the narrator is using the view to collect themselves before returning inside.",
+      "transition_out": "End on the held stillness of the rain-dark alley, allowing the exterior quiet to echo the silence established in the lab."
+    }
+  ]
+}

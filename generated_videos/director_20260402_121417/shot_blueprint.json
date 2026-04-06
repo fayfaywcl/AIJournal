@@ -1,0 +1,82 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Quiet Survey of the Empty Lab",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "First-person static hold with a slight natural head-turn pan across desk rows, blackboard left, then toward the back door and one lit screen",
+      "action": "The viewer stands still near the front of the lab, taking in dim iMac rows, empty chairs, and the settled quiet of the room.",
+      "transition_goal": "Establish the interior layout, solitude, and first-person presence before any movement begins.",
+      "voiceover_line": "I stayed later than I meant to."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Lingering on the Paused Workspace",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "First-person slow forward creep down the aisle between desks with a small glance left to the blackboard and back toward the lit workstation",
+      "action": "The camera eases deeper into the lab, passing pushed-back chairs and desk edges as if walking slowly through a room everyone just left.",
+      "transition_goal": "Shift from observation to gentle movement, preparing the path toward the window side of the room.",
+      "voiceover_line": "The lab had already gone quiet."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Walking Toward the Window Side",
+      "scene_id": "scene_02",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 6,
+      "camera": "First-person walking shot continuing through the room, following desk lines toward the brighter window area with mild handheld sway",
+      "action": "The viewer moves past the last workstations as reflections on screens and polished surfaces begin to give way to cooler light from the window.",
+      "transition_goal": "Bridge the lab interior to the window space without an abrupt change, keeping building logic continuous.",
+      "voiceover_line": "I lingered for a minute, listening to the hum of the room."
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Settling at the Glass",
+      "scene_id": "scene_02",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 4,
+      "camera": "First-person approach ending in a soft stop at the window, with interior reflections briefly visible in the glass before the view clears outward",
+      "action": "The camera comes up to the window and pauses, letting the room behind faintly reflect over the alley outside.",
+      "transition_goal": "Complete the move from workspace to reflection, allowing interior quiet to blend into the exterior view.",
+      "voiceover_line": "Then I drifted to the window."
+    },
+    {
+      "shot_id": "shot_05",
+      "title": "Looking Out Over the Wet Alley",
+      "scene_id": "scene_03",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image2.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 6,
+      "camera": "First-person steady hold through the window frame with a subtle downward tilt to the rain-dark ground and yellow container, then a small rise to the buildings beyond",
+      "action": "The viewer studies the narrow alley, wet pavement, and neighboring office windows while remaining still at the glass.",
+      "transition_goal": "Deliver the reflective exterior payoff and contrast the enclosed lab with the open, damp city space.",
+      "voiceover_line": "Outside, the alley was wet and nearly empty."
+    },
+    {
+      "shot_id": "shot_06",
+      "title": "Held Reflection Before Leaving",
+      "scene_id": "scene_03",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image2.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 4,
+      "camera": "First-person locked-off hold at the window with almost imperceptible breathing motion, framed by blinds and window edges",
+      "action": "Nothing major moves; the gaze simply stays on the last light on the buildings and the quiet alley below.",
+      "transition_goal": "End on a calm, unresolved pause that feels like a private moment before turning away.",
+      "voiceover_line": "It felt like one of those small in-between moments when something settles anyway."
+    }
+  ]
+}

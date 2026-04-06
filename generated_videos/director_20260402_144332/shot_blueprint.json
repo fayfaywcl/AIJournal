@@ -1,0 +1,30 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Settling Into the Empty Lab",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "First-person slow handheld settle from the doorway into a gentle rightward drift across the iMac rows, pausing briefly on the lit 4:43 screen, then easing toward the blackboard and door window under harsh fluorescent light.",
+      "action": "The viewer enters the nearly empty lab and lets their gaze adjust to the room, tracing the black desks, dark monitors, CDA chairs, and the lone active screen before beginning to turn toward the natural light source.",
+      "transition_goal": "Establish the solitary classroom environment and motivate the move away from the desks toward the window.",
+      "voiceover_line": "I came in early, and the room still felt like it was waiting."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Pause at the Rainy Window",
+      "scene_id": "scene_02",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 6,
+      "camera": "First-person observational drift finishing the turn from interior toward the window, then holding in a quiet static look outward over the ledge to the wet alley and surrounding buildings in soft overcast light.",
+      "action": "The camera arrives at the window and comes to rest, looking down into the rain-dark alley where the black facade, concrete wall, and yellow dumpster sit in muted stillness.",
+      "transition_goal": "Complete the emotional shift from fluorescent interior tension to exterior clarity, ending on a reflective hold.",
+      "voiceover_line": "Outside, the gray alley felt as clear and tired as I did."
+    }
+  ]
+}

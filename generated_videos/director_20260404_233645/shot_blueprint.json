@@ -1,0 +1,56 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Muted City Through Glass",
+      "scene_id": "scene_01",
+      "source_image": "04_WhatsApp_Image_2026-04-04_at_1.33.10_PM.jpeg",
+      "first_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.10_PM.jpeg",
+      "last_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.10_PM.jpeg",
+      "duration_seconds": 4,
+      "camera": "First-person static-to-gentle drift from inside a vehicle, looking through a slightly dirty window; subtle handheld sway and shallow parallax in reflections.",
+      "action": "The viewer lingers on the parking lot, bare trees, and overcast buildings beyond the glass as minor interior movement suggests a bus or train idling before the commute continues.",
+      "transition_goal": "Establish reflective tone and use the window frame and linear architecture to motivate a grounded move into the station environment.",
+      "voiceover_line": "I moved through the city quietly today."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Platform Pause at Universit\u00e9 Concordia",
+      "scene_id": "scene_02",
+      "source_image": "02_WhatsApp_Image_2026-04-04_at_1.33.13_PM.jpeg",
+      "first_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.10_PM.jpeg",
+      "last_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.13_PM.jpeg",
+      "duration_seconds": 4,
+      "camera": "First-person eye-level settle onto the platform, easing forward a step or two toward the stopped train with a slight pan along the yellow strip.",
+      "action": "The train waits under fluorescent lights while passengers stand nearby and figures inside the car remain absorbed in their own routines.",
+      "transition_goal": "Bridge from outside observation into shared commuter space, making the cut feel like physically stepping out and joining the platform.",
+      "voiceover_line": "Watching it soften through glass, then fold into lights and passing faces."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Walking the Platform Edge",
+      "scene_id": "scene_03",
+      "source_image": "03_WhatsApp_Image_2026-04-04_at_1.33.12_PM.jpeg",
+      "first_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.13_PM.jpeg",
+      "last_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.12_PM.jpeg",
+      "duration_seconds": 4,
+      "camera": "First-person lateral tracking move parallel to the train doors, smooth and unhurried, keeping the tactile path and overhead lights as repeating guides.",
+      "action": "The viewer walks along the platform as doors, reflections in the green wall, and scattered commuters slide past in a steady rhythm.",
+      "transition_goal": "Shift from waiting into movement while preserving continuity through repeated lines, preparing the eye for the escalator\u2019s descending geometry.",
+      "voiceover_line": "Nothing dramatic happened."
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Descent Into the Passage",
+      "scene_id": "scene_04",
+      "source_image": "01_WhatsApp_Image_2026-04-04_at_1.33.30_PM.jpeg",
+      "first_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.12_PM.jpeg",
+      "last_frame_image": "01_WhatsApp_Image_2026-04-04_at_1.33.30_PM.jpeg",
+      "duration_seconds": 8,
+      "camera": "First-person forward-downward movement from the top of the escalator, letting diagonal rails and wall lights pull the frame into the tunnel.",
+      "action": "The viewer descends with other commuters into the tiled underground passage, following the flow rather than any single destination.",
+      "transition_goal": "Conclude with a feeling of being absorbed into the city\u2019s human current, ending on continuation rather than arrival.",
+      "voiceover_line": "Somewhere between the platform and the escalator, I felt held by the rhythm of it all."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "project_title": "Adjacent Pair Transition Sequence",
+  "story_arc": "Create a cohesive first-person visual diary that feels cinematic, grounded, and alive. Turn the still images into intentional scenes instead of slideshow transitions.",
+  "visual_rules": [
+    "Each shot must start from one source image and resolve into the next image in order.",
+    "Keep continuity between shot endings and the next shot beginnings.",
+    "Avoid abrupt cuts, abrupt morphs, and slideshow logic.",
+    "Prefer grounded motion that can plausibly connect the paired images."
+  ],
+  "narration_text": "",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "Bridge from image1 to image2",
+      "purpose": "Create a continuous transition from image1.jpg into image2.jpg.",
+      "source_images": [
+        "image1.jpg",
+        "image2.jpg"
+      ],
+      "continuity_anchors": [
+        "iMac computers and their arrangement",
+        "blackboard with handwritten notes",
+        "lighting fixtures on the ceiling",
+        "rectangular windows with some lights on",
+        "black and gray building facades",
+        "alleyway with wet surface"
+      ],
+      "emotional_beat": "quiet and focused moving toward neutral, subdued",
+      "action_flow": "Begin in the visual world of image1.jpg and move naturally into image2.jpg, keeping the same subject identity and environmental continuity.",
+      "transition_out": "End fully established in image2.jpg so the next shot can continue from that state."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Bridge from image2 to Image3",
+      "purpose": "Create a continuous transition from image2.jpg into Image3.jpeg.",
+      "source_images": [
+        "image2.jpg",
+        "Image3.jpeg"
+      ],
+      "continuity_anchors": [
+        "rectangular windows with some lights on",
+        "black and gray building facades",
+        "alleyway with wet surface",
+        "window frame and glass texture",
+        "ferry boat design with life rings",
+        "water ripples and wake patterns"
+      ],
+      "emotional_beat": "neutral, subdued moving toward calm and contemplative",
+      "action_flow": "Begin in the visual world of image2.jpg and move naturally into Image3.jpeg, keeping the same subject identity and environmental continuity.",
+      "transition_out": "End fully established in Image3.jpeg so the next shot can continue from that state."
+    },
+    {
+      "scene_id": "scene_03",
+      "title": "Bridge from Image3 to Image4",
+      "purpose": "Create a continuous transition from Image3.jpeg into Image4.jpeg.",
+      "source_images": [
+        "Image3.jpeg",
+        "Image4.jpeg"
+      ],
+      "continuity_anchors": [
+        "window frame and glass texture",
+        "ferry boat design with life rings",
+        "water ripples and wake patterns",
+        "many lanes of traffic with consistent vehicle types and positions",
+        "distinctive tall buildings like cylindrical and glass skyscrapers",
+        "overpasses and green freeway directional signs"
+      ],
+      "emotional_beat": "calm and contemplative moving toward busy urban daytime",
+      "action_flow": "Begin in the visual world of Image3.jpeg and move naturally into Image4.jpeg, keeping the same subject identity and environmental continuity.",
+      "transition_out": "End fully established in Image4.jpeg so the next shot can continue from that state."
+    }
+  ]
+}

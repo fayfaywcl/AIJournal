@@ -1,0 +1,146 @@
+[
+  {
+    "filename": "Image1.jpeg",
+    "visual_summary": "An empty, well-lit computer lab features multiple modern iMac computers on dark grey tables with black ergonomic chairs. A large flat-screen display and speakers are positioned at the front of the room, indicating a classroom or training environment.",
+    "location": "Empty computer lab / classroom",
+    "subjects": [
+      "iMac computers",
+      "Dark grey desks",
+      "Black ergonomic chairs",
+      "Large wall-mounted display",
+      "Wall-mounted speakers",
+      "Fluorescent ceiling lights",
+      "Classroom door"
+    ],
+    "mood": "Empty, functional, quiet, institutional",
+    "continuity_anchors": [
+      "Exact placement of iMacs, keyboards, and mice on desks",
+      "\"CDA\" branding visible on chair backs",
+      "Fixed positions of wall-mounted speakers and large display",
+      "Arrangement and type of desks and chairs",
+      "Overall bright, even fluorescent lighting"
+    ],
+    "plausible_actions": [
+      "Students entering and taking seats for a class",
+      "An instructor presenting content on the large screen",
+      "A solitary character working intently at a computer",
+      "Cleaning staff tidying the room",
+      "Someone quickly accessing a specific computer after hours"
+    ],
+    "cinematic_notes": [
+      "Wide, low-angle tracking shot moving down the empty rows, emphasizing scale or loneliness.",
+      "Close-up shots on the individual iMac screens, showing detailed content (code, design, text).",
+      "Use of the harsh, even fluorescent lighting to create a sterile or high-stakes atmosphere.",
+      "Reflections on the dark computer screens or polished floor adding visual interest or revealing off-screen elements.",
+      "A character silhouetted against the light from the door at the rear of the room."
+    ]
+  },
+  {
+    "filename": "Image2.jpeg",
+    "visual_summary": "A narrow urban street or alleyway on an overcast day, framed by a construction fence on the left and a building with a 'Chicken Plus' sign on the right. Pedestrians walk further down the path towards a modern building with a distinctive glass archway in the background. The scene suggests an active urban environment with ongoing development.",
+    "location": "Urban alleyway/street, likely commercial area with older architecture and modern development.",
+    "subjects": [
+      "Construction fence",
+      "Chicken Plus sign",
+      "Pedestrians",
+      "Old brick building with mansard roof",
+      "Modern glass building"
+    ],
+    "mood": "Urban, functional, slightly grimy, everyday.",
+    "continuity_anchors": [
+      "Specific design and placement of the construction fence",
+      "The 'Chicken Plus' sign and adjacent business facades",
+      "Architectural details of the old building on the left (mansard roof, dormer windows)",
+      "The modern glass-fronted building in the background",
+      "The 'Uncle Tetsu's' and 'Concordia' signs",
+      "Overcast sky conditions"
+    ],
+    "plausible_actions": [
+      "Characters walking briskly down the alleyway, either alone or in pairs",
+      "Someone stopping to look at the restaurant signs or entering a business",
+      "A character leaning against the construction fence, observing passersby",
+      "A delivery person making a drop-off or pickup at one of the establishments",
+      "A character navigating around a minor obstacle in the narrow path"
+    ],
+    "cinematic_notes": [
+      "Utilize the construction fence as a foreground element for depth, potentially for rack focus or obscured views.",
+      "Leverage the leading lines of the alleyway to draw the viewer's eye towards the modern building or a character's destination.",
+      "The overcast light offers consistent, soft illumination suitable for a naturalistic or slightly somber mood, minimizing harsh shadows.",
+      "Frame a character walking past the 'Chicken Plus' sign, using the vibrant signage for a splash of color or thematic resonance.",
+      "Employ a low-angle shot looking up the alley to emphasize the towering buildings and the constricted feeling of the space."
+    ]
+  },
+  {
+    "filename": "Image3.jpeg",
+    "visual_summary": "A wide shot captures a bustling city street on an overcast day, with a sidewalk populated by pedestrians on the left and a row of parked cars lining the street on the right. Buildings with storefronts and apartments rise on both sides, featuring various architectural styles and numerous street signs. Bare trees punctuate the scene, suggesting a cooler season.",
+    "location": "Urban street, possibly in Quebec, Canada, due to French signage.",
+    "subjects": [
+      "Pedestrians",
+      "Parked cars",
+      "City buildings",
+      "Bare trees",
+      "Street signs",
+      "Urban traffic"
+    ],
+    "mood": "Mundane, urban, slightly dreary, active.",
+    "continuity_anchors": [
+      "Specific storefronts (e.g., 'LA SOUPI\u00c8RE', 'ALTA', 'Meetf')",
+      "The distinctive orange parking and accessibility signs",
+      "Bare branches of the street trees",
+      "Graffiti 'KOSAK' on the brick building",
+      "The gray, overcast sky conditions",
+      "The lineup of parked vehicles, including the black VW Golf with 'TAXI' sign"
+    ],
+    "plausible_actions": [
+      "Characters walking and talking on the sidewalk",
+      "Someone looking at their phone while walking",
+      "A character entering or exiting one of the storefronts",
+      "A car pulling out of a parking spot or a taxi dropping off/picking up passengers",
+      "Someone locking or unlocking their bike by the tree",
+      "An ambulance or school bus (visible in background) passing by"
+    ],
+    "cinematic_notes": [
+      "Utilize the soft, diffused light from the overcast sky for a moody, consistent aesthetic.",
+      "A low-angle shot from the sidewalk could emphasize the height of the buildings and the urban canyon effect.",
+      "A tracking shot following a character through the pedestrian traffic, allowing for natural crowd interactions.",
+      "The 'TAXI' sign on the black VW Golf offers an opportunity for a character connection (e.g., driver, passenger, or someone trying to hail it).",
+      "Framing through the bare tree branches could add foreground texture or a sense of confinement."
+    ]
+  },
+  {
+    "filename": "Image4.jpeg",
+    "visual_summary": "A blue and white subway train is halted at a brightly lit underground platform, with multiple passengers visible through its windows. The train's side features the 'stm' logo and 'MOUVEMENT COLLECTIF' text, while the platform's yellow safety strip and exposed tracks are prominent in the foreground.",
+    "location": "Subway station platform (Montreal Metro)",
+    "subjects": [
+      "Subway train",
+      "Passengers",
+      "Subway platform",
+      "Train tracks",
+      "Digital display"
+    ],
+    "mood": "Mundane commute, urban transit, transient",
+    "continuity_anchors": [
+      "Blue and white train livery with 'stm' logo and 'MOUVEMENT COLLECTIF' text",
+      "Yellow textured safety strip on the platform edge",
+      "Overhead digital display showing '17:56'",
+      "The 'DANGER 750 VOLTS' sign near the tracks",
+      "Interior lighting spilling from train windows",
+      "Specific window and door configurations of the train car"
+    ],
+    "plausible_actions": [
+      "Train doors opening or closing",
+      "Passengers boarding or exiting the train",
+      "Passengers inside looking out, conversing, or using devices",
+      "A character waiting patiently on the platform",
+      "The train pulling away from the station",
+      "A character checking the time on the overhead display"
+    ],
+    "cinematic_notes": [
+      "Utilize the contrast between the brightly lit train interior and the station's ambient light for visual depth or character highlights.",
+      "A low-angle shot from the platform could emphasize the train's scale or create a sense of being trapped/enclosed.",
+      "The reflective quality of the train windows offers opportunities for subtle visual metaphors or character reflections.",
+      "Focus on the visible train wheels and tracks in a close-up to convey motion or the power of the machinery.",
+      "The uniform horizontal lines of the train and platform provide strong compositional elements for tracking shots or static frames."
+    ]
+  }
+]

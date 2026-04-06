@@ -1,0 +1,75 @@
+{
+  "project_title": "Between Stops",
+  "story_arc": "A quiet commute becomes a small personal ritual of noticing: the city passes in fragments from tram window to station wall to street corner, and each transition deepens the feeling of moving through an ordinary day with tenderness and presence. The sequence follows one continuous journey, grounded in transit spaces and the soft melancholy of an overcast afternoon.",
+  "visual_rules": [
+    "Maintain first-person diary realism with grounded urban movement",
+    "Keep overcast daylight and muted color tone consistent across scenes",
+    "Use transit architecture as continuity between interior and exterior moments",
+    "Favor observational motion over dramatic action",
+    "Let reflections, signage, rails, and tiled surfaces carry visual continuity",
+    "Avoid abrupt morphs or slideshow-style reframing"
+  ],
+  "narration_text": "I spent the afternoon between stops, watching the city slide past in pieces,\nwindows, stairs, wet pavement, familiar signs.\nNothing dramatic happened,\njust that small feeling of being carried forward,\nand noticing how even an ordinary ride can feel a little tender, a little alive.",
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Tram Reflection Opening",
+      "scene_id": "scene_01",
+      "source_image": "01_WhatsApp_Image_2026-04-04_at_1.33.11_PM.jpeg",
+      "first_frame_image": "01_WhatsApp_Image_2026-04-04_at_1.33.11_PM.jpeg",
+      "last_frame_image": "01_WhatsApp_Image_2026-04-04_at_1.33.11_PM.jpeg",
+      "duration_seconds": 4,
+      "camera": "intimate medium close-up from across the tram aisle, gentle handheld drift with the vehicle's sway, holding the young woman in profile against the window reflection",
+      "action": "Inside the tram, the young woman with earphones sits beside the window, looking out as the car rounds a curve; the yellow handrail and dark green door frame stay present while city reflections slide across the glass.",
+      "transition_goal": "Establish subject, mood, and transit direction so the later public spaces feel like a continuation of her ride.",
+      "voiceover_line": "I spent the afternoon between stops, watching the city slide past in pieces.",
+      "prompt": "Overcast afternoon, first-person diary realism inside a moving tram. Begin already in motion with a gentle handheld sway from across the aisle, as if the camera has been riding for a while. Hold an intimate medium close-up of a young woman in profile by the window, wearing earphones, quiet and inward, her gaze fixed outside. Keep the yellow vertical handrail and dark green door frame anchored in frame as the tram rounds a curved roadway, and let gray city reflections slide across the glass over her face. Natural parallax from the tram\u2019s turn, soft vibration from rails, muted colors, realistic skin and fabric detail, no glamour lighting. The camera subtly drifts with the vehicle rather than correcting against it, letting reflections, window edge, and passing street fragments create layered movement. End with the lateral motion and downward-forward energy still active, composing the frame so the directional flow can carry into a station descent as a motivated match cut.",
+      "negative_prompt": "no slideshow transition, no abrupt morph, no cross-fade, no scene reset, no hard stop, no freeze frame, no broken anatomy, no distorted face, no extra limbs, no text overlays, no subtitles, no graphic titles, no impossible reflections, no artificial camera teleport, no over-stylized cinematic effects, no dramatic lighting shift, no empty static pose"
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Descent into the Station",
+      "scene_id": "scene_02",
+      "source_image": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg",
+      "first_frame_image": "01_WhatsApp_Image_2026-04-04_at_1.33.11_PM.jpeg",
+      "last_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg",
+      "duration_seconds": 4,
+      "camera": "forward-looking POV at the top of the escalator, slow stabilized push downward, centered on repeating steps and rails",
+      "action": "The motion carries from the tram into the station as the camera rides down the escalator; yellow-edged steps, metal handrails, tiled walls, and commuters below create a calm descending rhythm.",
+      "transition_goal": "Bridge interior ride motion into shared station flow using continuous forward movement rather than an abrupt location jump.",
+      "voiceover_line": "Windows gave way to stairs and the quiet pull downward.",
+      "prompt": "Continue the motion seamlessly as if the tram\u2019s forward curve resolves into a descent underground. Start already gliding downward at the top of an escalator, forward-looking POV, centered on repeating escalator steps with yellow edge markings. Use a slow stabilized push downward with slight natural body movement, keeping metal handrails and patterned tiled walls creating strong converging lines. Commuters at the bottom drift in and out of frame with ordinary city timing, never staged, while the escalator carries the viewer smoothly into shared public flow. Maintain muted overcast color tone even in the station lighting. Let the repeated geometry echo the tram handrail and window lines from the previous shot. Add subtle rack-focus behavior between the step pattern and the people below, then settle back into the descending rhythm. End near station level with illuminated panels beginning to take visual prominence at frame edge, preparing a clean motivated cut into advertising light.",
+      "negative_prompt": "no slideshow transition, no abrupt morph, no cross-fade, no jumpy location reset, no freeze frame, no broken anatomy, no duplicated commuters, no warped escalator steps, no text overlays, no subtitles, no floating objects, no impossible camera movement, no time-lapse effect, no empty station, no abrupt stop at the bottom"
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Platform Glow",
+      "scene_id": "scene_03",
+      "source_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "first_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg",
+      "last_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "duration_seconds": 4,
+      "camera": "eye-level observational hold with a subtle lateral creep, letting illuminated ad panels dominate frame while station depth remains visible",
+      "action": "At station level, the camera settles on the bright TRISTAN and LE POUVOIR DU STYLE posters beside the stairs, with tiled floor patterns and beige walls grounding the space in ordinary transit reality.",
+      "transition_goal": "Create a reflective pause in the journey before moving back outside, using vertical signage and station geometry as visual continuity.",
+      "voiceover_line": "Familiar signs kept appearing like small pauses in the day.",
+      "prompt": "Carry the escalator descent into station level without losing momentum. Open already in a subtle lateral creep at eye level, as if stepping off the escalator and drifting into a brief observational pause. Frame the glowing TRISTAN advertisement and the LE POUVOIR DU STYLE poster beside the staircase, with beige wall surfaces and tiled floor pattern grounding the image in an ordinary metro environment. Keep the ad panels bright but realistic, letting their vertical shapes and clean light contrast with the muted station palette. Allow a few commuters to pass softly at the edges or in background depth, preserving public flow without stealing focus. Use gentle parallax between the posters, staircase, and floor tiles, with a slight rack focus that breathes from signage to surrounding station texture. The camera should feel curious but unhurried, not static, as if noticing these familiar signs in passing. End with the vertical panels and graphic lines positioned to visually match exterior street signage in the next shot.",
+      "negative_prompt": "no slideshow transition, no abrupt morph, no cross-fade, no poster hallucination, no unreadable signage corruption, no broken perspective, no frozen background, no broken anatomy, no text overlays beyond scene signage, no subtitles, no hard cut feeling, no artificial spotlighting, no surreal ad animation, no camera lock-off that feels dead"
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Street Reentry",
+      "scene_id": "scene_04",
+      "source_image": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+      "first_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "last_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+      "duration_seconds": 8,
+      "camera": "shoulder-height forward walk, gentle handheld glide along the narrow sidewalk, keeping signage and fence lines guiding depth",
+      "action": "The camera emerges to the street and moves ahead past the red and black fence, brick facades, and the Chicken Plus sign while distant pedestrians drift through the gray afternoon.",
+      "transition_goal": "Return the journey to open air and resolve the transit sequence as part of the same continuous city movement.",
+      "voiceover_line": "Nothing dramatic happened, just that small feeling of being carried forward.",
+      "prompt": "Match the vertical station posters into exterior street signage and continue forward as one uninterrupted urban journey. Begin already walking at shoulder height on a narrow sidewalk under gray overcast daylight, with a gentle handheld glide and natural footstep rhythm. Move past a red and black metal fence, brick building facades, and the Chicken Plus sign, keeping signage and fence lines guiding depth into the distance. Let a few pedestrians drift far ahead with ordinary pace, while damp pavement, muted storefront colors, and soft city ambience preserve the tender observational mood. Maintain realistic lens behavior and slight parallax as the camera advances, as if rejoining the street after leaving transit. The frame should breathe with small handheld corrections, not a polished commercial steadicam look. Use the fence, sign, and brick textures as continuity from station geometry, and keep the walk moving forward through the full shot. End with open-ended forward motion still alive in frame, suggesting the city continues beyond the cut rather than concluding.",
+      "negative_prompt": "no slideshow transition, no abrupt morph, no cross-fade, no hard ending, no freeze frame, no broken anatomy, no duplicated pedestrians, no warped buildings, no text overlays, no subtitles, no dramatic weather change, no empty lifeless street, no impossible camera glide, no hyper-saturated colors, no abrupt scene break"
+    }
+  ]
+}

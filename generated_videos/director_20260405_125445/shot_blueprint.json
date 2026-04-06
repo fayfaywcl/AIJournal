@@ -1,0 +1,56 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Tram Reflection Opening",
+      "scene_id": "scene_01",
+      "source_image": "01_WhatsApp_Image_2026-04-04_at_1.33.11_PM.jpeg",
+      "first_frame_image": "01_WhatsApp_Image_2026-04-04_at_1.33.11_PM.jpeg",
+      "last_frame_image": "01_WhatsApp_Image_2026-04-04_at_1.33.11_PM.jpeg",
+      "duration_seconds": 4,
+      "camera": "intimate medium close-up from across the tram aisle, gentle handheld drift with the vehicle's sway, holding the young woman in profile against the window reflection",
+      "action": "Inside the tram, the young woman with earphones sits beside the window, looking out as the car rounds a curve; the yellow handrail and dark green door frame stay present while city reflections slide across the glass.",
+      "transition_goal": "Establish subject, mood, and transit direction so the later public spaces feel like a continuation of her ride.",
+      "voiceover_line": "I spent the afternoon between stops, watching the city slide past in pieces."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Descent into the Station",
+      "scene_id": "scene_02",
+      "source_image": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg",
+      "first_frame_image": "01_WhatsApp_Image_2026-04-04_at_1.33.11_PM.jpeg",
+      "last_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg",
+      "duration_seconds": 4,
+      "camera": "forward-looking POV at the top of the escalator, slow stabilized push downward, centered on repeating steps and rails",
+      "action": "The motion carries from the tram into the station as the camera rides down the escalator; yellow-edged steps, metal handrails, tiled walls, and commuters below create a calm descending rhythm.",
+      "transition_goal": "Bridge interior ride motion into shared station flow using continuous forward movement rather than an abrupt location jump.",
+      "voiceover_line": "Windows gave way to stairs and the quiet pull downward."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Platform Glow",
+      "scene_id": "scene_03",
+      "source_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "first_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg",
+      "last_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "duration_seconds": 4,
+      "camera": "eye-level observational hold with a subtle lateral creep, letting illuminated ad panels dominate frame while station depth remains visible",
+      "action": "At station level, the camera settles on the bright TRISTAN and LE POUVOIR DU STYLE posters beside the stairs, with tiled floor patterns and beige walls grounding the space in ordinary transit reality.",
+      "transition_goal": "Create a reflective pause in the journey before moving back outside, using vertical signage and station geometry as visual continuity.",
+      "voiceover_line": "Familiar signs kept appearing like small pauses in the day."
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Street Reentry",
+      "scene_id": "scene_04",
+      "source_image": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+      "first_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "last_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+      "duration_seconds": 8,
+      "camera": "shoulder-height forward walk, gentle handheld glide along the narrow sidewalk, keeping signage and fence lines guiding depth",
+      "action": "The camera emerges to the street and moves ahead past the red and black fence, brick facades, and the Chicken Plus sign while distant pedestrians drift through the gray afternoon.",
+      "transition_goal": "Return the journey to open air and resolve the transit sequence as part of the same continuous city movement.",
+      "voiceover_line": "Nothing dramatic happened, just that small feeling of being carried forward."
+    }
+  ]
+}

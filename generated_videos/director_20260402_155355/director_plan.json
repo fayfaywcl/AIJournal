@@ -1,0 +1,58 @@
+{
+  "project_title": "Adjacent Pair Transition Sequence",
+  "story_arc": "Create a cohesive first-person visual diary that feels cinematic, grounded, and alive. Turn the still images into intentional scenes instead of slideshow transitions.",
+  "visual_rules": [
+    "Each shot must start from one source image and resolve into the next image in order.",
+    "Keep continuity between shot endings and the next shot beginnings.",
+    "Avoid abrupt cuts, abrupt morphs, and slideshow logic.",
+    "Prefer grounded motion that can plausibly connect the paired images."
+  ],
+  "narration_text": "",
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "image1 into image2",
+      "scene_id": "scene_01",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 4,
+      "camera": "Continuous first-person or observational camera movement that begins in image1.jpg and naturally settles into image2.jpg, with enough overlap to support a soft handoff to the next adjacent-pair shot.",
+      "action": "Carry visual momentum from the mood and details of image1.jpg into the environment of image2.jpg, using plausible movement and continuity anchors rather than abrupt transformation.",
+      "transition_goal": "Resolve cleanly from image1.jpg to image2.jpg so the edit can continue without a hard-feeling cut.",
+      "voiceover_line": "Move from quiet and focused into neutral, subdued without breaking continuity.",
+      "prompt": "4-second cinematic observational shot. Start fully in the world of image1.jpg inside a quiet computer lab or studio, grounded realistic lighting, first-person or subtle handheld observer perspective. Hold clear continuity on the rowed iMac computers, their spacing and screen angles, the blackboard with handwritten notes, and the ceiling light fixtures. The camera makes a slow natural lateral drift and slight forward move, as if walking past the workstation area toward the windows. Keep the room alive with tiny believable motion: faint screen glow variation, subtle exposure breathing, soft reflections on glass, barely perceptible ambient vibration. As the camera approaches the rectangular windows, let the exterior become more prominent without any surreal change: black and gray building facades remain consistent, some windows lit, and the wet alleyway surface catching dim reflections. The interior recedes naturally while the exterior view takes over, using the window frame and reflections as the bridge. End fully established in image2.jpg with the alleyway outside dominant, subdued evening atmosphere, stable framing that can hand off smoothly to the next shot.",
+      "negative_prompt": "no slideshow transition, no crossfade montage look, no abrupt morphing, no hard cut feeling, no broken anatomy, no distorted objects, no duplicated iMacs, no warped blackboard text, no text overlays, no captions, no logos, no watermarks, no freeze frame, no still-image hold, no sudden camera jump, no impossible geometry, no flickering scene replacement"
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "image2 into Image3",
+      "scene_id": "scene_02",
+      "source_image": "Image3.jpeg",
+      "first_frame_image": "image2.jpg",
+      "last_frame_image": "Image3.jpeg",
+      "duration_seconds": 4,
+      "camera": "Continuous first-person or observational camera movement that begins in image2.jpg and naturally settles into Image3.jpeg, with enough overlap to support a soft handoff to the next adjacent-pair shot.",
+      "action": "Carry visual momentum from the mood and details of image2.jpg into the environment of Image3.jpeg, using plausible movement and continuity anchors rather than abrupt transformation.",
+      "transition_goal": "Resolve cleanly from image2.jpg to Image3.jpeg so the edit can continue without a hard-feeling cut.",
+      "voiceover_line": "Move from neutral, subdued into calm and contemplative without breaking continuity.",
+      "prompt": "4-second cinematic observational shot. Begin fully established in image2.jpg, looking through or near the window toward the wet alleyway between black and gray building facades, rectangular windows visible with a few lights on. Maintain the same subdued mood and realistic continuity. The camera performs a gentle forward push and slight pan that tracks along the window frame and textured glass, using reflections and moisture on the surface as a natural visual bridge. Keep environmental behavior grounded: faint shimmer in the wet pavement, subtle window reflections shifting with camera movement, soft ambient city stillness. As the camera continues, let the framing discover water beyond the urban structures in a plausible reveal through the glass, transitioning into the ferry scene without morphing. The window frame remains a continuity anchor while the ferry boat comes into view, with recognizable boat design, life rings, and realistic water ripples and wake patterns. End fully established in Image3.jpeg from inside or beside the window, calm contemplative atmosphere, ferry and moving water clearly readable, camera settling smoothly for the next shot.",
+      "negative_prompt": "no slideshow transition, no crossfade montage look, no abrupt morphing, no hard cut feeling, no broken anatomy, no distorted ferry structure, no melting buildings, no impossible reflections, no text overlays, no captions, no logos, no watermarks, no freeze frame, no still-image hold, no sudden camera jump, no fake teleporting from alley to boat, no unnatural water behavior"
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Image3 into Image4",
+      "scene_id": "scene_03",
+      "source_image": "Image4.jpeg",
+      "first_frame_image": "Image3.jpeg",
+      "last_frame_image": "Image4.jpeg",
+      "duration_seconds": 6,
+      "camera": "Continuous first-person or observational camera movement that begins in Image3.jpeg and naturally settles into Image4.jpeg, with enough overlap to support a soft handoff to the next adjacent-pair shot.",
+      "action": "Carry visual momentum from the mood and details of Image3.jpeg into the environment of Image4.jpeg, using plausible movement and continuity anchors rather than abrupt transformation.",
+      "transition_goal": "Resolve cleanly from Image3.jpeg to Image4.jpeg so the edit can continue without a hard-feeling cut.",
+      "voiceover_line": "Move from calm and contemplative into busy urban daytime without breaking continuity.",
+      "prompt": "6-second cinematic observational shot. Start fully in Image3.jpeg, calm contemplative view through a window with visible frame and glass texture, looking toward a ferry boat with life rings and realistic wake patterns on the water. The camera begins with a steady observational hold, then slowly tracks or pans so the ferry's lateral movement and the water ripples create directional momentum. Keep the scene physically believable: gentle vibration from transport, soft reflections on the glass, water texture moving continuously, ferry details remaining consistent. Use this motion to bridge into the city traffic environment in a grounded way, as if the camera is continuing past the window and arriving at an elevated urban overlook. The horizontal flow of the ferry wake evolves into the movement of many lanes of traffic. Preserve continuity through repeated linear patterns and motion direction. Distinctive tall buildings become clear, including cylindrical and glass skyscrapers, with overpasses and green freeway directional signs entering the frame naturally. Daylight urban atmosphere grows brighter and busier while remaining realistic and cohesive. End fully established in Image4.jpeg with multilane traffic, consistent vehicle types and positions, stable urban composition, and a smooth settled frame ready for continuation.",
+      "negative_prompt": "no slideshow transition, no crossfade montage look, no abrupt morphing, no hard cut feeling, no broken anatomy, no distorted vehicles, no warped skyscrapers, no impossible freeway geometry, no text overlays, no captions, no logos, no watermarks, no freeze frame, no still-image hold, no sudden camera jump, no teleporting from ferry to highway, no unnatural traffic flow, no surreal city transformation"
+    }
+  ]
+}

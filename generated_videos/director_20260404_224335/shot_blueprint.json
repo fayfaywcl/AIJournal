@@ -1,0 +1,56 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Platform Hold",
+      "scene_id": "scene_01",
+      "source_image": "01_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg",
+      "first_frame_image": null,
+      "last_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "duration_seconds": 4,
+      "camera": "eye-level first-person static hold with slight handheld drift near the yellow tactile edge, angled toward the blue metro windows",
+      "action": "The train rests at the platform while the camera lingers on passengers inside, catching small gestures and the STM branding before subtly preparing to turn away.",
+      "transition_goal": "Establish the underground starting point and motivate leaving the platform toward the station corridor.",
+      "voiceover_line": "I moved through the city slowly today."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Under the McGill Sign",
+      "scene_id": "scene_02",
+      "source_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "first_frame_image": "01_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg",
+      "last_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+      "duration_seconds": 4,
+      "camera": "gentle forward glide at eye level past the illuminated ads, then a slight tilt and drift toward the stairs beneath the McGILL sign",
+      "action": "The viewpoint moves through the tiled station passage, pauses under the McGILL sign, and then commits to the stair ascent toward daylight.",
+      "transition_goal": "Bridge the stillness of the platform to upward movement, creating a natural passage from underground to street level.",
+      "voiceover_line": "From the hush of the platform to the stairs, I kept going."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "First Step Into Gray Light",
+      "scene_id": "scene_03",
+      "source_image": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+      "first_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "last_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg",
+      "duration_seconds": 4,
+      "camera": "eye-level walking shot with soft forward motion along the narrow sidewalk, keeping the Chicken Plus sign and fencing in frame as anchors",
+      "action": "The camera emerges outside and walks ahead between construction barriers and older buildings while a few pedestrians move naturally through the block.",
+      "transition_goal": "Reveal the open air and continue the commute as lived street movement rather than a hard location change.",
+      "voiceover_line": "Back outside, the gray light felt open and familiar."
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Shared Block",
+      "scene_id": "scene_04",
+      "source_image": "04_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg",
+      "first_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.28_PM.jpeg",
+      "last_frame_image": null,
+      "duration_seconds": 8,
+      "camera": "slow forward drift at eye level with a brief observational settle on storefront signs, sidewalk diners, and passing pedestrians",
+      "action": "The walk opens onto a busier stretch of sidewalk where restaurant signs, a leafless tree, and people moving in both directions create a calm, shared street rhythm.",
+      "transition_goal": "Conclude the journey with a sense of belonging in ordinary city life and let the sequence breathe out naturally.",
+      "voiceover_line": "Nothing dramatic happened, but it all felt gently shared."
+    }
+  ]
+}

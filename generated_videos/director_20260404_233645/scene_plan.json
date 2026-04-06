@@ -1,0 +1,83 @@
+{
+  "project_title": "Between Stops",
+  "story_arc": "A quiet first-person commute unfolds as a small emotional journey: from the muted view of the city outside, into the rhythm of the station, through the waiting and movement of the platform, and down into the underground flow where the ordinary begins to feel intimate and lived-in.",
+  "visual_rules": [
+    "Maintain first-person observational perspective throughout",
+    "Use transit architecture and repeated lines as continuity anchors",
+    "Favor grounded movement over slideshow-style image swapping",
+    "Keep pacing gentle, reflective, and urban-naturalistic",
+    "Preserve cool underground tones with slight warmth in human moments",
+    "Transitions should feel like walking, riding, or looking, not presenting"
+  ],
+  "narration_text": "I moved through the city quietly today,\nwatching it soften through glass, then fold into tunnels, lights, and passing faces.\nNothing dramatic happened,\nbut somewhere between the platform and the escalator, I felt held by the rhythm of it all,\nas if even an ordinary commute could remember me.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "City Through Glass",
+      "purpose": "Establish the day\u2019s reflective tone and place the viewer in a first-person journey before entering the transit system.",
+      "source_images": [
+        "04_WhatsApp_Image_2026-04-04_at_1.33.10_PM.jpeg"
+      ],
+      "continuity_anchors": [
+        "slightly dirty window as framing device",
+        "parked vehicles in the lot",
+        "bare trees near the buildings",
+        "orange construction tarps on the right building"
+      ],
+      "emotional_beat": "quiet arrival",
+      "action_flow": "The edit begins with a lingering first-person look through the window at the subdued parking lot and overcast buildings. Small implied motion in reflections or a gentle camera drift suggests being inside a moving or paused vehicle, letting the outside world feel distant and soft before the descent underground.",
+      "transition_out": "Use the window frame and muted exterior lines to dissolve into the linear geometry of the station platform, as if stepping from outside observation into the commute itself."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Waiting at Universit\u00e9 Concordia",
+      "purpose": "Ground the story in a specific transit location and introduce the shared routine of commuters waiting together.",
+      "source_images": [
+        "02_WhatsApp_Image_2026-04-04_at_1.33.13_PM.jpeg"
+      ],
+      "continuity_anchors": [
+        "Universit\u00e9 Concordia sign",
+        "blue and white train",
+        "yellow tactile safety strip",
+        "overhead fluorescent lights"
+      ],
+      "emotional_beat": "settling into rhythm",
+      "action_flow": "The viewer stands on the platform, facing the stopped train. Attention drifts across passengers on their phones, figures inside the car, and the cool fluorescent space. The scene should feel observational and lived-in, like a held breath before movement resumes.",
+      "transition_out": "Follow the line of the train and platform edge into a smoother side-on platform view, letting the cut feel like a few quiet steps forward."
+    },
+    {
+      "scene_id": "scene_03",
+      "title": "Along the Platform",
+      "purpose": "Deepen the sense of motion and interior reflection by moving from static waiting into the flow of walking and boarding.",
+      "source_images": [
+        "03_WhatsApp_Image_2026-04-04_at_1.33.12_PM.jpeg"
+      ],
+      "continuity_anchors": [
+        "row of train doors",
+        "elongated overhead lights",
+        "grey tiled floor with tactile path",
+        "green reflective wall"
+      ],
+      "emotional_beat": "gentle immersion",
+      "action_flow": "The camera glides parallel to the platform, tracking the repeating doors, lights, and passing commuters. Reflections in the green wall add a doubled, inward quality, reinforcing the diary-like perspective. This scene should feel like being carried by the station\u2019s quiet momentum.",
+      "transition_out": "Let the platform\u2019s strong lines and commuter flow resolve into the diagonal pull of the escalator, shifting from horizontal travel to vertical descent."
+    },
+    {
+      "scene_id": "scene_04",
+      "title": "Down Into the Passage",
+      "purpose": "Conclude the sequence with a sense of continuation, showing the commute as a human current rather than a destination.",
+      "source_images": [
+        "01_WhatsApp_Image_2026-04-04_at_1.33.30_PM.jpeg"
+      ],
+      "continuity_anchors": [
+        "escalator leading lines",
+        "concrete wall texture with insets",
+        "colored tile pattern on side walls",
+        "wall lighting fixtures"
+      ],
+      "emotional_beat": "quiet belonging",
+      "action_flow": "From a first-person place on or near the escalator, the viewer moves downward into the tiled underground passage. People continue ahead, storefronts and footsteps suggesting the city extending beyond the frame. The scene lands on the feeling of joining a familiar flow, not arriving at an endpoint.",
+      "transition_out": "End on a natural fade or hold into ambient motion, as if the diary simply keeps going beyond this moment."
+    }
+  ]
+}

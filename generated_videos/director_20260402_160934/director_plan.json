@@ -1,0 +1,60 @@
+{
+  "project_title": "Windows Between Places",
+  "story_arc": "A solitary day unfolds as I move through different urban thresholds: an almost empty computer lab, a cold alley seen from indoors, a harbor crossing, and finally the rush of the freeway into the city. The sequence feels like a personal record of leaving stillness behind and re-entering the larger motion of the world.",
+  "visual_rules": [
+    "Keep the perspective grounded in first-person observation",
+    "Use window frames, doorways, and screen edges as recurring visual motifs",
+    "Maintain the same quiet, reflective subject identity across all scenes",
+    "Favor natural transitions driven by gaze, movement, and matching geometry",
+    "Preserve realistic environmental continuity with no abrupt morphing",
+    "Let urban sound and motion gradually build from silence to momentum"
+  ],
+  "narration_text": "I started in a room that felt like it had already been left behind. One screen was still awake, blue against all the dark glass, while I sat there pretending I had nowhere else to be. Outside, the city looked cold and sealed off, all concrete, wet ground, and windows holding their own light. Then the day opened a little on the water, with distance between me and the shore, and for a moment everything slowed down enough to breathe. By the time the freeway pulled me toward downtown, the city was loud again, moving whether I was ready or not.",
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Last Look Across the Empty Lab",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 4,
+      "camera": "Slow first-person drift from mid-room across dark monitors toward the single blue-lit screen, then a gentle push toward the back door at seated eye level.",
+      "action": "The quiet computer lab holds still while the camera glides past empty chairs and black screens, settling on the glowing monitor before drifting toward the back of the room as if getting ready to stand and leave.",
+      "transition_goal": "Establish solitude and use the back-door gaze to bridge naturally from interior stillness into the next window-framed exterior view.",
+      "voiceover_line": "I stayed until the room felt like it had forgotten everyone else.",
+      "prompt": "First-person cinematic shot already in gentle motion at seated eye level inside an almost empty computer lab, drifting laterally past rows of iMac computers with dark reflective screens and empty chairs, blackboard visible along the left wall, cool dim ambient light and soft classroom shadows. The camera movement feels like a lingering glance that never fully stops, gradually settling on a single blue-lit monitor glowing near the back of the room while the rest of the lab remains quiet and still. Continue the same movement into a subtle forward push toward the back of the room, keeping the door in view beyond the glowing screen and suggesting the last person left is about to rise and leave. Preserve realistic reflections in glass screens, slight handheld human breathing motion, and natural parallax across desks and chair backs. End with the camera oriented toward the back door and its windowed geometry so the frame is ready to continue into an exterior-looking view through glass.",
+      "negative_prompt": "No slideshow transition, no hard cut feeling, no abrupt morphing of the room, no broken anatomy, no duplicated limbs, no visible text overlays, no subtitles, no freeze frame, no static end card, no impossible camera jump, no surreal warping, no objects popping in or out, no unnatural screen flicker, no reset in camera direction."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Through Glass to the Water",
+      "scene_id": "scene_02",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image2.jpg",
+      "last_frame_image": "Image3.jpeg",
+      "duration_seconds": 4,
+      "camera": "Locked first-person view close to the grey window frame with a slight inward lean, holding on the wet alley geometry before easing into a matched framed exterior composition.",
+      "action": "From indoors, the camera lingers on the narrow wet alley, yellow bin, and cold facades through the window, then carries that same framing logic into a more open view over the water.",
+      "transition_goal": "Bridge hesitation into release by matching vertical frame lines and muted tones from the alley to the harbor without an abrupt location jump.",
+      "voiceover_line": "Outside still felt sealed off, like the day was waiting for me to choose it.",
+      "prompt": "First-person view begins already leaning slightly toward a grey window frame from indoors, as if the motion from approaching the back door continues seamlessly into looking out. Hold close to the vertical frame edge and look into a narrow wet alley under overcast light, with black and grey building facades, reflective damp pavement, and a yellow trash container anchoring the composition. The camera remains mostly steady but alive with subtle human sway and a quiet inward lean, emphasizing hesitation and distance while the outside world stays cold and sealed off. Let rain-darkened surfaces carry soft muted reflections, and keep the alley still except for small natural environmental cues like faint moisture sheen and distant urban movement implied beyond frame. Without feeling like a reset, ease the framing so the same vertical window logic and muted palette open toward a broader exterior view, preparing the eye for water and a wider horizon. End with the composition still driven by window-edge geometry, ready to expand naturally into the harbor crossing.",
+      "negative_prompt": "No slideshow transition, no abrupt location teleport, no harsh scene break, no morphing buildings, no broken anatomy, no ghosting people, no text overlays, no subtitles, no freeze-frame behavior, no static photographic hold, no impossible weather change, no warped perspective, no jittery camera reset, no objects melting or changing shape unnaturally."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Water to Freeway Re-entry",
+      "scene_id": "scene_03",
+      "source_image": "Image3.jpeg",
+      "first_frame_image": "Image3.jpeg",
+      "last_frame_image": "Image4.jpeg",
+      "duration_seconds": 6,
+      "camera": "First-person view through ferry glass with calm lateral motion, then a forward-driving cut into a wider moving freeway perspective aimed at downtown.",
+      "action": "The ferry glides across textured water with the skyline held at a distance, creating a brief pause; then the motion resolves into the freeway surge, where traffic streams under overpasses toward the city towers ahead.",
+      "transition_goal": "Turn the harbor's calm forward movement into the final urban momentum, completing the shift from private observation to active return to the city.",
+      "voiceover_line": "By the time the road took over, the city was moving again whether I was ready or not.",
+      "prompt": "First-person cinematic shot begins already in calm motion behind ferry glass, continuing the framed exterior language from the previous window view. The camera observes textured water sliding past with gentle lateral movement, ferry window structure softly present at the edge of frame, and a distant city skyline held across the harbor in cool natural light. The motion is steady and breathing, with realistic reflections in the glass, slight vessel vibration, and soft ripples on the water creating a brief emotional release and sense of distance. As the ferry continues forward, let the skyline remain the directional target so the momentum can carry directly into a wider moving freeway perspective without feeling like a reset. Resolve that motion into first-person travel on a busy freeway entering downtown Los Angeles, with dense traffic flowing ahead, green directional signs, layered highway overpasses, palm trees, and the skyscraper cluster pulling the eye forward. Keep the camera moving continuously with the stream of cars, preserving a realistic driving rhythm and urban acceleration, ending still in forward motion toward the towers as the city fully takes over.",
+      "negative_prompt": "No slideshow transition, no abrupt morph from ferry to freeway, no broken anatomy, no extra limbs, no text overlays, no subtitles, no freeze frame, no static stop at the end, no impossible camera teleport, no surreal skyline warping, no traffic popping in or out, no melted vehicles, no unnatural water behavior, no discontinuous lighting shift, no reset in motion direction."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "project_title": "Between Stops",
+  "story_arc": "A quiet first-person commute unfolds as a small emotional journey: from the muted view of the city outside, into the rhythm of the station, through the waiting and movement of the platform, and down into the underground flow where the ordinary begins to feel intimate and lived-in.",
+  "visual_rules": [
+    "Maintain first-person observational perspective throughout",
+    "Use transit architecture and repeated lines as continuity anchors",
+    "Favor grounded movement over slideshow-style image swapping",
+    "Keep pacing gentle, reflective, and urban-naturalistic",
+    "Preserve cool underground tones with slight warmth in human moments",
+    "Transitions should feel like walking, riding, or looking, not presenting"
+  ],
+  "narration_text": "I moved through the city quietly today,\nwatching it soften through glass, then fold into tunnels, lights, and passing faces.\nNothing dramatic happened,\nbut somewhere between the platform and the escalator, I felt held by the rhythm of it all,\nas if even an ordinary commute could remember me.",
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Muted City Through Glass",
+      "scene_id": "scene_01",
+      "source_image": "04_WhatsApp_Image_2026-04-04_at_1.33.10_PM.jpeg",
+      "first_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.10_PM.jpeg",
+      "last_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.10_PM.jpeg",
+      "duration_seconds": 4,
+      "camera": "First-person static-to-gentle drift from inside a vehicle, looking through a slightly dirty window; subtle handheld sway and shallow parallax in reflections.",
+      "action": "The viewer lingers on the parking lot, bare trees, and overcast buildings beyond the glass as minor interior movement suggests a bus or train idling before the commute continues.",
+      "transition_goal": "Establish reflective tone and use the window frame and linear architecture to motivate a grounded move into the station environment.",
+      "voiceover_line": "I moved through the city quietly today.",
+      "prompt": "First-person observational view already subtly in motion from inside a transit vehicle, looking through a slightly dirty window at a subdued parking lot under an overcast sky. Parked vehicles sit beyond the glass, bare trees stand near low buildings, and orange construction tarps mark the building on the right. Keep the window frame and faint interior reflections present as continuity anchors. The camera begins with a gentle handheld sway and slow lateral drift, as if the vehicle is idling or barely rolling, creating shallow parallax between window grime, reflections, and the exterior architecture. Naturalistic realism, cool muted tones, soft urban daylight, no dramatic action. Let the eye linger on repeated horizontal lines in the lot and building facades, then subtly favor a compositional slide toward stronger linear framing so the final moment can visually hand off into station geometry. The shot should feel like a quiet breath mid-journey, not a starting pose, with ambient micro-movement in reflections and slight vibration from the vehicle. End with the frame still drifting, composed around vertical window edges and exterior lines that can motivate a match-cut into platform architecture.",
+      "negative_prompt": "no slideshow transition, no abrupt morphing, no cross-fade, no hard scene reset, no freeze frame, no text overlays, no subtitles, no logos, no broken anatomy, no warped vehicles, no impossible reflections, no time-lapse, no excessive camera shake, no stylized hyperreal look, no sudden stop at the end"
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Platform Pause at Universit\u00e9 Concordia",
+      "scene_id": "scene_02",
+      "source_image": "02_WhatsApp_Image_2026-04-04_at_1.33.13_PM.jpeg",
+      "first_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.10_PM.jpeg",
+      "last_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.13_PM.jpeg",
+      "duration_seconds": 4,
+      "camera": "First-person eye-level settle onto the platform, easing forward a step or two toward the stopped train with a slight pan along the yellow strip.",
+      "action": "The train waits under fluorescent lights while passengers stand nearby and figures inside the car remain absorbed in their own routines.",
+      "transition_goal": "Bridge from outside observation into shared commuter space, making the cut feel like physically stepping out and joining the platform.",
+      "voiceover_line": "Watching it soften through glass, then fold into lights and passing faces.",
+      "prompt": "Continue the same first-person motion as if stepping directly out of the reflective window view and into Universit\u00e9 Concordia station, beginning already in a slight forward glide at eye level. A blue and white train waits along the platform under cool overhead fluorescent lights. The yellow tactile safety strip runs diagonally through the foreground as a continuity line, while the Universit\u00e9 Concordia sign anchors the location in the midground. Passengers stand nearby looking at phones, and figures inside the train remain absorbed in routine. The camera eases forward one or two quiet steps and lightly pans along the platform edge, preserving the momentum inherited from the previous drift. Keep the mood reflective and lived-in, with subtle human shifts, train door stillness, and ambient station movement rather than theatrical action. Use the parallel lines of train windows, platform edge, and ceiling fixtures to make the shot feel like a natural extension of the previous frame. Allow a small rack-focus drift from window reflections or near platform edge into commuters and train interior, then settle into a sideward bias that prepares the next lateral walk along the platform. End while still moving gently, framed so the train and strip can continue seamlessly into a side-on tracking shot.",
+      "negative_prompt": "no slideshow transition, no abrupt morphing, no cross-fade, no teleporting between positions, no hard cut feeling inside the prompt, no freeze frame, no text overlays, no station signage distortions, no broken anatomy, no duplicated passengers, no floating objects, no empty lifeless platform, no dramatic cinematic reset, no stiff posed commuters"
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Walking the Platform Edge",
+      "scene_id": "scene_03",
+      "source_image": "03_WhatsApp_Image_2026-04-04_at_1.33.12_PM.jpeg",
+      "first_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.13_PM.jpeg",
+      "last_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.12_PM.jpeg",
+      "duration_seconds": 4,
+      "camera": "First-person lateral tracking move parallel to the train doors, smooth and unhurried, keeping the tactile path and overhead lights as repeating guides.",
+      "action": "The viewer walks along the platform as doors, reflections in the green wall, and scattered commuters slide past in a steady rhythm.",
+      "transition_goal": "Shift from waiting into movement while preserving continuity through repeated lines, preparing the eye for the escalator\u2019s descending geometry.",
+      "voiceover_line": "Nothing dramatic happened.",
+      "prompt": "Begin mid-stride in the same first-person commute, carrying forward the platform-edge motion into a smooth lateral tracking move parallel to the row of train doors. The grey tiled floor and tactile path slide steadily beneath the frame while elongated overhead lights repeat rhythmically above. On the opposite side, the green reflective wall catches doubled silhouettes and soft reflections, adding an inward, diary-like quality. Scattered commuters pass in natural, unforced ways; some wait, some shift weight, some move toward doors, while the blue and white train remains a steady companion. Keep the movement unhurried and grounded, with subtle parallax between doors, people, and reflections. The camera should feel guided by the station\u2019s architecture, not staged, maintaining cool underground tones with slight warmth in faces and skin. Let repeated vertical door seams and ceiling lights create a visual pulse, and gently drift composition toward stronger diagonals near the end so horizontal travel can resolve into the downward pull of an escalator. Finish with the frame still gliding, reflections and linear patterns aligning to motivate a match-cut or directional transition into descending rails and tunnel walls.",
+      "negative_prompt": "no slideshow transition, no abrupt morphing, no cross-fade, no jumpy position resets, no freeze frame, no text overlays, no broken anatomy, no smeared faces, no rubbery limbs, no surreal reflections, no train warping, no over-fast dolly, no empty sterile scene, no abrupt stop or posed tableau"
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Descent Into the Passage",
+      "scene_id": "scene_04",
+      "source_image": "01_WhatsApp_Image_2026-04-04_at_1.33.30_PM.jpeg",
+      "first_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.12_PM.jpeg",
+      "last_frame_image": "01_WhatsApp_Image_2026-04-04_at_1.33.30_PM.jpeg",
+      "duration_seconds": 8,
+      "camera": "First-person forward-downward movement from the top of the escalator, letting diagonal rails and wall lights pull the frame into the tunnel.",
+      "action": "The viewer descends with other commuters into the tiled underground passage, following the flow rather than any single destination.",
+      "transition_goal": "Conclude with a feeling of being absorbed into the city\u2019s human current, ending on continuation rather than arrival.",
+      "voiceover_line": "Somewhere between the platform and the escalator, I felt held by the rhythm of it all.",
+      "prompt": "Continue directly from the platform\u2019s linear motion into a first-person forward-downward descent from the top of an escalator, opening already in motion as diagonal rails pull the frame into the underground passage. Concrete wall texture with recessed insets, colored tile patterns along the side walls, and evenly spaced wall lighting fixtures create a calm architectural rhythm. Other commuters remain ahead, moving naturally downward and into the corridor, their pace ordinary and unforced. The camera rides the escalator with gentle body sway, then subtly advances with the flow, preserving continuity from the previous shot\u2019s repeated lines while transforming horizontal platform movement into vertical descent. Keep the lighting cool and subterranean, with slight warmth on nearby people and storefront glows deeper in the passage. Favor realistic ambient behavior: tiny head turns, coat movement, soft foot traffic, fluorescent hum, and the steady mechanical pull of the escalator. As the shot continues, let the tunnel open slightly and suggest the city extending beyond the frame rather than arriving anywhere final. End in ongoing ambient motion with commuters continuing ahead and the frame still carried forward, so the sequence lands on quiet belonging and continuation, as if the diary keeps moving past the cut.",
+      "negative_prompt": "no slideshow transition, no abrupt morphing, no cross-fade, no freeze frame, no text overlays, no subtitles, no broken anatomy, no duplicated commuters, no impossible escalator motion, no warped rails, no destination reveal as a hard ending, no dramatic stop, no empty uncanny tunnel, no stylized dream effects"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "filename": "01_WhatsApp_Image_2026-04-04_at_1.33.27_PM.jpeg",
+    "visual_summary": "The image depicts an empty computer lab with multiple iMac computers arranged on dark desks. Each workstation has a keyboard and a mouse, with black office chairs labeled 'CDA'. The room is well-lit with overhead fluorescent lighting reflecting off the ceiling tiles.",
+    "location": "Modern computer lab or classroom",
+    "subjects": [
+      "iMac computers",
+      "office chairs",
+      "desks",
+      "keyboard and mouse",
+      "projector screen",
+      "blackboard"
+    ],
+    "mood": "clean and orderly, quiet",
+    "continuity_anchors": [
+      "arrangement of iMac computers on desks",
+      "chairs marked with 'CDA'",
+      "black projector screen mounted on the wall",
+      "fluorescent lights on the ceiling"
+    ],
+    "plausible_actions": [
+      "students entering and sitting down to work",
+      "instructor presenting with use of projector or blackboard",
+      "computer usage and group collaboration",
+      "someone adjusting chairs or equipment"
+    ],
+    "cinematic_notes": [
+      "use overhead or wide shot to emphasize empty, quiet room",
+      "track along desks to create rhythm with computers",
+      "spotlighting on individual screens to indicate focus",
+      "soft lighting from windows or overhead to maintain neutral tone"
+    ]
+  },
+  {
+    "filename": "02_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg",
+    "visual_summary": "The image shows a city street with a row of businesses on the left and pedestrians walking and sitting along the sidewalk. Prominent signs advertise Cuisine AuntDai and a nearby business called Pola Bento. Tall buildings and a leafless tree line the street, with cars and traffic lights visible at the intersection ahead.",
+    "location": "Urban commercial street with mixed-use buildings and pedestrian traffic",
+    "subjects": [
+      "pedestrians",
+      "restaurant signs",
+      "sidewalk",
+      "traffic lights",
+      "vehicles",
+      "tree"
+    ],
+    "mood": "busy but calm urban daytime",
+    "continuity_anchors": [
+      "Cuisine AuntDai sign with phone number",
+      "Pola Bento sign",
+      "leafless tree near sidewalk",
+      "white barricade with chairs",
+      "pedestrians' positioning and clothing"
+    ],
+    "plausible_actions": [
+      "pedestrians walking or stopping at restaurants",
+      "people sitting and talking on sidewalk",
+      "cars stopping or going through intersection",
+      "delivery or food service activities near restaurants"
+    ],
+    "cinematic_notes": [
+      "use natural light for authentic urban atmosphere",
+      "wide establishing shots to show street layout",
+      "close-ups on restaurant signs for cultural/contextual emphasis",
+      "tracking shots following pedestrian flow",
+      "capture contrast between old and modern buildings"
+    ]
+  },
+  {
+    "filename": "03_WhatsApp_Image_2026-04-04_at_1.33.29_PM_3.jpeg",
+    "visual_summary": "The image shows a crowded urban subway or metro station entrance with people descending an escalator. The walls are decorated with a tiled pattern featuring red, yellow, and gray squares, and the upper section has exposed brick and a white concrete structure with geometric indentations.",
+    "location": "Subway or metro station entrance with escalator, possibly underground",
+    "subjects": [
+      "people on escalator",
+      "people in plaza area",
+      "tiled wall patterns",
+      "brick wall upper structure"
+    ],
+    "mood": "busy urban transit atmosphere",
+    "continuity_anchors": [
+      "escalator with yellow steps",
+      "red, yellow, and grey tiled wall pattern",
+      "white concrete wall indentations",
+      "brick wall with some stains"
+    ],
+    "plausible_actions": [
+      "people boarding or exiting escalator",
+      "walking across plaza",
+      "interactions among pedestrians",
+      "security or station staff monitoring area"
+    ],
+    "cinematic_notes": [
+      "use leading lines of escalator to draw focus",
+      "contrast warm brick with cooler tile colors for mood",
+      "overhead wide angle for crowd dynamic",
+      "capture ambient lighting from station overhead lights"
+    ]
+  },
+  {
+    "filename": "04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg",
+    "visual_summary": "This image shows a modern subway platform with glass safety doors along the edge, where several passengers are standing or walking. The platform is clean and well-lit with fluorescent ceiling lights, and there is a green glass wall on the right reflecting part of the platform scene.",
+    "location": "underground subway station platform",
+    "subjects": [
+      "commuters",
+      "subway glass safety doors",
+      "green reflective wall",
+      "digital signboards"
+    ],
+    "mood": "neutral, everyday urban transit",
+    "continuity_anchors": [
+      "black and gray safety doors with clear panels",
+      "floor tactile guiding strip running center of platform",
+      "overhead fluorescent lights",
+      "green reflective glass wall on right side",
+      "passengers wearing winter coats"
+    ],
+    "plausible_actions": [
+      "commuters boarding or exiting the train",
+      "people walking along the platform",
+      "someone checking a phone or waiting quietly",
+      "station announcements or train arrival notifications"
+    ],
+    "cinematic_notes": [
+      "use the reflections on the green glass wall to create visual depth or duplicate figures",
+      "low angle shots along the floor tactile strip to emphasize symmetry and leading lines",
+      "capture the soft glow from the overhead lights for mood lighting on subjects",
+      "frames including multiple passengers offer opportunities for contrasting character focus"
+    ]
+  }
+]

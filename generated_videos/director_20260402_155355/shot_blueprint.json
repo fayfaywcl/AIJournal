@@ -1,0 +1,43 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "image1 into image2",
+      "scene_id": "scene_01",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 4,
+      "camera": "Continuous first-person or observational camera movement that begins in image1.jpg and naturally settles into image2.jpg, with enough overlap to support a soft handoff to the next adjacent-pair shot.",
+      "action": "Carry visual momentum from the mood and details of image1.jpg into the environment of image2.jpg, using plausible movement and continuity anchors rather than abrupt transformation.",
+      "transition_goal": "Resolve cleanly from image1.jpg to image2.jpg so the edit can continue without a hard-feeling cut.",
+      "voiceover_line": "Move from quiet and focused into neutral, subdued without breaking continuity."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "image2 into Image3",
+      "scene_id": "scene_02",
+      "source_image": "Image3.jpeg",
+      "first_frame_image": "image2.jpg",
+      "last_frame_image": "Image3.jpeg",
+      "duration_seconds": 4,
+      "camera": "Continuous first-person or observational camera movement that begins in image2.jpg and naturally settles into Image3.jpeg, with enough overlap to support a soft handoff to the next adjacent-pair shot.",
+      "action": "Carry visual momentum from the mood and details of image2.jpg into the environment of Image3.jpeg, using plausible movement and continuity anchors rather than abrupt transformation.",
+      "transition_goal": "Resolve cleanly from image2.jpg to Image3.jpeg so the edit can continue without a hard-feeling cut.",
+      "voiceover_line": "Move from neutral, subdued into calm and contemplative without breaking continuity."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Image3 into Image4",
+      "scene_id": "scene_03",
+      "source_image": "Image4.jpeg",
+      "first_frame_image": "Image3.jpeg",
+      "last_frame_image": "Image4.jpeg",
+      "duration_seconds": 6,
+      "camera": "Continuous first-person or observational camera movement that begins in Image3.jpeg and naturally settles into Image4.jpeg, with enough overlap to support a soft handoff to the next adjacent-pair shot.",
+      "action": "Carry visual momentum from the mood and details of Image3.jpeg into the environment of Image4.jpeg, using plausible movement and continuity anchors rather than abrupt transformation.",
+      "transition_goal": "Resolve cleanly from Image3.jpeg to Image4.jpeg so the edit can continue without a hard-feeling cut.",
+      "voiceover_line": "Move from calm and contemplative into busy urban daytime without breaking continuity."
+    }
+  ]
+}

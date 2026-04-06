@@ -1,0 +1,73 @@
+{
+  "project_title": "Adjacent Pair Transition Sequence",
+  "story_arc": "Create a cohesive first-person visual diary that feels cinematic, grounded, and alive. Turn the still images into intentional scenes instead of slideshow transitions.",
+  "visual_rules": [
+    "Each shot must start from one source image and resolve into the next image in order.",
+    "Keep continuity between shot endings and the next shot beginnings.",
+    "Avoid abrupt cuts, abrupt morphs, and slideshow logic.",
+    "Prefer grounded motion that can plausibly connect the paired images."
+  ],
+  "narration_text": "",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "title": "Bridge from 01_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1 to 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM",
+      "purpose": "Create a continuous transition from 01_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg into 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg.",
+      "source_images": [
+        "01_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg",
+        "02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg"
+      ],
+      "continuity_anchors": [
+        "Cuisine AuntDai hanging sign with phone number",
+        "white railing with plastic chairs",
+        "leafless trees",
+        "STM logo on train",
+        "blue and white train color",
+        "yellow platform safety strip"
+      ],
+      "emotional_beat": "busy yet calm urban afternoon moving toward calm, routine urban commute",
+      "action_flow": "Begin in the visual world of 01_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg and move naturally into 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg, keeping the same subject identity and environmental continuity.",
+      "transition_out": "End fully established in 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg so the next shot can continue from that state."
+    },
+    {
+      "scene_id": "scene_02",
+      "title": "Bridge from 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM to 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5",
+      "purpose": "Create a continuous transition from 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg into 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg.",
+      "source_images": [
+        "02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg",
+        "03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg"
+      ],
+      "continuity_anchors": [
+        "STM logo on train",
+        "blue and white train color",
+        "yellow platform safety strip",
+        "illuminated fashion ads with consistent branding",
+        "McGill station sign with green dot",
+        "position and design of staircase and handrails"
+      ],
+      "emotional_beat": "calm, routine urban commute moving toward quiet urban",
+      "action_flow": "Begin in the visual world of 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg and move naturally into 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg, keeping the same subject identity and environmental continuity.",
+      "transition_out": "End fully established in 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg so the next shot can continue from that state."
+    },
+    {
+      "scene_id": "scene_03",
+      "title": "Bridge from 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5 to 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4",
+      "purpose": "Create a continuous transition from 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg into 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg.",
+      "source_images": [
+        "03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+        "04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg"
+      ],
+      "continuity_anchors": [
+        "illuminated fashion ads with consistent branding",
+        "McGill station sign with green dot",
+        "position and design of staircase and handrails",
+        "glass platform doors with safety signs",
+        "tiled floor with tactile strips",
+        "linear overhead lighting"
+      ],
+      "emotional_beat": "quiet urban moving toward quiet, routine urban transit",
+      "action_flow": "Begin in the visual world of 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg and move naturally into 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg, keeping the same subject identity and environmental continuity.",
+      "transition_out": "End fully established in 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg so the next shot can continue from that state."
+    }
+  ]
+}

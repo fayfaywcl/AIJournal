@@ -1,0 +1,74 @@
+{
+  "project_title": "City Echoes: A Daily Reflection",
+  "story_arc": "A first-person visual diary tracking a daily journey through urban spaces. It captures the quiet introspection before stepping out, the dynamic rhythm of city life, the focused navigation of familiar paths, and the contemplative moments found within the communal commute, reflecting on the transitions and constant movement that define urban existence.",
+  "visual_rules": [
+    "Maintain a consistent naturalistic color palette, favoring the overcast conditions present in the source images.",
+    "Utilize camera movements (pans, subtle tracks, slow zooms) to imply the unseen narrator's perspective and movement through the environment, avoiding static shots.",
+    "Emphasize leading lines and architectural elements to guide the viewer's eye and reinforce a sense of progression.",
+    "Lighting should remain soft and diffused, reflecting the natural light of the scenes, allowing for subtle shifts in mood without harsh contrast.",
+    "Focus on environmental details and implied human presence rather than direct character depiction, making the city itself a character."
+  ],
+  "narration_text": "Another day begins, or perhaps, ends. The city hums, always moving, always changing. I find my rhythm in its chaos, tracing paths familiar and new. Each journey, a chance to pause, to breathe, to simply be. A quiet moment, before the next destination calls.",
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "The Quiet Before",
+      "scene_id": "scene_01",
+      "source_image": "Image1.jpeg",
+      "first_frame_image": "Image1.jpeg",
+      "last_frame_image": null,
+      "duration_seconds": 4,
+      "camera": "Slow, deliberate tracking shot, moving forward down an aisle of an empty computer lab.",
+      "action": "Camera glides past rows of pristine iMacs and keyboards, subtly pushing towards a brightly lit area at the far end of the room, emphasizing stillness and anticipation.",
+      "transition_goal": "Transition from interior quiet and introspection to the exterior urban environment, setting a contemplative mood for the journey ahead.",
+      "voiceover_line": "Another day begins, or perhaps, ends.",
+      "prompt": "Cinematic, slow, deliberate, naturalistic first-person POV tracking shot. The camera is already gliding forward down an aisle of an empty, brightly lit computer lab, meticulously detailed with rows of pristine silver iMacs, black keyboards, and mice on clean white desks. Subtle 'CDA' branding is visible on the backs of ergonomic office chairs. The soft, even fluorescent lighting creates a sterile yet anticipatory atmosphere. The camera continues to push gently towards a brighter area at the far end of the room, suggesting an impending exit or new beginning, maintaining a sense of quiet solitude and structured order. The movement is fluid and uninterrupted, setting a contemplative mood for a journey.",
+      "negative_prompt": "slideshow transitions, abrupt morphs, broken anatomy, text overlays, freeze-frame behavior, camera cuts, fast movement, shaky camera, harsh shadows, dirty environment, people"
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "City's Embrace",
+      "scene_id": "scene_02",
+      "source_image": "Image3.jpeg",
+      "first_frame_image": null,
+      "last_frame_image": null,
+      "duration_seconds": 4,
+      "camera": "From a slightly elevated point of view, a forward tracking shot, subtly weaving through the flow of pedestrians on a busy street.",
+      "action": "Camera observes the dynamic street life, briefly glancing at storefronts like 'LA SOUPI\u00c8RE', capturing the constant movement and urban hum without lingering on individuals.",
+      "transition_goal": "Introduce the bustling energy of the city, contrasting with the previous scene's solitude, signifying immediate immersion into urban life.",
+      "voiceover_line": "The city hums, always moving, always changing.",
+      "prompt": "Cinematic, continuous, naturalistic first-person POV forward tracking shot, subtly weaving through the flow of a bustling city street on an overcast day. The camera, from a slightly elevated perspective, is already in motion, observing the dynamic street life. Prominent storefronts like 'LA SOUPI\u00c8RE' and 'ALTA' are visible, along with distinctive orange parking and accessibility signs. Pedestrians move organically around the camera's path, creating a sense of urban hum and constant movement without any individual being the sole focus. The gray, diffused light of the overcast sky is consistent. The camera's movement feels like an immediate immersion into the city's rhythm, never static, always propelling forward.",
+      "negative_prompt": "slideshow transitions, abrupt morphs, broken anatomy, text overlays, freeze-frame behavior, camera cuts, static shot, clear sky, harsh light, slow movement, blurry details"
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Navigating the Veins",
+      "scene_id": "scene_03",
+      "source_image": "Image2.jpeg",
+      "first_frame_image": null,
+      "last_frame_image": null,
+      "duration_seconds": 4,
+      "camera": "Steady, continuous forward tracking shot down a narrow urban alleyway.",
+      "action": "Camera uses a construction fence as a foreground element, guiding the viewer past the 'Chicken Plus' sign towards the modern glass-fronted building in the distance, portraying a purposeful and directed journey.",
+      "transition_goal": "Show a more specific and guided movement through the urban landscape, suggesting a chosen path or daily routine, leading into a communal transit space.",
+      "voiceover_line": "I find my rhythm in its chaos, tracing paths familiar and new.",
+      "prompt": "Cinematic, steady, continuous, naturalistic first-person POV forward tracking shot, already navigating down a narrow urban alleyway. The camera moves purposefully, using a detailed construction fence on the left as a guiding foreground element. Familiar storefronts like 'Chicken Plus' are visible, with their specific facades, blending with older architectural elements. In the distance, a modern glass-fronted building gleams under the consistent overcast sky. The camera's motion is deliberate and uninterrupted, guiding the viewer deeper into the urban landscape, conveying a sense of focused navigation and a continuous, purposeful journey.",
+      "negative_prompt": "slideshow transitions, abrupt morphs, broken anatomy, text overlays, freeze-frame behavior, camera cuts, static shot, wide open street, bright sun, new construction, blurred details"
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Underground Rhythm",
+      "scene_id": "scene_04",
+      "source_image": "Image4.jpeg",
+      "first_frame_image": null,
+      "last_frame_image": null,
+      "duration_seconds": 8,
+      "camera": "Static shot from the platform, observing the subway train, followed by a subtle focus shift and slight pan.",
+      "action": "Camera starts focused on the train's windows, capturing reflections of the platform. It then subtly shifts focus to the overhead digital display showing '17:56' as the train gently begins its departure, implying a moment of shared transit and reflection.",
+      "transition_goal": "Provide a moment of quiet reflection within a transient space, signaling a pause or transition to a new destination, concluding this segment of the urban journey.",
+      "voiceover_line": "Each journey, a chance to pause, to breathe, to simply be. A quiet moment, before the next destination calls.",
+      "prompt": "Cinematic, naturalistic, contemplative first-person POV shot from a subway platform. The camera is already focused on the blue and white livery of a stationary subway train, prominently featuring the 'stm' logo and 'MOUVEMENT COLLECTIF' text. Detailed reflections of the platform and implied passengers are visible in the train's windows. The yellow textured safety strip along the platform edge is sharp in the foreground. The camera subtly, almost imperceptibly, shifts its focus and pans slightly upwards to an overhead digital display, clearly showing '17:56'. The train then begins a gentle, smooth, forward movement, indicating departure, as the interior lights of the passing train cast a final, quiet impression. The overall movement emphasizes a shared, reflective moment of transit and a journey ending.",
+      "negative_prompt": "slideshow transitions, abrupt morphs, broken anatomy, text overlays, freeze-frame behavior, camera cuts, shaky camera, static display, blurry text, harsh lighting, empty platform, fast train movement"
+    }
+  ]
+}

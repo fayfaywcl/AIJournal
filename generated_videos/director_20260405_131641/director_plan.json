@@ -1,0 +1,58 @@
+{
+  "project_title": "Adjacent Pair Transition Sequence",
+  "story_arc": "Create a cohesive first-person visual diary that feels cinematic, grounded, and alive. Turn the still images into intentional scenes instead of slideshow transitions.",
+  "visual_rules": [
+    "Each shot must start from one source image and resolve into the next image in order.",
+    "Keep continuity between shot endings and the next shot beginnings.",
+    "Avoid abrupt cuts, abrupt morphs, and slideshow logic.",
+    "Prefer grounded motion that can plausibly connect the paired images."
+  ],
+  "narration_text": "",
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "01_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1 into 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM",
+      "scene_id": "scene_01",
+      "source_image": "02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg",
+      "first_frame_image": "01_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg",
+      "last_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg",
+      "duration_seconds": 4,
+      "camera": "Continuous first-person or observational camera movement that begins in 01_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg and naturally settles into 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg, without a restart feeling. Keep enough overlap in framing, movement direction, and visual energy to support a soft handoff to the next adjacent-pair shot.",
+      "action": "Carry visual momentum from the mood and details of 01_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg into the environment of 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg, using plausible movement and continuity anchors rather than abrupt transformation. The shot should feel already in progress at the start and should not come to a dead stop at the end. Avoid powerpoint-style transitions; favor motivated, cinematic motion.",
+      "transition_goal": "Resolve cleanly from 01_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg to 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg while preserving enough camera momentum, framing continuity, and emotional carry-through for the edit to continue without a cut-like reset.",
+      "voiceover_line": "Move from busy yet calm urban afternoon into calm, routine urban commute without breaking continuity.",
+      "prompt": "Already drifting laterally past the Cuisine AuntDai hanging sign and white railing with plastic chairs, the camera carries a gentle street-level glide under leafless trees as blue-and-white STM train colors begin to dominate the frame beyond the urban foreground. Use a motivated parallax move that lets the yellow platform safety strip and STM logo align naturally, resolving into the calmer commuter view of the train at the station while keeping a slight forward motion for the handoff.",
+      "negative_prompt": "slideshow transition, abrupt cut, abrupt morph, cross-fade, dissolve, freeze frame, camera reset, broken anatomy, warped signage, duplicated objects, text overlays, impossible train motion, unnatural perspective jumps"
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "02_WhatsApp_Image_2026-04-04_at_1.33.14_PM into 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5",
+      "scene_id": "scene_02",
+      "source_image": "03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "first_frame_image": "02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg",
+      "last_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "duration_seconds": 8,
+      "camera": "Continuous first-person or observational camera movement that begins in 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg and naturally settles into 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg, without a restart feeling. Keep enough overlap in framing, movement direction, and visual energy to support a soft handoff to the next adjacent-pair shot.",
+      "action": "Carry visual momentum from the mood and details of 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg into the environment of 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg, using plausible movement and continuity anchors rather than abrupt transformation. The shot should feel already in progress at the start and should not come to a dead stop at the end. Avoid powerpoint-style transitions; favor motivated, cinematic motion.",
+      "transition_goal": "Resolve cleanly from 02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg to 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg while preserving enough camera momentum, framing continuity, and emotional carry-through for the edit to continue without a cut-like reset.",
+      "voiceover_line": "Move from calm, routine urban commute into quiet urban without breaking continuity.",
+      "prompt": "Begin already tracking along the blue-and-white STM train with the yellow platform edge sliding by, then let a subtle whip of passing train geometry reveal the interior station space as the motion continues in the same direction. Rack focus from the train surface into illuminated fashion ads, the McGill station sign with green dot, and the staircase with handrails, ending fully established in the concourse view without losing the feeling of a single ongoing glide.",
+      "negative_prompt": "slideshow logic, hard scene break, abrupt morph, cross-fade, dissolve, frozen commuters, broken architecture, inconsistent branding, text overlays, impossible reflections, jerky stop-start camera, deformed stairs or rails"
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5 into 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4",
+      "scene_id": "scene_03",
+      "source_image": "04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg",
+      "first_frame_image": "03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+      "last_frame_image": "04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg",
+      "duration_seconds": 8,
+      "camera": "Continuous first-person or observational camera movement that begins in 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg and naturally settles into 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg, without a restart feeling. Keep enough overlap in framing, movement direction, and visual energy to support a soft handoff to the next adjacent-pair shot.",
+      "action": "Carry visual momentum from the mood and details of 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg into the environment of 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg, using plausible movement and continuity anchors rather than abrupt transformation. The shot should feel already in progress at the start and should not come to a dead stop at the end. Avoid powerpoint-style transitions; favor motivated, cinematic motion.",
+      "transition_goal": "Resolve cleanly from 03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg to 04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg while preserving enough camera momentum, framing continuity, and emotional carry-through for the edit to continue without a cut-like reset.",
+      "voiceover_line": "Move from quiet urban into quiet, routine urban transit without breaking continuity.",
+      "prompt": "Already in motion inside McGill station, the camera keeps a quiet lateral-forward drift past the illuminated fashion ads and staircase, with linear overhead lighting and tactile floor strips maintaining spatial continuity. Let the handrails and tiled floor create a clean parallax transition into the glass platform doors with safety signs, settling into the new angle while preserving a living transit atmosphere and a slight residual motion at the end.",
+      "negative_prompt": "powerpoint-style transition, abrupt cut, morphing walls, cross-fade, dissolve, freeze-frame behavior, broken anatomy, warped glass doors, inconsistent station layout, text overlays, impossible lighting changes, dead-stop ending"
+    }
+  ]
+}

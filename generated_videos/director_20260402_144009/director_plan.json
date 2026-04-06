@@ -1,0 +1,45 @@
+{
+  "project_title": "Between Screens and Rain",
+  "story_arc": "A quiet day unfolds from inside a nearly empty computer lab to a rain-dulled view outside, capturing the feeling of being present but slightly apart. The sequence moves from observation to reflection, using the stillness of machines and the muted alley beyond the window to suggest a private moment of pause in the middle of an ordinary workday.",
+  "visual_rules": [
+    "Maintain one consistent first-person observer throughout",
+    "Keep the environment grounded and realistic with no surreal morphing",
+    "Use the computer lab as the interior base and the window alley as the outward perspective",
+    "Favor slow, motivated camera movement over slideshow-style reframing",
+    "Preserve continuity through the rows of computers, blackboard, door window, and metal-framed alley window",
+    "Let quiet atmosphere and negative space carry the emotion"
+  ],
+  "narration_text": "I came in early, before the room had fully become part of the day. The computers sat waiting, the board still holding yesterday's traces, and someone near the door was already lost in their own routine. For a while I stayed with the hum of the room, then drifted to the window to watch the wet alley hold the morning in place. Nothing dramatic happened, but something settled in me there between the screens and the rain.",
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Drifting Through the Quiet Lab",
+      "scene_id": "scene_01",
+      "source_image": "image1.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image1.jpg",
+      "duration_seconds": 4,
+      "camera": "first-person slow dolly inward from just inside the doorway, slight right-to-left pan across rows of computers, settling briefly toward the person near the door and the blackboard",
+      "action": "The viewer enters the nearly empty computer lab and glides past empty chairs and desktop monitors. The gaze briefly acknowledges the single person near the door, then rests on the blackboard and ordered desks, holding the room's low-key stillness.",
+      "transition_goal": "Establish the interior space, solitary mood, and observer perspective before motivating a move toward the window light.",
+      "voiceover_line": "I came in early, before the room had fully become part of the day.",
+      "prompt": "First-person realistic cinematic shot inside a nearly empty computer lab, beginning just inside the doorway at eye level as if the same observer has quietly stepped into the room early in the morning. Slow dolly inward with a gentle right-to-left pan across orderly rows of desktop computers, keyboards, and empty chairs, keeping the arrangement of desks consistent and grounded. Natural handheld micro-movements only, subtle breathing-level sway, no dramatic shake. The room feels dim and calm, lit by soft overcast daylight and cool interior ambient light. A single person remains seated near the door, absorbed in their own routine, seen briefly and naturally without looking at camera. The door with glass window stays visible in the background for continuity. The camera gaze settles momentarily on the blackboard with faint chalk writing from the previous day, then lingers on the quiet geometry of monitors, chairs, and desks. Environmental behavior is minimal and realistic: still air, faint computer monitor glow, no exaggerated motion, no stylization. Preserve the solitary mood and motivate a subtle pull of attention toward off-screen window light for the next shot. Cinematic realism, clean edit points, continuous spatial logic, natural depth, muted color palette, quiet negative space.",
+      "negative_prompt": "No slideshow transitions, no jump cuts, no abrupt morphs, no warped geometry, no broken anatomy, no duplicated limbs or faces, no unnatural eye contact, no text overlays, no subtitles, no captions, no logos, no watermarks, no freeze-frame behavior, no time-freeze, no posterization, no surreal lighting shifts, no impossible camera moves, no object popping, no disappearing desks or computers, no inconsistent room layout, no floating objects, no overly shallow depth of field that hides continuity."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "At the Rain-Dulled Window",
+      "scene_id": "scene_02",
+      "source_image": "image2.jpg",
+      "first_frame_image": "image1.jpg",
+      "last_frame_image": "image2.jpg",
+      "duration_seconds": 6,
+      "camera": "first-person motivated drift from the lab toward the metal-framed window, resolving into a gentle static hold with a subtle downward tilt over the alley",
+      "action": "The camera arrives at the window and looks out over the wet alley, tracing the parked car on the right and the dumpsters near the far end before settling into a quiet hold on the overcast pavement and dark building facades.",
+      "transition_goal": "Bridge the private stillness of the lab into outward reflection, ending on a contemplative exterior hold that can fade naturally.",
+      "voiceover_line": "Between the screens and the rain, something in me finally went still.",
+      "prompt": "First-person realistic cinematic continuation from the same observer in the same computer lab, motivated by the pull of window light. Begin with a smooth drift away from the rows of computers toward a metal-framed window, preserving continuity of the interior behind the viewer and the sense that the camera has crossed the same room established earlier. As the camera reaches the window, it eases into a gentle static hold with a subtle downward tilt, looking out onto a wet alley under overcast morning light. The window frame and sill remain clearly present in the foreground for continuity. Outside, dark glass and concrete building facades enclose the alley; the wet pavement reflects a dull gray sheen; a parked car sits on the right side; dumpsters rest near the far end. The gaze slowly traces from the near pavement to the parked car and then toward the dumpsters, then settles into still contemplation. Environmental behavior stays natural and understated: faint rain residue on surfaces, soft ambient city stillness, no heavy traffic, no dramatic weather effects. Keep the mood reflective and restrained, as if the outside mirrors the quiet room behind. Natural camera breathing only, no sudden reframing. End on a stable contemplative hold that supports a clean atmospheric fade.",
+      "negative_prompt": "No slideshow transitions, no jump cuts, no abrupt morphs, no broken anatomy, no distorted reflections that behave impossibly, no text overlays, no subtitles, no captions, no logos, no watermarks, no freeze-frame behavior, no time-freeze, no surreal rain effects, no impossible weather changes, no object flicker, no car movement unless naturally subtle, no disappearing dumpsters, no inconsistent alley layout, no warped window frame, no dramatic zooms, no artificial parallax glitches, no stylized fantasy elements."
+    }
+  ]
+}

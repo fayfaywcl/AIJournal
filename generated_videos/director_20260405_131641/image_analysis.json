@@ -1,0 +1,122 @@
+[
+  {
+    "filename": "01_WhatsApp_Image_2026-04-04_at_1.33.29_PM_1.jpeg",
+    "visual_summary": "This urban street scene shows a sidewalk lined with small restaurants and shops, including Cuisine AuntDai and Poke Bento, with pedestrians walking or standing around. The street is flanked by mid- and high-rise buildings under an overcast sky, and some leafless trees, indicating a cold or early spring day.",
+    "location": "City street with mixed commercial and residential buildings, likely in an Asian-influenced district",
+    "subjects": [
+      "restaurant signs",
+      "pedestrians",
+      "high-rise buildings",
+      "sidewalk with seating area"
+    ],
+    "mood": "busy yet calm urban afternoon",
+    "continuity_anchors": [
+      "Cuisine AuntDai hanging sign with phone number",
+      "white railing with plastic chairs",
+      "leafless trees",
+      "Poke Bento sign",
+      "traffic and pedestrian light poles"
+    ],
+    "plausible_actions": [
+      "pedestrians walking down the sidewalk",
+      "people entering or exiting shops",
+      "traffic moving through the intersection",
+      "street vendors or customers interacting",
+      "someone sitting on the public bench near the tree"
+    ],
+    "cinematic_notes": [
+      "use overcast natural lighting for a soft, diffused look",
+      "establishing shots showcasing the restaurant signs for location context",
+      "tracking shot along the sidewalk capturing pedestrian flow",
+      "depth of field focusing to isolate subjects against the urban backdrop"
+    ]
+  },
+  {
+    "filename": "02_WhatsApp_Image_2026-04-04_at_1.33.14_PM.jpeg",
+    "visual_summary": "A blue and white metro train with the STM logo is stopped on a platform with a yellow safety strip. Several passengers are visible through the train windows, some seated and others standing, dressed in casual winter clothing including a distinctive red jacket.",
+    "location": "Underground metro station platform",
+    "subjects": [
+      "metro train",
+      "passengers",
+      "platform"
+    ],
+    "mood": "calm, routine urban commute",
+    "continuity_anchors": [
+      "STM logo on train",
+      "blue and white train color",
+      "yellow platform safety strip",
+      "passenger winter clothing",
+      "train wheels and warning sign 'DANGER 750 VOLTS'"
+    ],
+    "plausible_actions": [
+      "passengers boarding or exiting the train",
+      "train doors opening and closing",
+      "announcements over station PA",
+      "passengers checking phones or maps"
+    ],
+    "cinematic_notes": [
+      "use reflections on train windows for layered compositions",
+      "lighting from inside train to create warm contrast with cool platform",
+      "wide shots to capture passengers as silhouettes against train interior lights",
+      "close-ups of hands or faces through windows to emphasize human element"
+    ]
+  },
+  {
+    "filename": "03_WhatsApp_Image_2026-04-04_at_1.33.11_PM_5.jpeg",
+    "visual_summary": "The image shows a subway or metro station corridor featuring two illuminated fashion advertisements on the wall next to a flight of stairs. The ads promote the 'TRISTAN' and 'LE POUVOIR DU STYLE' brands, with models posing in stylish summer outfits. The area is tiled in neutral tones with a security camera mounted high on the beige wall.",
+    "location": "McGill metro station staircase area",
+    "subjects": [
+      "fashion advertisements",
+      "staircase",
+      "security camera",
+      "subway station signage"
+    ],
+    "mood": "quiet urban",
+    "continuity_anchors": [
+      "illuminated fashion ads with consistent branding",
+      "McGill station sign with green dot",
+      "position and design of staircase and handrails",
+      "wall texture and tile pattern on the floor"
+    ],
+    "plausible_actions": [
+      "people walking up or down the stairs",
+      "commuters pausing to look at or photograph the ads",
+      "cleaning or security checks around the area"
+    ],
+    "cinematic_notes": [
+      "use the glowing backlit ads for dynamic lighting contrasts",
+      "low-angle shots emphasizing the height of the stairs and tunnel-like corridor",
+      "focus pulls between ads and empty stairs to build suspense or show waiting"
+    ]
+  },
+  {
+    "filename": "04_WhatsApp_Image_2026-04-04_at_1.33.11_PM_4.jpeg",
+    "visual_summary": "The image shows an underground metro station platform with a few passengers waiting. The platform is tiled, has glass doors separating the platform from the tracks, and is brightly lit with overhead linear lights. A reflective green glass wall lines one side of the platform, and some people are seen standing or sitting while one person moves with a suitcase.",
+    "location": "underground metro/subway platform",
+    "subjects": [
+      "passengers",
+      "person with suitcase",
+      "people sitting"
+    ],
+    "mood": "quiet, routine urban transit",
+    "continuity_anchors": [
+      "glass platform doors with safety signs",
+      "tiled floor with tactile strips",
+      "linear overhead lighting",
+      "green reflective glass wall",
+      "digital platform signage"
+    ],
+    "plausible_actions": [
+      "passengers boarding or exiting the train",
+      "people walking along the platform",
+      "waiting passengers checking phones or schedules",
+      "person pulling suitcase moving towards the exit"
+    ],
+    "cinematic_notes": [
+      "use reflections in green glass wall for dynamic shots",
+      "capture rhythmic repetition of lights and tiles for visual pattern",
+      "low-angle shots emphasizing empty platform space for mood",
+      "tracking shots following person with suitcase for narrative focus"
+    ]
+  }
+]

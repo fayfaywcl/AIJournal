@@ -1,0 +1,64 @@
+[
+  {
+    "filename": "image1.jpg",
+    "visual_summary": "The image depicts a modern computer lab with multiple rows of desks, each equipped with desktop computers featuring blank or locked screens. There is one person seated with back facing the camera near the door. A blackboard with faint writings is mounted on the far wall.",
+    "location": "Indoor computer lab or classroom",
+    "subjects": [
+      "desktop computers",
+      "office chairs",
+      "blackboard",
+      "single person"
+    ],
+    "mood": "quiet, studious, slightly empty",
+    "continuity_anchors": [
+      "arrangement of computers on desks",
+      "blackboard with chalk writings",
+      "single person near door",
+      "door with glass window"
+    ],
+    "plausible_actions": [
+      "students entering or leaving",
+      "person typing or working on computer",
+      "teacher writing on blackboard",
+      "cleaning or maintenance activities"
+    ],
+    "cinematic_notes": [
+      "use of wide shots to emphasize emptiness or isolation",
+      "soft lighting highlighting the single person",
+      "close-ups on computer screens or blackboard notes",
+      "tracking shots following movement through aisles"
+    ]
+  },
+  {
+    "filename": "image2.jpg",
+    "visual_summary": "The image shows an urban alley view through a large window with a metal frame and an indoor window sill visible. The alley is flanked by modern office buildings with glass and concrete facades, and there is a small area with parked cars and some industrial equipment, possibly dumpsters. The scene has an overcast or rainy atmosphere, with wet ground and muted lighting.",
+    "location": "Urban office building alley viewed from inside",
+    "subjects": [
+      "office buildings",
+      "alleyway",
+      "window view",
+      "parked car",
+      "dumpsters"
+    ],
+    "mood": "quiet, overcast, slightly dreary",
+    "continuity_anchors": [
+      "window frame and sill",
+      "dark glass and concrete building facades",
+      "wet alley surface",
+      "parked car on right side",
+      "dumpsters near the end of the alley"
+    ],
+    "plausible_actions": [
+      "people walking through alley",
+      "maintenance workers handling dumpsters",
+      "car entering or exiting alley",
+      "rain starting or stopping"
+    ],
+    "cinematic_notes": [
+      "use natural diffused lighting for moody atmosphere",
+      "shoot through window reflections for layered shots",
+      "consider time-lapse of changing lights in office windows",
+      "frame alley leading lines for depth"
+    ]
+  }
+]

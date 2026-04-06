@@ -1,0 +1,66 @@
+[
+  {
+    "filename": "image1.jpg",
+    "visual_summary": "The image depicts a modern computer lab or classroom with multiple rows of desks, each equipped with iMac computers and standard black chairs. One computer screen is turned on displaying the time 4:43, while the rest are off. A blackboard with faint handwritten notes and a door with a window are visible in the background.",
+    "location": "Indoor computer lab or classroom",
+    "subjects": [
+      "iMac computers",
+      "black chairs",
+      "blackboard",
+      "door",
+      "ceiling lights"
+    ],
+    "mood": "quiet and studious",
+    "continuity_anchors": [
+      "rows of black desks with iMacs",
+      "black chairs marked 'CDA'",
+      "blackboard with writing",
+      "door with window",
+      "ceiling fluorescent lighting panels"
+    ],
+    "plausible_actions": [
+      "students entering or leaving the classroom",
+      "students working on computers",
+      "instructor writing on the blackboard",
+      "people engaging in quiet study or discussion"
+    ],
+    "cinematic_notes": [
+      "use wide-angle shots to capture the orderly rows of desks and computers for establishing the setting",
+      "low-angle shots from behind the computers can create a sense of isolation or focus",
+      "fluorescent ceiling lights can be used to create a cold, institutional mood",
+      "natural lighting from door window could be exploited for soft key lighting"
+    ]
+  },
+  {
+    "filename": "image2.jpg",
+    "visual_summary": "The image captures a view through a window looking out onto a narrow urban alleyway bordered by tall, modern buildings with glass and concrete facades. It is a cloudy or overcast day, and the alley appears wet, possibly post-rain, with some scattered debris and industrial elements like ventilation units and a yellow container.",
+    "location": "Urban office or commercial high-rise building window overlooking an alley",
+    "subjects": [
+      "window frame",
+      "alleyway",
+      "office buildings",
+      "concrete wall",
+      "yellow container"
+    ],
+    "mood": "quiet, subdued urban",
+    "continuity_anchors": [
+      "window frame and ledge",
+      "black building with multiple windows",
+      "concrete building on the right",
+      "wet alley surface",
+      "yellow dumpster container"
+    ],
+    "plausible_actions": [
+      "pedestrians walking through the alley",
+      "service or delivery vehicle entering or exiting",
+      "building lights turning on or off",
+      "rain starting or stopping"
+    ],
+    "cinematic_notes": [
+      "use window as a natural frame for character reflections",
+      "capture rain through the window for mood",
+      "contrast between cold concrete and warm interior lighting",
+      "play with overcast natural lighting to create a somber tone"
+    ]
+  }
+]

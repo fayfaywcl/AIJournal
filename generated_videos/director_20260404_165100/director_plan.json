@@ -1,0 +1,90 @@
+{
+  "project_title": "Between Stops",
+  "story_arc": "A quiet day unfolds as a personal passage through routine spaces: the stillness of a computer lab, the movement of a metro ride, and the slow emergence into city streets and side alleys. The sequence turns ordinary places into a reflective journey, where commuting, observing, and arriving become a small act of belonging.",
+  "visual_rules": [
+    "Maintain a grounded first-person point of view throughout",
+    "Use natural movement motivated by walking, looking, boarding, and pausing",
+    "Preserve overcast and fluorescent lighting for realism",
+    "Carry continuity through repeated urban textures, signage, and directional movement",
+    "Favor slow cinematic observation over fast coverage",
+    "Avoid morphs or slideshow-style image handoffs"
+  ],
+  "narration_text": "I started the day in a room full of quiet screens, where everything felt paused for a moment.\nThen the city pulled me forward, into the train, onto the street, past signs and familiar corners.\nBy the time I reached the alley, even the ordinary felt intimate, like the day was finally opening up to me.",
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Quiet Rows Before Leaving",
+      "scene_id": "scene_01",
+      "source_image": "Image1.jpeg",
+      "first_frame_image": "Image1.jpeg",
+      "last_frame_image": null,
+      "duration_seconds": 4,
+      "camera": "grounded first-person slow dolly forward between desk rows, slight head-turn glances left and right, fluorescent stillness",
+      "action": "The viewer moves slowly through the computer lab aisle, passing black chairs marked CDA and rows of iMacs, then settles briefly toward the blackboard ahead as if pausing before heading out.",
+      "transition_goal": "Establish interior stillness and routine, with forward motion that prepares a natural step into the commute.",
+      "voiceover_line": "I started the day in a room full of quiet screens.",
+      "prompt": "Grounded first-person cinematic shot, already in gentle forward motion down a narrow aisle of a quiet computer lab, moving between rows of black desks and silver iMacs under cool fluorescent ceiling lights. Natural handheld body sway from walking, with slight head-turn glances left and right that reveal black chairs labeled CDA, repeated workstation patterns, a blank white wall, and the blackboard ahead. Keep the room empty and still, with subtle realism in monitor reflections, desk surfaces, and the hum-like atmosphere of a fluorescent academic space. The pace is calm and observant, not static, as if the viewer is leaving soon but not yet in a hurry. End with the forward drift oriented toward the front of the room and the implied exit direction, holding visual momentum so the next shot can continue the same bodily movement into the commute.",
+      "negative_prompt": "No slideshow transition, no image-to-image handoff, no abrupt morphing, no warped or broken anatomy, no extra limbs, no text overlays, no subtitles, no logos added beyond existing scene signage, no freeze frame, no hard stop, no camera reset, no jump cut feeling, no surreal lighting, no exaggerated speed ramp, no floating movement disconnected from first-person walking."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Platform Approach",
+      "scene_id": "scene_02",
+      "source_image": "Image4.jpeg",
+      "first_frame_image": null,
+      "last_frame_image": "Image4.jpeg",
+      "duration_seconds": 4,
+      "camera": "first-person walking track along the platform edge, low gentle sway, slight pan across train windows and yellow tactile strip",
+      "action": "The camera advances beside the stopped blue STM train, tracking the white stripe, STM markings, and glimpses of riders through the windows before easing closer to the door area.",
+      "transition_goal": "Shift from indoor pause to public movement while keeping the same forward-traveling body logic.",
+      "voiceover_line": "Then the city pulled me forward, into the train.",
+      "prompt": "Continue the same first-person forward motion as if stepping out of the previous interior and arriving already in stride on a metro platform. The camera tracks beside a stopped blue STM train with a white stripe under fluorescent underground lighting, following the yellow tactile safety strip along the platform edge with a low natural walking sway. Slight observational pans catch the STM logo, MOUVEMENT COLLECTIF text, and glimpses of riders through the windows, including a passenger in a red jacket. Keep the train solid and realistic, the platform lived-in but calm, and the movement unbroken, as if the viewer has simply carried their momentum from the lab into public transit. Reflections in the train windows should shimmer subtly while the camera eases closer toward a door area, ending in a composition that naturally leads into being just inside or beside the doorway.",
+      "negative_prompt": "No slideshow transition, no abrupt morphs, no broken anatomy, no deformed passengers, no text overlays, no generated captions, no freeze-frame behavior, no hard scene reset, no teleporting between positions, no train warping, no platform bending, no impossible reflections, no abrupt stop-start camera motion."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Riding Through Reflections",
+      "scene_id": "scene_02",
+      "source_image": "Image4.jpeg",
+      "first_frame_image": "Image4.jpeg",
+      "last_frame_image": "Image3.jpeg",
+      "duration_seconds": 4,
+      "camera": "first-person near-door train ride perspective, subtle lateral vibration, reflective window drift that resolves toward daylight",
+      "action": "From just inside or beside the train doorway, the frame holds the lived-in rhythm of the car and passing reflections, then lets exterior light and motion carry the eye toward street level.",
+      "transition_goal": "Bridge underground transit into the above-ground city without an abrupt location jump.",
+      "voiceover_line": "Movement made everything feel a little more awake.",
+      "prompt": "Maintain continuous first-person motion from the platform approach into a near-door perspective on the STM train, beginning already with subtle lateral vibration and the sense of transit underway. The camera feels positioned just inside or beside the doorway, with realistic train movement, soft fluorescent interior light, window reflections drifting across the frame, and brief lived-in details of the car. Let the blue train body, white stripe, and traces of passengers remain coherent while exterior reflections and passing light gradually brighten, suggesting emergence from underground. The motion should be calm and observational, with no hard boarding moment, just a seamless continuation of travel. Allow daylight tones and urban shapes to become more legible near the end so the final visual energy can open naturally onto the commercial street above ground.",
+      "negative_prompt": "No slideshow transition, no abrupt morphing from train to street, no broken anatomy, no distorted faces or limbs, no text overlays, no subtitles, no freeze frame, no hard cut sensation, no impossible train physics, no smeared passengers, no melted reflections, no surreal tunnel effects, no camera reset."
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Back on the Main Street",
+      "scene_id": "scene_03",
+      "source_image": "Image3.jpeg",
+      "first_frame_image": "Image3.jpeg",
+      "last_frame_image": "Image2.jpeg",
+      "duration_seconds": 4,
+      "camera": "grounded first-person sidewalk walk, calm forward pace, mild observational pans to storefronts and parked cars",
+      "action": "The camera emerges onto the commercial street, moving past parked cars, leafless trees, and storefront signs like La Soupi\u00e8re and sushi spots, then follows the sidewalk toward a narrower side passage.",
+      "transition_goal": "Reestablish the city at eye level and guide the viewer naturally from open street into a more intimate corridor.",
+      "voiceover_line": "I came back above ground onto familiar streets and signs.",
+      "prompt": "Carry the motion outward into street level so the shot opens already walking forward on a city sidewalk under overcast daylight, preserving the same first-person body rhythm from the train. The camera moves at a calm pace past a lineup of parked cars, leafless trees, and storefronts including La Soupi\u00e8re and nearby sushi signage, with small natural head turns to observe orange parking signs and familiar street details. Keep the environment realistic and gently busy, with pedestrians passing naturally, muted city color, and soft continuity between the reflective transit mood and open-air urban space. The framing should feel like a lived map unfolding one storefront at a time, always moving forward. Toward the end, let the sidewalk direction and signage guide the camera subtly toward a narrower side passage, setting up the turn into the alley without breaking momentum.",
+      "negative_prompt": "No slideshow transition, no abrupt morphs, no broken anatomy, no duplicated pedestrians, no text overlays, no added captions, no freeze-frame behavior, no hard location reset, no warped cars, no melting buildings, no impossible sidewalk geometry, no sudden speed changes, no floating camera detached from first-person walking."
+    },
+    {
+      "shot_id": "shot_05",
+      "title": "Alley Arrival",
+      "scene_id": "scene_04",
+      "source_image": "Image2.jpeg",
+      "first_frame_image": "Image2.jpeg",
+      "last_frame_image": "Image2.jpeg",
+      "duration_seconds": 4,
+      "camera": "first-person slow turn into narrow passage, easing forward and then settling into a near-static hold on depth",
+      "action": "The viewer turns into the alley where construction fencing, brick facades, and the CHICKEN PLUS + sign press close, then slows to a reflective stop as distant figures remain ahead.",
+      "transition_goal": "Conclude the journey by narrowing the space and letting ordinary urban texture become intimate and personal.",
+      "voiceover_line": "By the alley, even the ordinary felt like a place I belonged.",
+      "prompt": "Continue directly from the sidewalk approach into a first-person turn toward a narrower alley, beginning mid-motion as the camera eases around the corner and enters the passage. The world tightens with red and white construction fencing on one side, stone and brick facades on the other, and stacked restaurant signage overhead, especially the yellow and black CHICKEN PLUS + sign. Keep the overcast daylight soft and realistic, with subtle footsteps and body sway giving way to a slower forward drift. A few distant figures remain ahead, small and natural, while the textures of fencing, masonry, and storefront details become more intimate. The camera gradually settles into a near-static hold on the alley\u2019s depth, not as a freeze but as a gentle arrival, ending in quiet belonging with composition that lingers on the narrow pathway and layered urban surfaces.",
+      "negative_prompt": "No slideshow transition, no abrupt morphing, no broken anatomy, no distorted people in the distance, no text overlays, no subtitles, no freeze frame, no hard stop, no camera reset, no warped signage, no bending walls, no surreal alley distortion, no unnatural zoom jump, no disconnected end pose."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "Quiet Rows Before Leaving",
+      "scene_id": "scene_01",
+      "source_image": "Image1.jpeg",
+      "first_frame_image": "Image1.jpeg",
+      "last_frame_image": null,
+      "duration_seconds": 4,
+      "camera": "grounded first-person slow dolly forward between desk rows, slight head-turn glances left and right, fluorescent stillness",
+      "action": "The viewer moves slowly through the computer lab aisle, passing black chairs marked CDA and rows of iMacs, then settles briefly toward the blackboard ahead as if pausing before heading out.",
+      "transition_goal": "Establish interior stillness and routine, with forward motion that prepares a natural step into the commute.",
+      "voiceover_line": "I started the day in a room full of quiet screens."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "Platform Approach",
+      "scene_id": "scene_02",
+      "source_image": "Image4.jpeg",
+      "first_frame_image": null,
+      "last_frame_image": "Image4.jpeg",
+      "duration_seconds": 4,
+      "camera": "first-person walking track along the platform edge, low gentle sway, slight pan across train windows and yellow tactile strip",
+      "action": "The camera advances beside the stopped blue STM train, tracking the white stripe, STM markings, and glimpses of riders through the windows before easing closer to the door area.",
+      "transition_goal": "Shift from indoor pause to public movement while keeping the same forward-traveling body logic.",
+      "voiceover_line": "Then the city pulled me forward, into the train."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Riding Through Reflections",
+      "scene_id": "scene_02",
+      "source_image": "Image4.jpeg",
+      "first_frame_image": "Image4.jpeg",
+      "last_frame_image": "Image3.jpeg",
+      "duration_seconds": 4,
+      "camera": "first-person near-door train ride perspective, subtle lateral vibration, reflective window drift that resolves toward daylight",
+      "action": "From just inside or beside the train doorway, the frame holds the lived-in rhythm of the car and passing reflections, then lets exterior light and motion carry the eye toward street level.",
+      "transition_goal": "Bridge underground transit into the above-ground city without an abrupt location jump.",
+      "voiceover_line": "Movement made everything feel a little more awake."
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Back on the Main Street",
+      "scene_id": "scene_03",
+      "source_image": "Image3.jpeg",
+      "first_frame_image": "Image3.jpeg",
+      "last_frame_image": "Image2.jpeg",
+      "duration_seconds": 4,
+      "camera": "grounded first-person sidewalk walk, calm forward pace, mild observational pans to storefronts and parked cars",
+      "action": "The camera emerges onto the commercial street, moving past parked cars, leafless trees, and storefront signs like La Soupi\u00e8re and sushi spots, then follows the sidewalk toward a narrower side passage.",
+      "transition_goal": "Reestablish the city at eye level and guide the viewer naturally from open street into a more intimate corridor.",
+      "voiceover_line": "I came back above ground onto familiar streets and signs."
+    },
+    {
+      "shot_id": "shot_05",
+      "title": "Alley Arrival",
+      "scene_id": "scene_04",
+      "source_image": "Image2.jpeg",
+      "first_frame_image": "Image2.jpeg",
+      "last_frame_image": "Image2.jpeg",
+      "duration_seconds": 4,
+      "camera": "first-person slow turn into narrow passage, easing forward and then settling into a near-static hold on depth",
+      "action": "The viewer turns into the alley where construction fencing, brick facades, and the CHICKEN PLUS + sign press close, then slows to a reflective stop as distant figures remain ahead.",
+      "transition_goal": "Conclude the journey by narrowing the space and letting ordinary urban texture become intimate and personal.",
+      "voiceover_line": "By the alley, even the ordinary felt like a place I belonged."
+    }
+  ]
+}

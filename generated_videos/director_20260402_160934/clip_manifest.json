@@ -1,0 +1,23 @@
+[
+  {
+    "shot_id": "shot_01",
+    "title": "Last Look Across the Empty Lab",
+    "local_clip_path": "C:\\Users\\Admin\\Desktop\\CART-498-AI-Generated-Daily-Journal\\generated_videos\\director_20260402_160934\\clips\\shot_01.mp4",
+    "gcs_video_uri": "gs://bucket_project-aijournal/veo-output/director_20260402_160934/generated/shot_01/7247812872660478779/sample_0.mp4",
+    "prompt": "First-person cinematic shot already in gentle motion at seated eye level inside an almost empty computer lab, drifting laterally past rows of iMac computers with dark reflective screens and empty chairs, blackboard visible along the left wall, cool dim ambient light and soft classroom shadows. The camera movement feels like a lingering glance that never fully stops, gradually settling on a single blue-lit monitor glowing near the back of the room while the rest of the lab remains quiet and still. Continue the same movement into a subtle forward push toward the back of the room, keeping the door in view beyond the glowing screen and suggesting the last person left is about to rise and leave. Preserve realistic reflections in glass screens, slight handheld human breathing motion, and natural parallax across desks and chair backs. End with the camera oriented toward the back door and its windowed geometry so the frame is ready to continue into an exterior-looking view through glass."
+  },
+  {
+    "shot_id": "shot_02",
+    "title": "Through Glass to the Water",
+    "local_clip_path": "C:\\Users\\Admin\\Desktop\\CART-498-AI-Generated-Daily-Journal\\generated_videos\\director_20260402_160934\\clips\\shot_02.mp4",
+    "gcs_video_uri": "gs://bucket_project-aijournal/veo-output/director_20260402_160934/generated/shot_02/8030170843558769028/sample_0.mp4",
+    "prompt": "First-person view begins already leaning slightly toward a grey window frame from indoors, as if the motion from approaching the back door continues seamlessly into looking out. Hold close to the vertical frame edge and look into a narrow wet alley under overcast light, with black and grey building facades, reflective damp pavement, and a yellow trash container anchoring the composition. The camera remains mostly steady but alive with subtle human sway and a quiet inward lean, emphasizing hesitation and distance while the outside world stays cold and sealed off. Let rain-darkened surfaces carry soft muted reflections, and keep the alley still except for small natural environmental cues like faint moisture sheen and distant urban movement implied beyond frame. Without feeling like a reset, ease the framing so the same vertical window logic and muted palette open toward a broader exterior view, preparing the eye for water and a wider horizon. End with the composition still driven by window-edge geometry, ready to expand naturally into the harbor crossing."
+  },
+  {
+    "shot_id": "shot_03",
+    "title": "Water to Freeway Re-entry",
+    "local_clip_path": "C:\\Users\\Admin\\Desktop\\CART-498-AI-Generated-Daily-Journal\\generated_videos\\director_20260402_160934\\clips\\shot_03.mp4",
+    "gcs_video_uri": "gs://bucket_project-aijournal/veo-output/director_20260402_160934/generated/shot_03/4888364750562672475/sample_0.mp4",
+    "prompt": "First-person cinematic shot begins already in calm motion behind ferry glass, continuing the framed exterior language from the previous window view. The camera observes textured water sliding past with gentle lateral movement, ferry window structure softly present at the edge of frame, and a distant city skyline held across the harbor in cool natural light. The motion is steady and breathing, with realistic reflections in the glass, slight vessel vibration, and soft ripples on the water creating a brief emotional release and sense of distance. As the ferry continues forward, let the skyline remain the directional target so the momentum can carry directly into a wider moving freeway perspective without feeling like a reset. Resolve that motion into first-person travel on a busy freeway entering downtown Los Angeles, with dense traffic flowing ahead, green directional signs, layered highway overpasses, palm trees, and the skyscraper cluster pulling the eye forward. Keep the camera moving continuously with the stream of cars, preserving a realistic driving rhythm and urban acceleration, ending still in forward motion toward the towers as the city fully takes over."
+  }
+]

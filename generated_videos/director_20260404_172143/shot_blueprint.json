@@ -1,0 +1,56 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "title": "The Quiet Before",
+      "scene_id": "scene_01",
+      "source_image": "Image1.jpeg",
+      "first_frame_image": "Image1.jpeg",
+      "last_frame_image": null,
+      "duration_seconds": 4,
+      "camera": "Slow, deliberate tracking shot, moving forward down an aisle of an empty computer lab.",
+      "action": "Camera glides past rows of pristine iMacs and keyboards, subtly pushing towards a brightly lit area at the far end of the room, emphasizing stillness and anticipation.",
+      "transition_goal": "Transition from interior quiet and introspection to the exterior urban environment, setting a contemplative mood for the journey ahead.",
+      "voiceover_line": "Another day begins, or perhaps, ends."
+    },
+    {
+      "shot_id": "shot_02",
+      "title": "City's Embrace",
+      "scene_id": "scene_02",
+      "source_image": "Image3.jpeg",
+      "first_frame_image": null,
+      "last_frame_image": null,
+      "duration_seconds": 4,
+      "camera": "From a slightly elevated point of view, a forward tracking shot, subtly weaving through the flow of pedestrians on a busy street.",
+      "action": "Camera observes the dynamic street life, briefly glancing at storefronts like 'LA SOUPI\u00c8RE', capturing the constant movement and urban hum without lingering on individuals.",
+      "transition_goal": "Introduce the bustling energy of the city, contrasting with the previous scene's solitude, signifying immediate immersion into urban life.",
+      "voiceover_line": "The city hums, always moving, always changing."
+    },
+    {
+      "shot_id": "shot_03",
+      "title": "Navigating the Veins",
+      "scene_id": "scene_03",
+      "source_image": "Image2.jpeg",
+      "first_frame_image": null,
+      "last_frame_image": null,
+      "duration_seconds": 4,
+      "camera": "Steady, continuous forward tracking shot down a narrow urban alleyway.",
+      "action": "Camera uses a construction fence as a foreground element, guiding the viewer past the 'Chicken Plus' sign towards the modern glass-fronted building in the distance, portraying a purposeful and directed journey.",
+      "transition_goal": "Show a more specific and guided movement through the urban landscape, suggesting a chosen path or daily routine, leading into a communal transit space.",
+      "voiceover_line": "I find my rhythm in its chaos, tracing paths familiar and new."
+    },
+    {
+      "shot_id": "shot_04",
+      "title": "Underground Rhythm",
+      "scene_id": "scene_04",
+      "source_image": "Image4.jpeg",
+      "first_frame_image": null,
+      "last_frame_image": null,
+      "duration_seconds": 8,
+      "camera": "Static shot from the platform, observing the subway train, followed by a subtle focus shift and slight pan.",
+      "action": "Camera starts focused on the train's windows, capturing reflections of the platform. It then subtly shifts focus to the overhead digital display showing '17:56' as the train gently begins its departure, implying a moment of shared transit and reflection.",
+      "transition_goal": "Provide a moment of quiet reflection within a transient space, signaling a pause or transition to a new destination, concluding this segment of the urban journey.",
+      "voiceover_line": "Each journey, a chance to pause, to breathe, to simply be. A quiet moment, before the next destination calls."
+    }
+  ]
+}
