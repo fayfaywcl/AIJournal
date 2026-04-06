@@ -29,10 +29,12 @@ DEFAULT_TOTAL_DURATION = 20
 DEFAULT_SEQUENCE_MODE = "adjacent-pairs"
 DEFAULT_CROSSFADE_DURATION = 0.35
 ALLOWED_VEO_DURATIONS = (4, 6, 8)
-DEFAULT_TTS_STABILITY = 0.35
-DEFAULT_TTS_SIMILARITY_BOOST = 0.85
-DEFAULT_TTS_STYLE = 0.65
-DEFAULT_TTS_SPEAKER_BOOST = True
+DEFAULT_TTS_LANGUAGE_CODE = "en-US"
+DEFAULT_TTS_VOICE_NAME = "en-US-Neural2-D"
+DEFAULT_TTS_SPEAKING_RATE = 0.98
+DEFAULT_TTS_PITCH = 0.0
+DEFAULT_TTS_VOLUME_GAIN_DB = 0.0
+DEFAULT_TTS_EFFECTS_PROFILE = ""
 SUPPORTED_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp"}
 IMAGE_ANALYST_SYSTEM_PROMPT = (
     "You are the Image Analyst for a film director pipeline. "
@@ -222,28 +224,37 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--tts-stability",
-        type=float,
+        "--tts-language-code",
         default=None,
-        help="ElevenLabs voice stability override (env: ELEVENLABS_VOICE_STABILITY).",
+        help="Google TTS language code override (env: GOOGLE_TTS_LANGUAGE_CODE).",
     )
     parser.add_argument(
-        "--tts-similarity-boost",
-        type=float,
+        "--tts-voice-name",
         default=None,
-        help="ElevenLabs voice similarity boost override (env: ELEVENLABS_VOICE_SIMILARITY).",
+        help="Google TTS voice name override (env: GOOGLE_TTS_VOICE_NAME).",
     )
     parser.add_argument(
-        "--tts-style",
+        "--tts-speaking-rate",
         type=float,
         default=None,
-        help="ElevenLabs voice style override (env: ELEVENLABS_VOICE_STYLE).",
+        help="Google TTS speaking rate override (env: GOOGLE_TTS_SPEAKING_RATE).",
     )
     parser.add_argument(
-        "--tts-speaker-boost",
-        action=argparse.BooleanOptionalAction,
+        "--tts-pitch",
+        type=float,
         default=None,
-        help="ElevenLabs speaker boost override (env: ELEVENLABS_SPEAKER_BOOST).",
+        help="Google TTS pitch override (env: GOOGLE_TTS_PITCH).",
+    )
+    parser.add_argument(
+        "--tts-volume-gain-db",
+        type=float,
+        default=None,
+        help="Google TTS volume gain override (env: GOOGLE_TTS_VOLUME_GAIN_DB).",
+    )
+    parser.add_argument(
+        "--tts-effects-profile",
+        default=None,
+        help="Comma-separated Google TTS effects profiles (env: GOOGLE_TTS_EFFECTS_PROFILE).",
     )
     parser.add_argument("--skip-audio", action="store_true")
     parser.add_argument("--skip-video", action="store_true")
@@ -786,7 +797,7 @@ def save_audio_chunks(audio, output_path: Path) -> None:
             handle.write(chunk)
 
 
-def build_voice_settings_from_env() -> dict:
+def build_google_tts_settings_from_env() -> dict:
     def read_float(key: str, fallback: float) -> float:
         raw = os.environ.get(key)
         if raw is None or raw == "":
@@ -796,40 +807,50 @@ def build_voice_settings_from_env() -> dict:
         except ValueError:
             return fallback
 
-    def read_bool(key: str, fallback: bool) -> bool:
+    def read_list(key: str, fallback: list[str]) -> list[str]:
         raw = os.environ.get(key)
         if raw is None or raw == "":
             return fallback
-        return raw.strip().lower() in {"1", "true", "yes", "on"}
+        parts = [part.strip() for part in raw.split(",")]
+        return [part for part in parts if part]
 
     return {
-        "stability": read_float("ELEVENLABS_VOICE_STABILITY", DEFAULT_TTS_STABILITY),
-        "similarity_boost": read_float(
-            "ELEVENLABS_VOICE_SIMILARITY", DEFAULT_TTS_SIMILARITY_BOOST
-        ),
-        "style": read_float("ELEVENLABS_VOICE_STYLE", DEFAULT_TTS_STYLE),
-        "use_speaker_boost": read_bool(
-            "ELEVENLABS_SPEAKER_BOOST", DEFAULT_TTS_SPEAKER_BOOST
+        "language_code": os.environ.get("GOOGLE_TTS_LANGUAGE_CODE", DEFAULT_TTS_LANGUAGE_CODE),
+        "voice_name": os.environ.get("GOOGLE_TTS_VOICE_NAME", DEFAULT_TTS_VOICE_NAME),
+        "speaking_rate": read_float("GOOGLE_TTS_SPEAKING_RATE", DEFAULT_TTS_SPEAKING_RATE),
+        "pitch": read_float("GOOGLE_TTS_PITCH", DEFAULT_TTS_PITCH),
+        "volume_gain_db": read_float("GOOGLE_TTS_VOLUME_GAIN_DB", DEFAULT_TTS_VOLUME_GAIN_DB),
+        "effects_profile_id": read_list(
+            "GOOGLE_TTS_EFFECTS_PROFILE",
+            [value for value in DEFAULT_TTS_EFFECTS_PROFILE.split(",") if value],
         ),
     }
 
 
-def build_voice_settings(
-    stability: float | None,
-    similarity_boost: float | None,
-    style: float | None,
-    speaker_boost: bool | None,
+def build_google_tts_settings(
+    language_code: str | None,
+    voice_name: str | None,
+    speaking_rate: float | None,
+    pitch: float | None,
+    volume_gain_db: float | None,
+    effects_profile: str | None,
 ) -> dict:
-    env_settings = build_voice_settings_from_env()
+    env_settings = build_google_tts_settings_from_env()
     return {
-        "stability": env_settings["stability"] if stability is None else float(stability),
-        "similarity_boost": env_settings["similarity_boost"]
-        if similarity_boost is None
-        else float(similarity_boost),
-        "style": env_settings["style"] if style is None else float(style),
-        "use_speaker_boost": env_settings["use_speaker_boost"]
-        if speaker_boost is None
-        else bool(speaker_boost),
+        "language_code": env_settings["language_code"]
+        if language_code is None
+        else str(language_code),
+        "voice_name": env_settings["voice_name"] if voice_name is None else str(voice_name),
+        "speaking_rate": env_settings["speaking_rate"]
+        if speaking_rate is None
+        else float(speaking_rate),
+        "pitch": env_settings["pitch"] if pitch is None else float(pitch),
+        "volume_gain_db": env_settings["volume_gain_db"]
+        if volume_gain_db is None
+        else float(volume_gain_db),
+        "effects_profile_id": env_settings["effects_profile_id"]
+        if effects_profile is None
+        else [part.strip() for part in effects_profile.split(",") if part.strip()],
     }
 
 
@@ -853,20 +874,36 @@ def format_narration_for_tts(text: str) -> str:
 
 
 def generate_narration_audio(
-    elevenlabs_client,
+    tts_client,
     narration_text: str,
     audio_dir: Path,
-    voice_settings: dict | None,
+    tts_settings: dict | None,
 ) -> Path:
+    from google.cloud import texttospeech
+
     output_path = build_audio_output_path(audio_dir)
-    audio = elevenlabs_client.text_to_speech.convert(
-        voice_id=os.environ.get("ELEVENLABS_VOICE_ID", "JBFqnCBsd6RMkjVDRZzb"),
-        output_format="mp3_44100_128",
-        text=narration_text,
-        model_id=os.environ.get("ELEVENLABS_MODEL_ID", "eleven_multilingual_v2"),
-        voice_settings=voice_settings,
+
+    voice = texttospeech.VoiceSelectionParams(
+        language_code=tts_settings["language_code"],
+        name=tts_settings["voice_name"],
     )
-    save_audio_chunks(audio, output_path)
+
+    audio_config_kwargs = {
+        "audio_encoding": texttospeech.AudioEncoding.MP3,
+        "speaking_rate": tts_settings["speaking_rate"],
+        "pitch": tts_settings["pitch"],
+        "volume_gain_db": tts_settings["volume_gain_db"],
+    }
+    if tts_settings.get("effects_profile_id"):
+        audio_config_kwargs["effects_profile_id"] = tts_settings["effects_profile_id"]
+
+    response = tts_client.synthesize_speech(
+        input=texttospeech.SynthesisInput(text=narration_text),
+        voice=voice,
+        audio_config=texttospeech.AudioConfig(**audio_config_kwargs),
+    )
+
+    output_path.write_bytes(response.audio_content)
     return output_path
 
 
@@ -1296,25 +1333,27 @@ def main() -> None:
     audio_path = None
     if not args.skip_audio:
         try:
-            from elevenlabs import ElevenLabs
+            from google.cloud import texttospeech
         except ImportError as exc:
             raise SystemExit(
-                "Audio generation requires the optional `elevenlabs` package. "
+                "Audio generation requires the optional `google-cloud-texttospeech` package. "
                 "Install it separately or run with `--skip-audio`."
             ) from exc
-        require_env("ELEVENLABS_API_KEY")
-        elevenlabs_client = ElevenLabs(api_key=os.environ["ELEVENLABS_API_KEY"])
-        voice_settings = build_voice_settings(
-            args.tts_stability,
-            args.tts_similarity_boost,
-            args.tts_style,
-            args.tts_speaker_boost,
+
+        tts_client = texttospeech.TextToSpeechClient()
+        tts_settings = build_google_tts_settings(
+            args.tts_language_code,
+            args.tts_voice_name,
+            args.tts_speaking_rate,
+            args.tts_pitch,
+            args.tts_volume_gain_db,
+            args.tts_effects_profile,
         )
         audio_path = generate_narration_audio(
-            elevenlabs_client,
+            tts_client,
             formatted_narration,
             audio_dir,
-            voice_settings,
+            tts_settings,
         )
         print(f"Saved narration audio to {audio_path}", flush=True)
 

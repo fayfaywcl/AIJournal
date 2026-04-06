@@ -88,12 +88,11 @@ python3 analyze_image.py \
 Generate video clips from a folder of local images:
 =======
   --narrative-model "gpt-5.4" \
-  --tts-voice-id "JBFqnCBsd6RMkjVDRZzb" \
-  --tts-model-id "eleven_multilingual_v2" \
-  --tts-stability 0.35 \
-  --tts-similarity-boost 0.85 \
-  --tts-style 0.65 \
-  --tts-speaker-boost
+  --tts-language-code "en-US" \
+  --tts-voice-name "en-US-Neural2-D" \
+  --tts-speaking-rate 0.98 \
+  --tts-pitch 0.0 \
+  --tts-volume-gain-db 0.0
 ```
 
 ## Generate Video
@@ -146,8 +145,8 @@ python3 analyze_image.py --image-url "https://static.wikia.nocookie.net/obamium/
 - If `imagetovideo.py` is run without `--prompt`, it uses the latest `Narrative:` block from `descriptions.txt`.
 - `director_pipeline.py` uses OpenAI to create image analyses and a shot plan, then calls Veo through Vertex AI using `google-genai`.
 - `director_pipeline.py` targets a 20 second total duration by default, matching the narration length guidance.
-- ElevenLabs voice settings can be supplied via CLI (`analyze_image.py`) or environment variables (`director_pipeline.py`).
+- Google TTS voice settings can be supplied via CLI (`director_pipeline.py`) or environment variables.
 - Veo outputs are written to the Cloud Storage prefix configured by `GOOGLE_CLOUD_VEO_OUTPUT_GCS_URI`, then downloaded back into the local run folder.
-- `elevenlabs` is optional for `director_pipeline.py` when you run with `--skip-audio`.
+- `google-cloud-texttospeech` is optional for `director_pipeline.py` when you run with `--skip-audio`.
 - Never commit your real API keys, `.env`, or any file containing secrets.
 >>>>>>> Stashed changes
