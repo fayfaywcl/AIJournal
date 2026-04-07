@@ -15,6 +15,15 @@ from dataclasses import asdict, dataclass
 from datetime import datetime
 from pathlib import Path
 
+import os
+
+# Setup Google Cloud credentials from Render env var
+if "GOOGLE_APPLICATION_CREDENTIALS_JSON" in os.environ:
+    with open("/tmp/gcp-key.json", "w") as f:
+        f.write(os.environ["GOOGLE_APPLICATION_CREDENTIALS_JSON"])
+
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/tmp/gcp-key.json"
+
 
 DEFAULT_INPUT_DIR = Path("input_images")
 DEFAULT_OUTPUT_DIR = Path("generated_videos")
