@@ -33,4 +33,4 @@ RUN mkdir -p web_uploads generated_videos audio_files
 EXPOSE 10000
 
 # Start your Flask app via gunicorn
-CMD gunicorn app:app --bind 0.0.0.0:$PORT --timeout 600 --workers 1 --threads 1
+CMD gunicorn app:app --bind 0.0.0.0:$PORT --timeout 600 --workers 2 --threads 2
